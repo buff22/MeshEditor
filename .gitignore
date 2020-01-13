@@ -45,3 +45,5 @@
 20_App/appMeshEditor/x64/Release/appMeshEditor.ipdb
 20_App/appMeshEditor/x64/Release/appMeshEditor.pdb
 20_App/appMeshEditor/appMeshEditor.VC.db
+90_Libraries/VTK-8.2.0/build/VTK.VC.db
+90_Libraries/VTK-8.2.0/build/VTK.VC.VC.opendb
