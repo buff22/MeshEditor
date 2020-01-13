@@ -1,0 +1,28 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Common/Color/vtkColorSeries.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Common/Color/vtkNamedColors.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Common/Color/vtkColorSeries.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Common/Color/vtkNamedColors.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Common/Color/vtkCommonColorModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkCommonColor"
+		],
+		"name" : "vtkCommonColor"
+	}
+}

@@ -1,0 +1,22 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/TecplotTable/vtkTecplotTableReader.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/TecplotTable/vtkTecplotTableReader.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/build/IO/TecplotTable/vtkIOTecplotTableModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkIOTecplotTable"
+		],
+		"name" : "vtkIOTecplotTable"
+	}
+}

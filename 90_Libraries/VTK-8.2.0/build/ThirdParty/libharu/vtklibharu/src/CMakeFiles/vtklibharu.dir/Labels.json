@@ -1,0 +1,187 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libharu/vtklibharu/src/hpdf_annotation.c"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libharu/vtklibharu/src/hpdf_array.c"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libharu/vtklibharu/src/hpdf_binary.c"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libharu/vtklibharu/src/hpdf_boolean.c"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libharu/vtklibharu/src/hpdf_catalog.c"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libharu/vtklibharu/src/hpdf_destination.c"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libharu/vtklibharu/src/hpdf_dict.c"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libharu/vtklibharu/src/hpdf_doc_png.c"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libharu/vtklibharu/src/hpdf_doc.c"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libharu/vtklibharu/src/hpdf_encoder_cns.c"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libharu/vtklibharu/src/hpdf_encoder_cnt.c"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libharu/vtklibharu/src/hpdf_encoder_jp.c"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libharu/vtklibharu/src/hpdf_encoder_kr.c"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libharu/vtklibharu/src/hpdf_encoder.c"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libharu/vtklibharu/src/hpdf_encrypt.c"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libharu/vtklibharu/src/hpdf_encryptdict.c"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libharu/vtklibharu/src/hpdf_error.c"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libharu/vtklibharu/src/hpdf_ext_gstate.c"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libharu/vtklibharu/src/hpdf_font_cid.c"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libharu/vtklibharu/src/hpdf_font_tt.c"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libharu/vtklibharu/src/hpdf_font_type1.c"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libharu/vtklibharu/src/hpdf_font.c"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libharu/vtklibharu/src/hpdf_fontdef_base14.c"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libharu/vtklibharu/src/hpdf_fontdef_cid.c"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libharu/vtklibharu/src/hpdf_fontdef_cns.c"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libharu/vtklibharu/src/hpdf_fontdef_cnt.c"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libharu/vtklibharu/src/hpdf_fontdef_jp.c"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libharu/vtklibharu/src/hpdf_fontdef_kr.c"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libharu/vtklibharu/src/hpdf_fontdef_tt.c"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libharu/vtklibharu/src/hpdf_fontdef_type1.c"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libharu/vtklibharu/src/hpdf_fontdef.c"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libharu/vtklibharu/src/hpdf_gstate.c"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libharu/vtklibharu/src/hpdf_image_ccitt.c"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libharu/vtklibharu/src/hpdf_image_png.c"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libharu/vtklibharu/src/hpdf_image.c"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libharu/vtklibharu/src/hpdf_info.c"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libharu/vtklibharu/src/hpdf_list.c"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libharu/vtklibharu/src/hpdf_mmgr.c"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libharu/vtklibharu/src/hpdf_name.c"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libharu/vtklibharu/src/hpdf_namedict.c"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libharu/vtklibharu/src/hpdf_null.c"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libharu/vtklibharu/src/hpdf_number.c"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libharu/vtklibharu/src/hpdf_objects.c"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libharu/vtklibharu/src/hpdf_outline.c"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libharu/vtklibharu/src/hpdf_page_label.c"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libharu/vtklibharu/src/hpdf_page_operator.c"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libharu/vtklibharu/src/hpdf_pages.c"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libharu/vtklibharu/src/hpdf_real.c"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libharu/vtklibharu/src/hpdf_shading.c"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libharu/vtklibharu/src/hpdf_streams.c"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libharu/vtklibharu/src/hpdf_string.c"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libharu/vtklibharu/src/hpdf_u3d.c"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libharu/vtklibharu/src/hpdf_utils.c"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libharu/vtklibharu/src/hpdf_xref.c"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libharu/vtklibharu/src/hpdf_pdfa.c"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libharu/vtklibharu/src/hpdf_3dmeasure.c"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libharu/vtklibharu/src/hpdf_exdata.c"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libharu/vtklibharu/src/hpdf_encoder_utf.c"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtklibharu"
+		],
+		"name" : "vtklibharu"
+	}
+}

@@ -1,0 +1,64 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/doubleconversion/vtkdoubleconversion/double-conversion/bignum.cc"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/doubleconversion/vtkdoubleconversion/double-conversion/bignum-dtoa.cc"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/doubleconversion/vtkdoubleconversion/double-conversion/cached-powers.cc"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/doubleconversion/vtkdoubleconversion/double-conversion/diy-fp.cc"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/doubleconversion/vtkdoubleconversion/double-conversion/double-conversion.cc"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/doubleconversion/vtkdoubleconversion/double-conversion/fast-dtoa.cc"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/doubleconversion/vtkdoubleconversion/double-conversion/fixed-dtoa.cc"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/doubleconversion/vtkdoubleconversion/double-conversion/strtod.cc"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/doubleconversion/vtkdoubleconversion/double-conversion/bignum.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/doubleconversion/vtkdoubleconversion/double-conversion/cached-powers.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/doubleconversion/vtkdoubleconversion/double-conversion/diy-fp.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/doubleconversion/vtkdoubleconversion/double-conversion/double-conversion.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/doubleconversion/vtkdoubleconversion/double-conversion/fast-dtoa.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/doubleconversion/vtkdoubleconversion/double-conversion/fixed-dtoa.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/doubleconversion/vtkdoubleconversion/double-conversion/ieee.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/doubleconversion/vtkdoubleconversion/double-conversion/strtod.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/doubleconversion/vtkdoubleconversion/double-conversion/utils.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkdoubleconversion"
+		],
+		"name" : "vtkdoubleconversion"
+	}
+}

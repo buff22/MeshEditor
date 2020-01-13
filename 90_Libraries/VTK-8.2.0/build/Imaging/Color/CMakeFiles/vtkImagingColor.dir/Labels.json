@@ -1,0 +1,76 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Color/vtkImageHSIToRGB.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Color/vtkImageHSVToRGB.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Color/vtkImageYIQToRGB.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Color/vtkImageLuminance.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Color/vtkImageMapToRGBA.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Color/vtkImageMapToWindowLevelColors.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Color/vtkImageQuantizeRGBToIndex.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Color/vtkImageRGBToHSI.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Color/vtkImageRGBToHSV.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Color/vtkImageRGBToYIQ.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Color/vtkImageHSIToRGB.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Color/vtkImageHSVToRGB.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Color/vtkImageYIQToRGB.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Color/vtkImageLuminance.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Color/vtkImageMapToRGBA.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Color/vtkImageMapToWindowLevelColors.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Color/vtkImageQuantizeRGBToIndex.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Color/vtkImageRGBToHSI.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Color/vtkImageRGBToHSV.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Color/vtkImageRGBToYIQ.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Imaging/Color/vtkImagingColorModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkImagingColor"
+		],
+		"name" : "vtkImagingColor"
+	}
+}

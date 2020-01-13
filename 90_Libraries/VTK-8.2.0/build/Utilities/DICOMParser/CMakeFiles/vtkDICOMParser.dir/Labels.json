@@ -1,0 +1,22 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Utilities/DICOMParser/DICOMFile.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Utilities/DICOMParser/DICOMParser.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Utilities/DICOMParser/DICOMAppHelper.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkDICOMParser"
+		],
+		"name" : "vtkDICOMParser"
+	}
+}

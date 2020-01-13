@@ -1,0 +1,22 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Asynchronous/vtkThreadedImageWriter.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Asynchronous/vtkThreadedImageWriter.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/build/IO/Asynchronous/vtkIOAsynchronousModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkIOAsynchronous"
+		],
+		"name" : "vtkIOAsynchronous"
+	}
+}

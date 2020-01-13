@@ -1,0 +1,328 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkRTXMLPolyDataReader.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLCompositeDataReader.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLCompositeDataWriter.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLDataReader.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLDataSetWriter.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLDataObjectWriter.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLFileReadTester.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLGenericDataObjectReader.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLHierarchicalBoxDataFileConverter.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLHierarchicalBoxDataReader.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLHierarchicalBoxDataWriter.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLHierarchicalDataReader.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLHyperTreeGridReader.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLHyperTreeGridWriter.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLImageDataReader.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLImageDataWriter.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLMultiBlockDataReader.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLMultiBlockDataWriter.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLMultiGroupDataReader.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLPDataReader.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLPDataObjectReader.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLPImageDataReader.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLPolyDataReader.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLPolyDataWriter.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLPPolyDataReader.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLPRectilinearGridReader.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLPStructuredDataReader.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLPStructuredGridReader.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLPTableReader.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLPUnstructuredDataReader.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLPUnstructuredGridReader.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLPartitionedDataSetReader.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLPartitionedDataSetWriter.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLPartitionedDataSetCollectionReader.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLPartitionedDataSetCollectionWriter.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLReader.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLRectilinearGridReader.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLRectilinearGridWriter.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLStructuredDataReader.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLStructuredDataWriter.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLStructuredGridReader.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLStructuredGridWriter.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLTableReader.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLTableWriter.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLUniformGridAMRReader.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLUniformGridAMRWriter.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLUnstructuredDataReader.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLUnstructuredDataWriter.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLUnstructuredGridReader.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLUnstructuredGridWriter.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLWriterC.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLWriter.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkRTXMLPolyDataReader.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLCompositeDataReader.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLCompositeDataWriter.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLDataReader.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLDataSetWriter.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLDataObjectWriter.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLFileReadTester.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLGenericDataObjectReader.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLHierarchicalBoxDataFileConverter.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLHierarchicalBoxDataReader.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLHierarchicalBoxDataWriter.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLHierarchicalDataReader.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLHyperTreeGridReader.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLHyperTreeGridWriter.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLImageDataReader.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLImageDataWriter.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLMultiBlockDataReader.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLMultiBlockDataWriter.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLMultiGroupDataReader.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLPDataReader.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLPDataObjectReader.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLPImageDataReader.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLPolyDataReader.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLPolyDataWriter.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLPPolyDataReader.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLPRectilinearGridReader.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLPStructuredDataReader.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLPStructuredGridReader.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLPTableReader.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLPUnstructuredDataReader.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLPUnstructuredGridReader.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLPartitionedDataSetReader.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLPartitionedDataSetWriter.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLPartitionedDataSetCollectionReader.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLPartitionedDataSetCollectionWriter.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLReader.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLRectilinearGridReader.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLRectilinearGridWriter.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLStructuredDataReader.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLStructuredDataWriter.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLStructuredGridReader.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLStructuredGridWriter.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLTableReader.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLTableWriter.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLUniformGridAMRReader.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLUniformGridAMRWriter.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLUnstructuredDataReader.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLUnstructuredDataWriter.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLUnstructuredGridReader.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLUnstructuredGridWriter.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLWriterC.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XML/vtkXMLWriter.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/build/IO/XML/vtkIOXMLModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkIOXML"
+		],
+		"name" : "vtkIOXML"
+	}
+}

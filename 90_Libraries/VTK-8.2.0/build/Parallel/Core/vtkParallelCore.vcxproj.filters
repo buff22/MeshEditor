@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Parallel\Core\vtkCommunicator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Parallel\Core\vtkDummyCommunicator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Parallel\Core\vtkDummyController.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Parallel\Core\vtkMultiProcessController.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Parallel\Core\vtkMultiProcessStream.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Parallel\Core\vtkPDirectory.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Parallel\Core\vtkProcess.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Parallel\Core\vtkProcessGroup.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Parallel\Core\vtkPSystemTools.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Parallel\Core\vtkSocketCommunicator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Parallel\Core\vtkSocketController.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Parallel\Core\vtkSubCommunicator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Parallel\Core\vtkSubGroup.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Parallel\Core\vtkFieldDataSerializer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Parallel\Core\vtkSocketCommunicatorHash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Parallel\Core\vtkCommunicator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Parallel\Core\vtkDummyCommunicator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Parallel\Core\vtkDummyController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Parallel\Core\vtkMultiProcessController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Parallel\Core\vtkMultiProcessStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Parallel\Core\vtkPDirectory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Parallel\Core\vtkProcess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Parallel\Core\vtkProcessGroup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Parallel\Core\vtkPSystemTools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Parallel\Core\vtkSocketCommunicator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Parallel\Core\vtkSocketController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Parallel\Core\vtkSubCommunicator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Parallel\Core\vtkSubGroup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Parallel\Core\vtkFieldDataSerializer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Parallel\Core\vtkParallelCoreModule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\CMakeFiles\bc64ad143efacba7f6282f23291a6afa\vtkSocketCommunicatorHash.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Parallel\Core\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{D63A1734-3B4B-3EBE-8DCD-C2752A92B9C1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{84BAECE7-D5F1-3CD0-B453-A71FB556F5E8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A17CF314-31B7-3231-95F6-CC011E9BFF79}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

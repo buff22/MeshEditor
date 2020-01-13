@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DB460C29-CA21-3EFE-B05E-163472248C51}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>vtkFiltersPoints</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">vtkFiltersPoints.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">vtkFiltersPoints-8.2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">vtkFiltersPoints.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">vtkFiltersPoints-8.2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Points;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWIML;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWIML;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWSys;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\utf8;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\utf8;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\DataModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\DataModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Math;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Math;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Misc;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Misc;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\System;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\System;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Transforms;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Transforms;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\ExecutionModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\ExecutionModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Modeling;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Modeling;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\General;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\General;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\ComputationalGeometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\ComputationalGeometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Sources;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR="Debug";vtkFiltersPoints_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR=\"Debug\";vtkFiltersPoints_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Points;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWIML;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWIML;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWSys;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\utf8;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\utf8;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\DataModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\DataModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Math;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Math;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Misc;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Misc;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\System;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\System;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Transforms;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Transforms;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\ExecutionModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\ExecutionModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Modeling;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Modeling;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\General;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\General;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\ComputationalGeometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\ComputationalGeometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Sources;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Points;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWIML;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWIML;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWSys;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\utf8;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\utf8;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\DataModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\DataModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Math;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Math;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Misc;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Misc;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\System;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\System;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Transforms;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Transforms;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\ExecutionModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\ExecutionModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Modeling;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Modeling;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\General;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\General;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\ComputationalGeometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\ComputationalGeometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Sources;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\Debug\vtkFiltersModeling-8.2.lib;..\..\lib\Debug\vtkFiltersGeneral-8.2.lib;..\..\lib\Debug\vtkFiltersCore-8.2.lib;..\..\lib\Debug\vtkCommonExecutionModel-8.2.lib;..\..\lib\Debug\vtkCommonDataModel-8.2.lib;..\..\lib\Debug\vtkCommonMisc-8.2.lib;..\..\lib\Debug\vtkCommonTransforms-8.2.lib;..\..\lib\Debug\vtkCommonMath-8.2.lib;..\..\lib\Debug\vtkCommonCore-8.2.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/MeshEditor/90_Libraries/VTK-8.2.0/build/lib/Debug/vtkFiltersPoints-8.2.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/MeshEditor/90_Libraries/VTK-8.2.0/build/bin/Debug/vtkFiltersPoints-8.2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Points;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWIML;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWIML;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWSys;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\utf8;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\utf8;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\DataModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\DataModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Math;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Math;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Misc;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Misc;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\System;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\System;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Transforms;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Transforms;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\ExecutionModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\ExecutionModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Modeling;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Modeling;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\General;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\General;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\ComputationalGeometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\ComputationalGeometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Sources;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR="Release";vtkFiltersPoints_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR=\"Release\";vtkFiltersPoints_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Points;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWIML;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWIML;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWSys;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\utf8;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\utf8;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\DataModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\DataModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Math;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Math;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Misc;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Misc;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\System;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\System;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Transforms;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Transforms;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\ExecutionModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\ExecutionModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Modeling;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Modeling;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\General;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\General;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\ComputationalGeometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\ComputationalGeometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Sources;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Points;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWIML;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWIML;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWSys;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\utf8;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\utf8;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\DataModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\DataModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Math;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Math;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Misc;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Misc;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\System;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\System;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Transforms;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Transforms;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\ExecutionModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\ExecutionModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Modeling;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Modeling;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\General;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\General;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\ComputationalGeometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\ComputationalGeometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Sources;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\Release\vtkFiltersModeling-8.2.lib;..\..\lib\Release\vtkFiltersGeneral-8.2.lib;..\..\lib\Release\vtkFiltersCore-8.2.lib;..\..\lib\Release\vtkCommonExecutionModel-8.2.lib;..\..\lib\Release\vtkCommonDataModel-8.2.lib;..\..\lib\Release\vtkCommonMisc-8.2.lib;..\..\lib\Release\vtkCommonTransforms-8.2.lib;..\..\lib\Release\vtkCommonMath-8.2.lib;..\..\lib\Release\vtkCommonCore-8.2.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/MeshEditor/90_Libraries/VTK-8.2.0/build/lib/Release/vtkFiltersPoints-8.2.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/MeshEditor/90_Libraries/VTK-8.2.0/build/bin/Release/vtkFiltersPoints-8.2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Points/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/MeshEditor/90_Libraries/VTK-8.2.0/src -BC:/MeshEditor/90_Libraries/VTK-8.2.0/build --check-stamp-file C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Filters/Points/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Points/CMakeLists.txt;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\lib\cmake\vtk-8.2\Modules\vtkCommonComputationalGeometry.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\lib\cmake\vtk-8.2\Modules\vtkCommonCore.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\lib\cmake\vtk-8.2\Modules\vtkCommonDataModel.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\lib\cmake\vtk-8.2\Modules\vtkCommonExecutionModel.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\lib\cmake\vtk-8.2\Modules\vtkCommonMath.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\lib\cmake\vtk-8.2\Modules\vtkCommonMisc.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\lib\cmake\vtk-8.2\Modules\vtkCommonSystem.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\lib\cmake\vtk-8.2\Modules\vtkCommonTransforms.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\lib\cmake\vtk-8.2\Modules\vtkFiltersCore.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\lib\cmake\vtk-8.2\Modules\vtkFiltersGeneral.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\lib\cmake\vtk-8.2\Modules\vtkFiltersModeling.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\lib\cmake\vtk-8.2\Modules\vtkFiltersSources.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\lib\cmake\vtk-8.2\Modules\vtkkwiml.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\lib\cmake\vtk-8.2\Modules\vtksys.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\lib\cmake\vtk-8.2\Modules\vtkutf8.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\CMake\vtkModuleHeaders.cmake.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\CMake\vtkModuleInfo.cmake.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\CMake\vtkexportheader.cmake.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\CMakeLists.txt;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\module.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Points\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Points/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/MeshEditor/90_Libraries/VTK-8.2.0/src -BC:/MeshEditor/90_Libraries/VTK-8.2.0/build --check-stamp-file C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Filters/Points/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Points/CMakeLists.txt;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\lib\cmake\vtk-8.2\Modules\vtkCommonComputationalGeometry.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\lib\cmake\vtk-8.2\Modules\vtkCommonCore.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\lib\cmake\vtk-8.2\Modules\vtkCommonDataModel.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\lib\cmake\vtk-8.2\Modules\vtkCommonExecutionModel.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\lib\cmake\vtk-8.2\Modules\vtkCommonMath.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\lib\cmake\vtk-8.2\Modules\vtkCommonMisc.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\lib\cmake\vtk-8.2\Modules\vtkCommonSystem.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\lib\cmake\vtk-8.2\Modules\vtkCommonTransforms.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\lib\cmake\vtk-8.2\Modules\vtkFiltersCore.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\lib\cmake\vtk-8.2\Modules\vtkFiltersGeneral.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\lib\cmake\vtk-8.2\Modules\vtkFiltersModeling.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\lib\cmake\vtk-8.2\Modules\vtkFiltersSources.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\lib\cmake\vtk-8.2\Modules\vtkkwiml.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\lib\cmake\vtk-8.2\Modules\vtksys.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\lib\cmake\vtk-8.2\Modules\vtkutf8.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\CMake\vtkModuleHeaders.cmake.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\CMake\vtkModuleInfo.cmake.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\CMake\vtkexportheader.cmake.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\CMakeLists.txt;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\module.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Points\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\vtkBoundedPointSource.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\vtkConnectedPointsFilter.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\vtkDensifyPointCloudFilter.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\vtkEllipsoidalGaussianKernel.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\vtkEuclideanClusterExtraction.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\vtkExtractHierarchicalBins.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\vtkExtractEnclosedPoints.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\vtkExtractPointCloudPiece.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\vtkExtractPoints.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\vtkExtractSurface.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\vtkFitImplicitFunction.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\vtkGaussianKernel.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\vtkGeneralizedKernel.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\vtkHierarchicalBinningFilter.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\vtkInterpolationKernel.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\vtkLinearKernel.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\vtkMaskPointsFilter.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\vtkPCACurvatureEstimation.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\vtkPCANormalEstimation.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\vtkPointCloudFilter.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\vtkPointDensityFilter.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\vtkPointInterpolator.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\vtkPointInterpolator2D.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\vtkPointOccupancyFilter.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\vtkProbabilisticVoronoiKernel.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\vtkRadiusOutlierRemoval.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\vtkSPHInterpolator.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\vtkSPHCubicKernel.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\vtkSPHKernel.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\vtkSPHQuarticKernel.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\vtkSPHQuinticKernel.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\vtkShepardKernel.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\vtkSignedDistance.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\vtkStatisticalOutlierRemoval.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\vtkUnsignedDistance.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\vtkVoxelGrid.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\vtkVoronoiKernel.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\vtkWendlandQuinticKernel.cxx" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\vtkBoundedPointSource.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\vtkConnectedPointsFilter.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\vtkDensifyPointCloudFilter.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\vtkEllipsoidalGaussianKernel.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\vtkEuclideanClusterExtraction.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\vtkExtractHierarchicalBins.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\vtkExtractEnclosedPoints.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\vtkExtractPointCloudPiece.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\vtkExtractPoints.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\vtkExtractSurface.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\vtkFitImplicitFunction.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\vtkGaussianKernel.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\vtkGeneralizedKernel.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\vtkHierarchicalBinningFilter.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\vtkInterpolationKernel.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\vtkLinearKernel.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\vtkMaskPointsFilter.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\vtkPCACurvatureEstimation.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\vtkPCANormalEstimation.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\vtkPointCloudFilter.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\vtkPointDensityFilter.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\vtkPointInterpolator.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\vtkPointInterpolator2D.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\vtkPointOccupancyFilter.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\vtkProbabilisticVoronoiKernel.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\vtkRadiusOutlierRemoval.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\vtkSPHInterpolator.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\vtkSPHCubicKernel.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\vtkSPHKernel.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\vtkSPHQuarticKernel.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\vtkSPHQuinticKernel.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\vtkShepardKernel.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\vtkSignedDistance.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\vtkStatisticalOutlierRemoval.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\vtkUnsignedDistance.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\vtkVoxelGrid.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\vtkVoronoiKernel.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points\vtkWendlandQuinticKernel.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Points\vtkFiltersPointsModule.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ZERO_CHECK.vcxproj">
+      <Project>{08D62400-3290-3C24-87AA-504F9356C20C}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Core\vtkCommonCore.vcxproj">
+      <Project>{34251C80-664B-30CB-8DED-C33D5AC07D65}</Project>
+      <Name>vtkCommonCore</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\DataModel\vtkCommonDataModel.vcxproj">
+      <Project>{0144B4B0-B9A5-3858-AE67-DC1D7DB0C0B1}</Project>
+      <Name>vtkCommonDataModel</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\ExecutionModel\vtkCommonExecutionModel.vcxproj">
+      <Project>{6CFA6415-7915-32BF-B9A7-2B0D1CA50DED}</Project>
+      <Name>vtkCommonExecutionModel</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Math\vtkCommonMath.vcxproj">
+      <Project>{77D1ACF0-400B-322F-9AD3-78E0EF78F719}</Project>
+      <Name>vtkCommonMath</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Misc\vtkCommonMisc.vcxproj">
+      <Project>{23A0D148-04E0-3E0E-AE6F-79B3C0C6DAD2}</Project>
+      <Name>vtkCommonMisc</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Transforms\vtkCommonTransforms.vcxproj">
+      <Project>{71D9E924-A5AB-3989-AC62-57F6391AE10F}</Project>
+      <Name>vtkCommonTransforms</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Core\vtkFiltersCore.vcxproj">
+      <Project>{F95E5E59-4CBD-31E8-A474-029FC3082349}</Project>
+      <Name>vtkFiltersCore</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\General\vtkFiltersGeneral.vcxproj">
+      <Project>{FB074DC9-4721-3A2B-BB1E-4CCE691B0642}</Project>
+      <Name>vtkFiltersGeneral</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Modeling\vtkFiltersModeling.vcxproj">
+      <Project>{251A8627-2AA4-3EE8-98F7-5519D5B6D95B}</Project>
+      <Name>vtkFiltersModeling</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

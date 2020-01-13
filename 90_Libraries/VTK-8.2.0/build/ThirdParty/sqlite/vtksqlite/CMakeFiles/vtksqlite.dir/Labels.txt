@@ -1,0 +1,7 @@
+# Target labels
+ vtksqlite
+# Source files and their labels
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/sqlite/vtksqlite/sqlite3.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/sqlite/vtksqlite/sqlite3.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/sqlite/vtksqlite/vtk_sqlite_mangle.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/build/ThirdParty/sqlite/vtksqlite/vtksqlite_export.h

@@ -1,0 +1,22 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/gl2ps/vtkgl2ps/gl2ps.c"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/gl2ps/vtkgl2ps/gl2ps.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/gl2ps/vtkgl2ps/vtk_gl2ps_mangle.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkgl2ps"
+		],
+		"name" : "vtkgl2ps"
+	}
+}

@@ -1,0 +1,10 @@
+# Target labels
+ vtkFiltersSelection
+# Source files and their labels
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Selection/vtkKdTreeSelector.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Selection/vtkLinearSelector.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Selection/vtkCellDistanceSelector.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Selection/vtkKdTreeSelector.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Selection/vtkLinearSelector.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Selection/vtkCellDistanceSelector.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Filters/Selection/vtkFiltersSelectionModule.h

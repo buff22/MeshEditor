@@ -1,0 +1,850 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtk3DWidget.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkAbstractPolygonalHandleRepresentation3D.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkAbstractWidget.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkAffineRepresentation2D.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkAffineRepresentation.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkAffineWidget.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkAngleRepresentation2D.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkAngleRepresentation3D.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkAngleRepresentation.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkAngleWidget.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkAxesTransformRepresentation.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkAxesTransformWidget.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkBalloonRepresentation.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkBalloonWidget.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkBezierContourLineInterpolator.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkBiDimensionalRepresentation2D.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkBiDimensionalRepresentation.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkBiDimensionalWidget.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkBorderRepresentation.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkBorderWidget.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkBoundedPlanePointPlacer.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkBoxRepresentation.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkBoxWidget2.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkBoxWidget.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkBrokenLineWidget.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkButtonRepresentation.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkButtonWidget.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkCameraRepresentation.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkCameraWidget.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkCaptionRepresentation.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkCaptionWidget.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkCellCentersPointPlacer.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkCenteredSliderRepresentation.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkCenteredSliderWidget.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkCheckerboardRepresentation.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkCheckerboardWidget.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkClosedSurfacePointPlacer.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkConstrainedPointHandleRepresentation.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkContinuousValueWidget.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkContinuousValueWidgetRepresentation.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkContourLineInterpolator.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkContourRepresentation.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkContourWidget.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkCurveRepresentation.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkDijkstraImageContourLineInterpolator.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkDistanceRepresentation2D.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkDistanceRepresentation3D.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkDistanceRepresentation.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkDistanceWidget.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkEllipsoidTensorProbeRepresentation.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkEvent.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkFinitePlaneRepresentation.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkFinitePlaneWidget.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkFixedSizeHandleRepresentation3D.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkFocalPlaneContourRepresentation.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkFocalPlanePointPlacer.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkHandleRepresentation.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkHandleWidget.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkHoverWidget.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkImageActorPointPlacer.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkImageCroppingRegionsWidget.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkImageOrthoPlanes.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkImagePlaneWidget.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkImageTracerWidget.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkImplicitCylinderRepresentation.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkImplicitCylinderWidget.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkImplicitPlaneRepresentation.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkImplicitPlaneWidget2.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkImplicitPlaneWidget.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkLinearContourLineInterpolator.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkLineRepresentation.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkLineWidget2.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkLineWidget.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkLogoRepresentation.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkLogoWidget.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkMeasurementCubeHandleRepresentation3D.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkOrientationMarkerWidget.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkOrientedGlyphContourRepresentation.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkOrientedGlyphFocalPlaneContourRepresentation.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkOrientedPolygonalHandleRepresentation3D.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkParallelopipedRepresentation.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkParallelopipedWidget.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkPlaneWidget.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkPlaybackRepresentation.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkPlaybackWidget.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkPointHandleRepresentation2D.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkPointHandleRepresentation3D.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkPointPlacer.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkPointWidget.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkPolyDataContourLineInterpolator.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkPolyDataPointPlacer.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkPolyDataSourceWidget.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkPolyLineRepresentation.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkPolyLineWidget.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkPolygonalHandleRepresentation3D.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkPolygonalSurfaceContourLineInterpolator.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkPolygonalSurfacePointPlacer.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkProgressBarRepresentation.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkProgressBarWidget.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkProp3DButtonRepresentation.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkRectilinearWipeRepresentation.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkRectilinearWipeWidget.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkScalarBarRepresentation.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkScalarBarWidget.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkSeedRepresentation.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkSeedWidget.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkSliderRepresentation2D.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkSliderRepresentation3D.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkSliderRepresentation.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkSliderWidget.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkSphereHandleRepresentation.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkSphereRepresentation.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkSphereWidget2.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkSphereWidget.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkSplineRepresentation.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkSplineWidget2.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkSplineWidget.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkTensorProbeRepresentation.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkTensorProbeWidget.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkTerrainContourLineInterpolator.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkTerrainDataPointPlacer.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkTextRepresentation.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkTexturedButtonRepresentation2D.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkTexturedButtonRepresentation.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkTextWidget.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkWidgetCallbackMapper.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkWidgetEvent.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkWidgetEventTranslator.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkWidgetRepresentation.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkWidgetSet.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkXYPlotWidget.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkResliceCursorLineRepresentation.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkResliceCursorRepresentation.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkResliceCursorThickLineRepresentation.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkResliceCursorWidget.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkResliceCursorActor.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkResliceCursorPicker.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkResliceCursor.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkResliceCursorPolyDataAlgorithm.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtk3DWidget.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkAbstractPolygonalHandleRepresentation3D.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkAbstractWidget.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkAffineRepresentation2D.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkAffineRepresentation.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkAffineWidget.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkAngleRepresentation2D.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkAngleRepresentation3D.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkAngleRepresentation.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkAngleWidget.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkAxesTransformRepresentation.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkAxesTransformWidget.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkBalloonRepresentation.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkBalloonWidget.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkBezierContourLineInterpolator.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkBiDimensionalRepresentation2D.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkBiDimensionalRepresentation.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkBiDimensionalWidget.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkBorderRepresentation.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkBorderWidget.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkBoundedPlanePointPlacer.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkBoxRepresentation.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkBoxWidget2.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkBoxWidget.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkBrokenLineWidget.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkButtonRepresentation.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkButtonWidget.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkCameraRepresentation.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkCameraWidget.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkCaptionRepresentation.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkCaptionWidget.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkCellCentersPointPlacer.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkCenteredSliderRepresentation.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkCenteredSliderWidget.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkCheckerboardRepresentation.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkCheckerboardWidget.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkClosedSurfacePointPlacer.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkConstrainedPointHandleRepresentation.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkContinuousValueWidget.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkContinuousValueWidgetRepresentation.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkContourLineInterpolator.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkContourRepresentation.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkContourWidget.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkCurveRepresentation.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkDijkstraImageContourLineInterpolator.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkDistanceRepresentation2D.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkDistanceRepresentation3D.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkDistanceRepresentation.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkDistanceWidget.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkEllipsoidTensorProbeRepresentation.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkEvent.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkFinitePlaneRepresentation.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkFinitePlaneWidget.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkFixedSizeHandleRepresentation3D.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkFocalPlaneContourRepresentation.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkFocalPlanePointPlacer.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkHandleRepresentation.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkHandleWidget.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkHoverWidget.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkImageActorPointPlacer.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkImageCroppingRegionsWidget.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkImageOrthoPlanes.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkImagePlaneWidget.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkImageTracerWidget.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkImplicitCylinderRepresentation.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkImplicitCylinderWidget.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkImplicitPlaneRepresentation.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkImplicitPlaneWidget2.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkImplicitPlaneWidget.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkLinearContourLineInterpolator.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkLineRepresentation.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkLineWidget2.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkLineWidget.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkLogoRepresentation.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkLogoWidget.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkMeasurementCubeHandleRepresentation3D.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkOrientationMarkerWidget.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkOrientedGlyphContourRepresentation.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkOrientedGlyphFocalPlaneContourRepresentation.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkOrientedPolygonalHandleRepresentation3D.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkParallelopipedRepresentation.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkParallelopipedWidget.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkPlaneWidget.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkPlaybackRepresentation.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkPlaybackWidget.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkPointHandleRepresentation2D.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkPointHandleRepresentation3D.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkPointPlacer.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkPointWidget.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkPolyDataContourLineInterpolator.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkPolyDataPointPlacer.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkPolyDataSourceWidget.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkPolyLineRepresentation.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkPolyLineWidget.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkPolygonalHandleRepresentation3D.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkPolygonalSurfaceContourLineInterpolator.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkPolygonalSurfacePointPlacer.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkProgressBarRepresentation.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkProgressBarWidget.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkProp3DButtonRepresentation.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkRectilinearWipeRepresentation.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkRectilinearWipeWidget.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkScalarBarRepresentation.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkScalarBarWidget.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkSeedRepresentation.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkSeedWidget.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkSliderRepresentation2D.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkSliderRepresentation3D.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkSliderRepresentation.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkSliderWidget.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkSphereHandleRepresentation.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkSphereRepresentation.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkSphereWidget2.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkSphereWidget.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkSplineRepresentation.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkSplineWidget2.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkSplineWidget.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkTensorProbeRepresentation.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkTensorProbeWidget.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkTerrainContourLineInterpolator.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkTerrainDataPointPlacer.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkTextRepresentation.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkTexturedButtonRepresentation2D.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkTexturedButtonRepresentation.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkTextWidget.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkWidgetCallbackMapper.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkWidgetEvent.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkWidgetEventTranslator.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkWidgetRepresentation.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkWidgetSet.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkXYPlotWidget.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkResliceCursorLineRepresentation.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkResliceCursorRepresentation.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkResliceCursorThickLineRepresentation.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkResliceCursorWidget.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkResliceCursorActor.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkResliceCursorPicker.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkResliceCursor.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Widgets/vtkResliceCursorPolyDataAlgorithm.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Interaction/Widgets/vtkInteractionWidgetsModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkInteractionWidgets"
+		],
+		"name" : "vtkInteractionWidgets"
+	}
+}

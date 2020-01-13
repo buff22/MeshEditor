@@ -1,0 +1,118 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Statistics/vtkAutoCorrelativeStatistics.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Statistics/vtkBivariateLinearTableThreshold.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Statistics/vtkComputeQuartiles.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Statistics/vtkContingencyStatistics.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Statistics/vtkCorrelativeStatistics.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Statistics/vtkDescriptiveStatistics.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Statistics/vtkHighestDensityRegionsStatistics.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Statistics/vtkExtractFunctionalBagPlot.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Statistics/vtkKMeansDistanceFunctorCalculator.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Statistics/vtkKMeansDistanceFunctor.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Statistics/vtkKMeansStatistics.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Statistics/vtkMultiCorrelativeStatistics.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Statistics/vtkOrderStatistics.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Statistics/vtkPCAStatistics.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Statistics/vtkStatisticsAlgorithm.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Statistics/vtkStrahlerMetric.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Statistics/vtkStreamingStatistics.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Statistics/vtkAutoCorrelativeStatistics.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Statistics/vtkBivariateLinearTableThreshold.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Statistics/vtkComputeQuartiles.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Statistics/vtkContingencyStatistics.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Statistics/vtkCorrelativeStatistics.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Statistics/vtkDescriptiveStatistics.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Statistics/vtkHighestDensityRegionsStatistics.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Statistics/vtkExtractFunctionalBagPlot.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Statistics/vtkKMeansDistanceFunctorCalculator.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Statistics/vtkKMeansDistanceFunctor.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Statistics/vtkKMeansStatistics.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Statistics/vtkMultiCorrelativeStatistics.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Statistics/vtkOrderStatistics.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Statistics/vtkPCAStatistics.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Statistics/vtkStatisticsAlgorithm.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Statistics/vtkStrahlerMetric.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Statistics/vtkStreamingStatistics.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Filters/Statistics/vtkFiltersStatisticsModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkFiltersStatistics"
+		],
+		"name" : "vtkFiltersStatistics"
+	}
+}

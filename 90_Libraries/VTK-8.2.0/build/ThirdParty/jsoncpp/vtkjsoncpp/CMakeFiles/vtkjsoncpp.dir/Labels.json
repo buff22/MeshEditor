@@ -1,0 +1,25 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/jsoncpp/vtkjsoncpp/jsoncpp.cpp"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/jsoncpp/vtkjsoncpp/json/json-forwards.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/jsoncpp/vtkjsoncpp/json/json.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/build/ThirdParty/jsoncpp/vtkjsoncpp/json/vtkjsoncpp_config.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkjsoncpp"
+		],
+		"name" : "vtkjsoncpp"
+	}
+}

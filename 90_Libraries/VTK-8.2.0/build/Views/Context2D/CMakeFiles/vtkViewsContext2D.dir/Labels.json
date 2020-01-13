@@ -1,0 +1,28 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Views/Context2D/vtkContextView.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Views/Context2D/vtkContextInteractorStyle.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Views/Context2D/vtkContextView.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Views/Context2D/vtkContextInteractorStyle.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Views/Context2D/vtkViewsContext2DModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkViewsContext2D"
+		],
+		"name" : "vtkViewsContext2D"
+	}
+}

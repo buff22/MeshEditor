@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Parallel\vtkEnSightWriter.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Parallel\vtkMultiBlockPLOT3DReader.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Parallel\vtkMultiBlockPLOT3DReaderInternals.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Parallel\vtkPlot3DMetaReader.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Parallel\vtkPChacoReader.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Parallel\vtkPDataSetReader.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Parallel\vtkPDataSetWriter.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Parallel\vtkPImageWriter.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Parallel\vtkPOpenFOAMReader.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Parallel\vtkPSLACReader.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Parallel\vtkEnSightWriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Parallel\vtkMultiBlockPLOT3DReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Parallel\vtkMultiBlockPLOT3DReaderInternals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Parallel\vtkPlot3DMetaReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Parallel\vtkPChacoReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Parallel\vtkPDataSetReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Parallel\vtkPDataSetWriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Parallel\vtkPImageWriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Parallel\vtkPOpenFOAMReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Parallel\vtkPSLACReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Parallel\vtkIOParallelModule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Parallel\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{84BAECE7-D5F1-3CD0-B453-A71FB556F5E8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A17CF314-31B7-3231-95F6-CC011E9BFF79}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

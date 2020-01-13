@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\ogg\vtkogg\src\bitwise.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\ogg\vtkogg\src\framing.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\ogg\vtkogg\include\ogg\config_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\ogg\vtkogg\include\ogg\ogg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\ogg\vtkogg\include\ogg\os_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\ogg\vtkogg\include\ogg\vtk_ogg_mangle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\ogg\vtkogg\include\ogg\vtkogg_export.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\ogg\vtkogg\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{84BAECE7-D5F1-3CD0-B453-A71FB556F5E8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A17CF314-31B7-3231-95F6-CC011E9BFF79}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,130 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Style/vtkInteractorStyleDrawPolygon.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Style/vtkInteractorStyleFlight.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Style/vtkInteractorStyleImage.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Style/vtkInteractorStyleJoystickActor.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Style/vtkInteractorStyleJoystickCamera.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Style/vtkInteractorStyleMultiTouchCamera.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Style/vtkInteractorStyleRubberBand2D.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Style/vtkInteractorStyleRubberBand3D.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Style/vtkInteractorStyleRubberBandPick.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Style/vtkInteractorStyleRubberBandZoom.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Style/vtkInteractorStyleTerrain.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Style/vtkInteractorStyleTrackballActor.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Style/vtkInteractorStyleTrackballCamera.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Style/vtkInteractorStyleTrackball.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Style/vtkInteractorStyleUnicam.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Style/vtkInteractorStyleUser.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Style/vtkInteractorStyleSwitch.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Style/vtkParallelCoordinatesInteractorStyle.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Interaction/Style/vtkInteractionStyleObjectFactory.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Style/vtkInteractorStyleDrawPolygon.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Style/vtkInteractorStyleFlight.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Style/vtkInteractorStyleImage.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Style/vtkInteractorStyleJoystickActor.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Style/vtkInteractorStyleJoystickCamera.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Style/vtkInteractorStyleMultiTouchCamera.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Style/vtkInteractorStyleRubberBand2D.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Style/vtkInteractorStyleRubberBand3D.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Style/vtkInteractorStyleRubberBandPick.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Style/vtkInteractorStyleRubberBandZoom.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Style/vtkInteractorStyleTerrain.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Style/vtkInteractorStyleTrackballActor.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Style/vtkInteractorStyleTrackballCamera.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Style/vtkInteractorStyleTrackball.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Style/vtkInteractorStyleUnicam.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Style/vtkInteractorStyleUser.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Style/vtkInteractorStyleSwitch.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Style/vtkParallelCoordinatesInteractorStyle.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Interaction/Style/vtkInteractionStyleObjectFactory.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Interaction/Style/vtkInteractionStyleModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkInteractionStyle"
+		],
+		"name" : "vtkInteractionStyle"
+	}
+}

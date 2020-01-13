@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Views\Infovis\vtkApplyColors.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Views\Infovis\vtkApplyIcons.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Views\Infovis\vtkDendrogramItem.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Views\Infovis\vtkGraphItem.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Views\Infovis\vtkGraphLayoutView.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Views\Infovis\vtkHeatmapItem.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Views\Infovis\vtkHierarchicalGraphPipeline.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Views\Infovis\vtkHierarchicalGraphView.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Views\Infovis\vtkIcicleView.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Views\Infovis\vtkInteractorStyleAreaSelectHover.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Views\Infovis\vtkInteractorStyleTreeMapHover.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Views\Infovis\vtkParallelCoordinatesHistogramRepresentation.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Views\Infovis\vtkParallelCoordinatesRepresentation.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Views\Infovis\vtkParallelCoordinatesView.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Views\Infovis\vtkRenderedGraphRepresentation.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Views\Infovis\vtkRenderedHierarchyRepresentation.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Views\Infovis\vtkRenderedRepresentation.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Views\Infovis\vtkRenderedSurfaceRepresentation.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Views\Infovis\vtkRenderedTreeAreaRepresentation.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Views\Infovis\vtkRenderView.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Views\Infovis\vtkSCurveSpline.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Views\Infovis\vtkTanglegramItem.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Views\Infovis\vtkTreeAreaView.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Views\Infovis\vtkTreeHeatmapItem.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Views\Infovis\vtkTreeMapView.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Views\Infovis\vtkTreeRingView.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Views\Infovis\vtkViewUpdater.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Views\Infovis\vtkApplyColors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Views\Infovis\vtkApplyIcons.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Views\Infovis\vtkDendrogramItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Views\Infovis\vtkGraphItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Views\Infovis\vtkGraphLayoutView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Views\Infovis\vtkHeatmapItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Views\Infovis\vtkHierarchicalGraphPipeline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Views\Infovis\vtkHierarchicalGraphView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Views\Infovis\vtkIcicleView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Views\Infovis\vtkInteractorStyleAreaSelectHover.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Views\Infovis\vtkInteractorStyleTreeMapHover.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Views\Infovis\vtkParallelCoordinatesHistogramRepresentation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Views\Infovis\vtkParallelCoordinatesRepresentation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Views\Infovis\vtkParallelCoordinatesView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Views\Infovis\vtkRenderedGraphRepresentation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Views\Infovis\vtkRenderedHierarchyRepresentation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Views\Infovis\vtkRenderedRepresentation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Views\Infovis\vtkRenderedSurfaceRepresentation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Views\Infovis\vtkRenderedTreeAreaRepresentation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Views\Infovis\vtkRenderView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Views\Infovis\vtkSCurveSpline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Views\Infovis\vtkTanglegramItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Views\Infovis\vtkTreeAreaView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Views\Infovis\vtkTreeHeatmapItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Views\Infovis\vtkTreeMapView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Views\Infovis\vtkTreeRingView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Views\Infovis\vtkViewUpdater.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Views\Infovis\vtkViewsInfovisModule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Views\Infovis\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{84BAECE7-D5F1-3CD0-B453-A71FB556F5E8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A17CF314-31B7-3231-95F6-CC011E9BFF79}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

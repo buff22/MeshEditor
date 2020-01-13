@@ -1,0 +1,28 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/glew/vtkglew/src/glew.c"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/glew/vtkglew/include/GL/glew.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/glew/vtkglew/include/GL/glxew.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/glew/vtkglew/include/GL/vtk_glew_mangle.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/glew/vtkglew/include/GL/wglew.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkglew"
+		],
+		"name" : "vtkglew"
+	}
+}

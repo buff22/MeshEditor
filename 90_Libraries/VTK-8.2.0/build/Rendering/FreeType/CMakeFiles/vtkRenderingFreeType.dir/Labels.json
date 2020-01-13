@@ -1,0 +1,100 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/FreeType/vtkFreeTypeStringToImage.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/FreeType/vtkFreeTypeTools.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/FreeType/vtkMathTextFreeTypeTextRenderer.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/FreeType/vtkMathTextUtilities.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/FreeType/vtkTextRendererStringToImage.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/FreeType/vtkScaledTextActor.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/FreeType/vtkVectorText.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Rendering/FreeType/vtkRenderingFreeTypeObjectFactory.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/FreeType/fonts/face_arial_bold.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/FreeType/fonts/face_arial_bold_italic.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/FreeType/fonts/face_arial.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/FreeType/fonts/face_arial_italic.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/FreeType/fonts/face_courier_bold.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/FreeType/fonts/face_courier_bold_italic.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/FreeType/fonts/face_courier.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/FreeType/fonts/face_courier_italic.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/FreeType/fonts/face_times_bold.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/FreeType/fonts/face_times_bold_italic.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/FreeType/fonts/face_times.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/FreeType/fonts/face_times_italic.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/FreeType/vtkFreeTypeStringToImage.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/FreeType/vtkFreeTypeTools.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/FreeType/vtkMathTextFreeTypeTextRenderer.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/FreeType/vtkMathTextUtilities.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/FreeType/vtkTextRendererStringToImage.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/FreeType/vtkScaledTextActor.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/FreeType/vtkVectorText.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Rendering/FreeType/vtkRenderingFreeTypeObjectFactory.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Rendering/FreeType/vtkRenderingFreeTypeModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkRenderingFreeType"
+		],
+		"name" : "vtkRenderingFreeType"
+	}
+}

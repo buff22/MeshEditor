@@ -1,0 +1,20 @@
+# Target labels
+ vtkFiltersTexture
+# Source files and their labels
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Texture/vtkTextureMapToCylinder.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Texture/vtkTextureMapToPlane.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Texture/vtkTextureMapToSphere.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Texture/vtkImplicitTextureCoords.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Texture/vtkThresholdTextureCoords.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Texture/vtkTransformTextureCoords.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Texture/vtkTriangularTCoords.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Texture/vtkScalarsToTextureFilter.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Texture/vtkTextureMapToCylinder.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Texture/vtkTextureMapToPlane.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Texture/vtkTextureMapToSphere.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Texture/vtkImplicitTextureCoords.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Texture/vtkThresholdTextureCoords.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Texture/vtkTransformTextureCoords.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Texture/vtkTriangularTCoords.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Texture/vtkScalarsToTextureFilter.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Filters/Texture/vtkFiltersTextureModule.h

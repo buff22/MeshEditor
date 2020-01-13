@@ -1,0 +1,280 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkArcParallelEdgeStrategy.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkAreaLayout.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkAreaLayoutStrategy.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkAssignCoordinates.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkAssignCoordinatesLayoutStrategy.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkAttributeClustering2DLayoutStrategy.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkBoxLayoutStrategy.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkCirclePackFrontChainLayoutStrategy.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkCirclePackLayout.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkCirclePackLayoutStrategy.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkCirclePackToPolyData.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkCircularLayoutStrategy.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkClustering2DLayoutStrategy.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkCommunity2DLayoutStrategy.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkConeLayoutStrategy.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkConstrained2DLayoutStrategy.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkCosmicTreeLayoutStrategy.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkEdgeLayout.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkEdgeLayoutStrategy.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkFast2DLayoutStrategy.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkForceDirectedLayoutStrategy.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkGeoEdgeStrategy.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkGeoMath.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkGraphLayout.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkGraphLayoutStrategy.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkIncrementalForceLayout.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkPassThroughEdgeStrategy.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkPassThroughLayoutStrategy.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkPerturbCoincidentVertices.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkRandomLayoutStrategy.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkSimple2DLayoutStrategy.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkSimple3DCirclesStrategy.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkSliceAndDiceLayoutStrategy.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkSpanTreeLayoutStrategy.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkSplineGraphEdges.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkSquarifyLayoutStrategy.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkStackedTreeLayoutStrategy.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkTreeLayoutStrategy.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkTreeMapLayout.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkTreeMapLayoutStrategy.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkTreeMapToPolyData.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkTreeOrbitLayoutStrategy.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkTreeRingToPolyData.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkKCoreLayout.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkArcParallelEdgeStrategy.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkAreaLayout.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkAreaLayoutStrategy.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkAssignCoordinates.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkAssignCoordinatesLayoutStrategy.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkAttributeClustering2DLayoutStrategy.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkBoxLayoutStrategy.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkCirclePackFrontChainLayoutStrategy.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkCirclePackLayout.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkCirclePackLayoutStrategy.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkCirclePackToPolyData.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkCircularLayoutStrategy.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkClustering2DLayoutStrategy.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkCommunity2DLayoutStrategy.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkConeLayoutStrategy.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkConstrained2DLayoutStrategy.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkCosmicTreeLayoutStrategy.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkEdgeLayout.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkEdgeLayoutStrategy.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkFast2DLayoutStrategy.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkForceDirectedLayoutStrategy.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkGeoEdgeStrategy.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkGeoMath.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkGraphLayout.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkGraphLayoutStrategy.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkIncrementalForceLayout.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkPassThroughEdgeStrategy.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkPassThroughLayoutStrategy.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkPerturbCoincidentVertices.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkRandomLayoutStrategy.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkSimple2DLayoutStrategy.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkSimple3DCirclesStrategy.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkSliceAndDiceLayoutStrategy.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkSpanTreeLayoutStrategy.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkSplineGraphEdges.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkSquarifyLayoutStrategy.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkStackedTreeLayoutStrategy.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkTreeLayoutStrategy.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkTreeMapLayout.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkTreeMapLayoutStrategy.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkTreeMapToPolyData.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkTreeOrbitLayoutStrategy.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkTreeRingToPolyData.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Infovis/Layout/vtkKCoreLayout.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Infovis/Layout/vtkInfovisLayoutModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkInfovisLayout"
+		],
+		"name" : "vtkInfovisLayout"
+	}
+}

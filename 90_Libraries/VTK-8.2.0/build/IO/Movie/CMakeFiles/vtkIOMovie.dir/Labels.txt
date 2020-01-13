@@ -1,0 +1,11 @@
+# Target labels
+ vtkIOMovie
+# Source files and their labels
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Movie/vtkGenericMovieWriter.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Movie/vtkOggTheoraWriter.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Movie/vtkAVIWriter.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/build/IO/Movie/vtkIOMovieConfigure.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Movie/vtkGenericMovieWriter.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Movie/vtkOggTheoraWriter.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Movie/vtkAVIWriter.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/build/IO/Movie/vtkIOMovieModule.h

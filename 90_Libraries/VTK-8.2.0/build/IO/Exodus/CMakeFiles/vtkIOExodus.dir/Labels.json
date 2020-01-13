@@ -1,0 +1,73 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Exodus/vtkCPExodusIIElementBlock.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Exodus/vtkCPExodusIIInSituReader.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Exodus/vtkCPExodusIINodalCoordinatesTemplate.txx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Exodus/vtkCPExodusIIResultsArrayTemplate.txx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Exodus/vtkExodusIICache.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Exodus/vtkExodusIIReader.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Exodus/vtkExodusIIReaderParser.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Exodus/vtkExodusIIReaderVariableCheck.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Exodus/vtkExodusIIWriter.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Exodus/vtkModelMetadata.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Exodus/vtkCPExodusIINodalCoordinatesTemplate.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Exodus/vtkCPExodusIIResultsArrayTemplate.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Exodus/vtkCPExodusIIElementBlock.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Exodus/vtkCPExodusIIInSituReader.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Exodus/vtkExodusIICache.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Exodus/vtkExodusIIReader.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Exodus/vtkExodusIIReaderParser.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Exodus/vtkExodusIIWriter.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Exodus/vtkModelMetadata.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/build/IO/Exodus/vtkIOExodusModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkIOExodus"
+		],
+		"name" : "vtkIOExodus"
+	}
+}

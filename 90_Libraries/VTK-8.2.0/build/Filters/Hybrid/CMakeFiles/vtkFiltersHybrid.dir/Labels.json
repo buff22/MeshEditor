@@ -1,0 +1,166 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Hybrid/vtkAdaptiveDataSetSurfaceFilter.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Hybrid/vtkBSplineTransform.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Hybrid/vtkDepthSortPolyData.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Hybrid/vtkDSPFilterDefinition.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Hybrid/vtkDSPFilterGroup.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Hybrid/vtkEarthSource.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Hybrid/vtkFacetReader.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Hybrid/vtkForceTime.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Hybrid/vtkGreedyTerrainDecimation.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Hybrid/vtkGridTransform.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Hybrid/vtkImageToPolyDataFilter.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Hybrid/vtkImplicitModeller.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Hybrid/vtkPCAAnalysisFilter.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Hybrid/vtkPolyDataSilhouette.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Hybrid/vtkProcrustesAlignmentFilter.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Hybrid/vtkProjectedTerrainPath.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Hybrid/vtkRenderLargeImage.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Hybrid/vtkTemporalArrayOperatorFilter.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Hybrid/vtkTemporalDataSetCache.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Hybrid/vtkTemporalFractal.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Hybrid/vtkTemporalInterpolator.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Hybrid/vtkTemporalShiftScale.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Hybrid/vtkTemporalSnapToTimeStep.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Hybrid/vtkTransformToGrid.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Hybrid/vtkWeightedTransformFilter.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Hybrid/vtkAdaptiveDataSetSurfaceFilter.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Hybrid/vtkBSplineTransform.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Hybrid/vtkDepthSortPolyData.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Hybrid/vtkDSPFilterDefinition.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Hybrid/vtkDSPFilterGroup.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Hybrid/vtkEarthSource.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Hybrid/vtkFacetReader.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Hybrid/vtkForceTime.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Hybrid/vtkGreedyTerrainDecimation.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Hybrid/vtkGridTransform.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Hybrid/vtkImageToPolyDataFilter.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Hybrid/vtkImplicitModeller.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Hybrid/vtkPCAAnalysisFilter.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Hybrid/vtkPolyDataSilhouette.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Hybrid/vtkProcrustesAlignmentFilter.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Hybrid/vtkProjectedTerrainPath.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Hybrid/vtkRenderLargeImage.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Hybrid/vtkTemporalArrayOperatorFilter.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Hybrid/vtkTemporalDataSetCache.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Hybrid/vtkTemporalFractal.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Hybrid/vtkTemporalInterpolator.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Hybrid/vtkTemporalShiftScale.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Hybrid/vtkTemporalSnapToTimeStep.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Hybrid/vtkTransformToGrid.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Hybrid/vtkWeightedTransformFilter.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Filters/Hybrid/vtkFiltersHybridModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkFiltersHybrid"
+		],
+		"name" : "vtkFiltersHybrid"
+	}
+}

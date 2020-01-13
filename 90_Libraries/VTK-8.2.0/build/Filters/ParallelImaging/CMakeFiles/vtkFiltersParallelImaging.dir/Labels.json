@@ -1,0 +1,52 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/ParallelImaging/vtkPComputeHistogram2DOutliers.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/ParallelImaging/vtkPExtractHistogram2D.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/ParallelImaging/vtkPPairwiseExtractHistogram2D.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/ParallelImaging/vtkExtractPiece.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/ParallelImaging/vtkMemoryLimitImageDataStreamer.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/ParallelImaging/vtkTransmitImageDataPiece.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/ParallelImaging/vtkPComputeHistogram2DOutliers.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/ParallelImaging/vtkPExtractHistogram2D.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/ParallelImaging/vtkPPairwiseExtractHistogram2D.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/ParallelImaging/vtkExtractPiece.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/ParallelImaging/vtkMemoryLimitImageDataStreamer.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/ParallelImaging/vtkTransmitImageDataPiece.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Filters/ParallelImaging/vtkFiltersParallelImagingModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkFiltersParallelImaging"
+		],
+		"name" : "vtkFiltersParallelImaging"
+	}
+}

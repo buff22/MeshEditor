@@ -1,0 +1,10 @@
+# Target labels
+ vtkogg
+# Source files and their labels
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/ogg/vtkogg/src/bitwise.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/ogg/vtkogg/src/framing.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/build/ThirdParty/ogg/vtkogg/include/ogg/config_types.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/ogg/vtkogg/include/ogg/ogg.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/ogg/vtkogg/include/ogg/os_types.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/ogg/vtkogg/include/ogg/vtk_ogg_mangle.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/build/ThirdParty/ogg/vtkogg/include/ogg/vtkogg_export.h

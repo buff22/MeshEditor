@@ -1,0 +1,32 @@
+# Target labels
+ vtkRenderingFreeType
+# Source files and their labels
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/FreeType/vtkFreeTypeStringToImage.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/FreeType/vtkFreeTypeTools.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/FreeType/vtkMathTextFreeTypeTextRenderer.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/FreeType/vtkMathTextUtilities.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/FreeType/vtkTextRendererStringToImage.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/FreeType/vtkScaledTextActor.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/FreeType/vtkVectorText.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Rendering/FreeType/vtkRenderingFreeTypeObjectFactory.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/FreeType/fonts/face_arial_bold.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/FreeType/fonts/face_arial_bold_italic.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/FreeType/fonts/face_arial.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/FreeType/fonts/face_arial_italic.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/FreeType/fonts/face_courier_bold.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/FreeType/fonts/face_courier_bold_italic.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/FreeType/fonts/face_courier.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/FreeType/fonts/face_courier_italic.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/FreeType/fonts/face_times_bold.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/FreeType/fonts/face_times_bold_italic.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/FreeType/fonts/face_times.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/FreeType/fonts/face_times_italic.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/FreeType/vtkFreeTypeStringToImage.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/FreeType/vtkFreeTypeTools.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/FreeType/vtkMathTextFreeTypeTextRenderer.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/FreeType/vtkMathTextUtilities.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/FreeType/vtkTextRendererStringToImage.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/FreeType/vtkScaledTextActor.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/FreeType/vtkVectorText.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Rendering/FreeType/vtkRenderingFreeTypeObjectFactory.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Rendering/FreeType/vtkRenderingFreeTypeModule.h

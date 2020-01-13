@@ -1,0 +1,10 @@
+# Target labels
+ vtkIOExportPDF
+# Source files and their labels
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/ExportPDF/vtkPDFContextDevice2D.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/ExportPDF/vtkPDFExporter.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/build/IO/ExportPDF/vtkIOExportPDFObjectFactory.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/ExportPDF/vtkPDFContextDevice2D.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/ExportPDF/vtkPDFExporter.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/build/IO/ExportPDF/vtkIOExportPDFObjectFactory.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/build/IO/ExportPDF/vtkIOExportPDFModule.h

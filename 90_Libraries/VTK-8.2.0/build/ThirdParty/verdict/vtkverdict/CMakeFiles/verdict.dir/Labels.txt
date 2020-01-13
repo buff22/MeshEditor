@@ -1,0 +1,13 @@
+# Target labels
+ vtkverdict
+# Source files and their labels
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/verdict/vtkverdict/V_EdgeMetric.cpp
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/verdict/vtkverdict/V_GaussIntegration.cpp
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/verdict/vtkverdict/V_HexMetric.cpp
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/verdict/vtkverdict/V_KnifeMetric.cpp
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/verdict/vtkverdict/V_PyramidMetric.cpp
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/verdict/vtkverdict/V_QuadMetric.cpp
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/verdict/vtkverdict/V_TetMetric.cpp
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/verdict/vtkverdict/V_TriMetric.cpp
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/verdict/vtkverdict/VerdictVector.cpp
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/verdict/vtkverdict/V_WedgeMetric.cpp

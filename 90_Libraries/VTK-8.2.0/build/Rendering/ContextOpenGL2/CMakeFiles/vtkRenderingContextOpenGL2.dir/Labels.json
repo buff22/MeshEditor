@@ -1,0 +1,52 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/ContextOpenGL2/vtkOpenGLContextActor.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/ContextOpenGL2/vtkOpenGLContextBufferId.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/ContextOpenGL2/vtkOpenGLContextDevice2D.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/ContextOpenGL2/vtkOpenGLContextDevice3D.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/ContextOpenGL2/vtkOpenGLPropItem.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Rendering/ContextOpenGL2/vtkRenderingContextOpenGL2ObjectFactory.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/ContextOpenGL2/vtkOpenGLContextActor.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/ContextOpenGL2/vtkOpenGLContextBufferId.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/ContextOpenGL2/vtkOpenGLContextDevice2D.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/ContextOpenGL2/vtkOpenGLContextDevice3D.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/ContextOpenGL2/vtkOpenGLPropItem.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Rendering/ContextOpenGL2/vtkRenderingContextOpenGL2ObjectFactory.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Rendering/ContextOpenGL2/vtkRenderingContextOpenGL2Module.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkRenderingContextOpenGL2"
+		],
+		"name" : "vtkRenderingContextOpenGL2"
+	}
+}

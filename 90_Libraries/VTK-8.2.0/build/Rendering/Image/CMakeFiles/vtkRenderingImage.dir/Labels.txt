@@ -1,0 +1,12 @@
+# Target labels
+ vtkRenderingImage
+# Source files and their labels
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/Image/vtkDepthImageToPointCloud.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/Image/vtkImageResliceMapper.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/Image/vtkImageSliceCollection.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/Image/vtkImageStack.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/Image/vtkDepthImageToPointCloud.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/Image/vtkImageResliceMapper.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/Image/vtkImageSliceCollection.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/Image/vtkImageStack.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Rendering/Image/vtkRenderingImageModule.h

@@ -1,0 +1,166 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Common/ComputationalGeometry/vtkCardinalSpline.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Common/ComputationalGeometry/vtkKochanekSpline.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Common/ComputationalGeometry/vtkParametricBoy.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Common/ComputationalGeometry/vtkParametricConicSpiral.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Common/ComputationalGeometry/vtkParametricCrossCap.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Common/ComputationalGeometry/vtkParametricDini.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Common/ComputationalGeometry/vtkParametricEllipsoid.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Common/ComputationalGeometry/vtkParametricEnneper.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Common/ComputationalGeometry/vtkParametricFigure8Klein.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Common/ComputationalGeometry/vtkParametricFunction.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Common/ComputationalGeometry/vtkParametricKlein.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Common/ComputationalGeometry/vtkParametricMobius.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Common/ComputationalGeometry/vtkParametricRandomHills.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Common/ComputationalGeometry/vtkParametricRoman.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Common/ComputationalGeometry/vtkParametricSpline.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Common/ComputationalGeometry/vtkParametricSuperEllipsoid.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Common/ComputationalGeometry/vtkParametricSuperToroid.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Common/ComputationalGeometry/vtkParametricTorus.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Common/ComputationalGeometry/vtkParametricKuen.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Common/ComputationalGeometry/vtkParametricPseudosphere.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Common/ComputationalGeometry/vtkParametricBohemianDome.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Common/ComputationalGeometry/vtkParametricHenneberg.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Common/ComputationalGeometry/vtkParametricCatalanMinimal.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Common/ComputationalGeometry/vtkParametricBour.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Common/ComputationalGeometry/vtkParametricPluckerConoid.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Common/ComputationalGeometry/vtkCardinalSpline.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Common/ComputationalGeometry/vtkKochanekSpline.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Common/ComputationalGeometry/vtkParametricBoy.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Common/ComputationalGeometry/vtkParametricConicSpiral.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Common/ComputationalGeometry/vtkParametricCrossCap.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Common/ComputationalGeometry/vtkParametricDini.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Common/ComputationalGeometry/vtkParametricEllipsoid.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Common/ComputationalGeometry/vtkParametricEnneper.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Common/ComputationalGeometry/vtkParametricFigure8Klein.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Common/ComputationalGeometry/vtkParametricFunction.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Common/ComputationalGeometry/vtkParametricKlein.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Common/ComputationalGeometry/vtkParametricMobius.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Common/ComputationalGeometry/vtkParametricRandomHills.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Common/ComputationalGeometry/vtkParametricRoman.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Common/ComputationalGeometry/vtkParametricSpline.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Common/ComputationalGeometry/vtkParametricSuperEllipsoid.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Common/ComputationalGeometry/vtkParametricSuperToroid.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Common/ComputationalGeometry/vtkParametricTorus.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Common/ComputationalGeometry/vtkParametricKuen.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Common/ComputationalGeometry/vtkParametricPseudosphere.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Common/ComputationalGeometry/vtkParametricBohemianDome.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Common/ComputationalGeometry/vtkParametricHenneberg.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Common/ComputationalGeometry/vtkParametricCatalanMinimal.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Common/ComputationalGeometry/vtkParametricBour.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Common/ComputationalGeometry/vtkParametricPluckerConoid.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Common/ComputationalGeometry/vtkCommonComputationalGeometryModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkCommonComputationalGeometry"
+		],
+		"name" : "vtkCommonComputationalGeometry"
+	}
+}

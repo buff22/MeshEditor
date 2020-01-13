@@ -1,0 +1,6 @@
+# Target labels
+ vtkDICOMParser
+# Source files and their labels
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Utilities/DICOMParser/DICOMFile.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Utilities/DICOMParser/DICOMParser.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Utilities/DICOMParser/DICOMAppHelper.cxx

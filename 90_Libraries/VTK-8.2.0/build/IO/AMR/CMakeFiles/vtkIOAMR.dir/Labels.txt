@@ -1,0 +1,24 @@
+# Target labels
+ vtkIOAMR
+# Source files and their labels
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/AMR/vtkAMRBaseParticlesReader.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/AMR/vtkAMRBaseReader.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/AMR/vtkAMRDataSetCache.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/AMR/vtkAMREnzoParticlesReader.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/AMR/vtkAMREnzoReader.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/AMR/vtkAMREnzoReaderInternal.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/AMR/vtkAMReXParticlesReader.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/AMR/vtkAMRFlashParticlesReader.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/AMR/vtkAMRFlashReader.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/AMR/vtkAMRFlashReaderInternal.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/AMR/vtkAMRBaseParticlesReader.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/AMR/vtkAMRBaseReader.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/AMR/vtkAMRDataSetCache.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/AMR/vtkAMREnzoParticlesReader.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/AMR/vtkAMREnzoReader.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/AMR/vtkAMREnzoReaderInternal.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/AMR/vtkAMReXParticlesReader.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/AMR/vtkAMRFlashParticlesReader.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/AMR/vtkAMRFlashReader.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/AMR/vtkAMRFlashReaderInternal.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/build/IO/AMR/vtkIOAMRModule.h

@@ -1,0 +1,8 @@
+# CMake generation dependency list for this directory.
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/zlib/vtkzlib/CMakeLists.txt
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/zlib/vtkzlib/zconf.h.cmakein
+C:/Program Files/CMake/share/cmake-3.14/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CheckFunctionExists.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CheckIncludeFileCXX.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CheckTypeSize.cmake

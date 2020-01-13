@@ -1,0 +1,25 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/sqlite/vtksqlite/sqlite3.c"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/sqlite/vtksqlite/sqlite3.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/sqlite/vtksqlite/vtk_sqlite_mangle.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/build/ThirdParty/sqlite/vtksqlite/vtksqlite_export.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtksqlite"
+		],
+		"name" : "vtksqlite"
+	}
+}

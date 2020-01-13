@@ -1,0 +1,58 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/NetCDF/vtkMPASReader.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/NetCDF/vtkNetCDFCAMReader.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/NetCDF/vtkNetCDFCFReader.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/NetCDF/vtkNetCDFPOPReader.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/NetCDF/vtkNetCDFReader.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/NetCDF/vtkSLACParticleReader.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/NetCDF/vtkSLACReader.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/NetCDF/vtkMPASReader.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/NetCDF/vtkNetCDFCAMReader.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/NetCDF/vtkNetCDFCFReader.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/NetCDF/vtkNetCDFPOPReader.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/NetCDF/vtkNetCDFReader.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/NetCDF/vtkSLACParticleReader.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/NetCDF/vtkSLACReader.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/build/IO/NetCDF/vtkIONetCDFModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkIONetCDF"
+		],
+		"name" : "vtkIONetCDF"
+	}
+}

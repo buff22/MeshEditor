@@ -1,0 +1,477 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1D1143AA-4B3F-3B3B-A2A8-4F46AC9862A7}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>vtkexodusII</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">vtkexodusII.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">vtkexodusII-8.2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">vtkexodusII.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">vtkexodusII-8.2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\exodusII\vtkexodusII\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\exodusII;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\netcdf\vtknetcdf;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\netcdf;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\hdf5\vtkhdf5;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\hdf5\vtkhdf5\hl\src;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\hdf5\vtkhdf5\src;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\hdf5;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\hdf5;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\zlib;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\zlib;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\hdf5\vtkhdf5\src;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\hdf5\vtkhdf5\hl\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;exoIIc_EXPORTS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;H5_BUILT_AS_DYNAMIC_LIB;CMAKE_INTDIR="Debug";vtkexodusII_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;exoIIc_EXPORTS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;H5_BUILT_AS_DYNAMIC_LIB;CMAKE_INTDIR=\"Debug\";vtkexodusII_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\exodusII\vtkexodusII\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\exodusII;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\netcdf\vtknetcdf;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\netcdf;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\hdf5\vtkhdf5;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\hdf5\vtkhdf5\hl\src;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\hdf5\vtkhdf5\src;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\hdf5;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\hdf5;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\zlib;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\zlib;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\hdf5\vtkhdf5\src;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\hdf5\vtkhdf5\hl\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\exodusII\vtkexodusII\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\exodusII;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\netcdf\vtknetcdf;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\netcdf;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\hdf5\vtkhdf5;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\hdf5\vtkhdf5\hl\src;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\hdf5\vtkhdf5\src;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\hdf5;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\hdf5;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\zlib;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\zlib;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\hdf5\vtkhdf5\src;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\hdf5\vtkhdf5\hl\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\lib\Debug\vtkNetCDF-8.2.lib;..\..\..\lib\Debug\vtkhdf5-8.2.lib;..\..\..\lib\Debug\vtkhdf5_hl-8.2.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/MeshEditor/90_Libraries/VTK-8.2.0/build/lib/Debug/vtkexodusII-8.2.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/MeshEditor/90_Libraries/VTK-8.2.0/build/bin/Debug/vtkexodusII-8.2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\exodusII\vtkexodusII\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\exodusII;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\netcdf\vtknetcdf;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\netcdf;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\hdf5\vtkhdf5;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\hdf5\vtkhdf5\hl\src;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\hdf5\vtkhdf5\src;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\hdf5;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\hdf5;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\zlib;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\zlib;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\hdf5\vtkhdf5\src;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\hdf5\vtkhdf5\hl\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;exoIIc_EXPORTS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;H5_BUILT_AS_DYNAMIC_LIB;CMAKE_INTDIR="Release";vtkexodusII_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;exoIIc_EXPORTS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;H5_BUILT_AS_DYNAMIC_LIB;CMAKE_INTDIR=\"Release\";vtkexodusII_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\exodusII\vtkexodusII\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\exodusII;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\netcdf\vtknetcdf;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\netcdf;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\hdf5\vtkhdf5;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\hdf5\vtkhdf5\hl\src;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\hdf5\vtkhdf5\src;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\hdf5;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\hdf5;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\zlib;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\zlib;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\hdf5\vtkhdf5\src;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\hdf5\vtkhdf5\hl\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\exodusII\vtkexodusII\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\exodusII;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\netcdf\vtknetcdf;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\netcdf;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\hdf5\vtkhdf5;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\hdf5\vtkhdf5\hl\src;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\hdf5\vtkhdf5\src;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\hdf5;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\hdf5;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\zlib;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\zlib;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\hdf5\vtkhdf5\src;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\hdf5\vtkhdf5\hl\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\lib\Release\vtkNetCDF-8.2.lib;..\..\..\lib\Release\vtkhdf5-8.2.lib;..\..\..\lib\Release\vtkhdf5_hl-8.2.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/MeshEditor/90_Libraries/VTK-8.2.0/build/lib/Release/vtkexodusII-8.2.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/MeshEditor/90_Libraries/VTK-8.2.0/build/bin/Release/vtkexodusII-8.2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/exodusII/vtkexodusII/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/MeshEditor/90_Libraries/VTK-8.2.0/src -BC:/MeshEditor/90_Libraries/VTK-8.2.0/build --check-stamp-file C:/MeshEditor/90_Libraries/VTK-8.2.0/build/ThirdParty/exodusII/vtkexodusII/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/exodusII/vtkexodusII/CMakeLists.txt;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\CMakeLists.txt;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\cmake\exodus_config.h.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\include\exodusII_cfg.h.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\exodusII\vtkexodusII\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/exodusII/vtkexodusII/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/MeshEditor/90_Libraries/VTK-8.2.0/src -BC:/MeshEditor/90_Libraries/VTK-8.2.0/build --check-stamp-file C:/MeshEditor/90_Libraries/VTK-8.2.0/build/ThirdParty/exodusII/vtkexodusII/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/exodusII/vtkexodusII/CMakeLists.txt;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\CMakeLists.txt;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\cmake\exodus_config.h.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\include\exodusII_cfg.h.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\exodusII\vtkexodusII\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_get_concat_node_sets.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_get_concat_side_sets.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_get_elem_attr.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_get_elem_attr_names.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_get_elem_blk_ids.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_get_elem_block.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_get_elem_conn.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_get_elem_map.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_get_elem_num_map.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_get_elem_var.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_get_elem_var_tab.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_get_elem_var_time.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_get_glob_var_time.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_get_glob_vars.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_get_n_attr.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_get_n_conn.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_get_n_coord.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_get_n_elem_attr.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_get_n_elem_conn.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_get_n_elem_num_map.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_get_n_elem_var.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_get_n_nodal_var.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_get_n_node_num_map.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_get_n_node_set.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_get_n_node_set_df.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_get_n_one_attr.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_get_n_side_set.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_get_n_side_set_df.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_get_n_var.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_get_nodal_var.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_get_nodal_var_time.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_get_node_map.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_get_node_num_map.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_get_node_set.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_get_node_set_dist_fact.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_get_node_set_ids.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_get_node_set_param.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_get_nset_var.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_get_nset_var_tab.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_get_one_elem_attr.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_get_partial_elem_attr.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_get_partial_elem_conn.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_get_partial_elem_map.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_get_partial_elem_num_map.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_get_partial_elem_var.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_get_partial_nodal_var.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_get_partial_node_num_map.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_get_partial_node_set.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_get_partial_node_set_df.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_get_partial_side_set.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_get_partial_side_set_df.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_get_side_set.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_get_side_set_dist_fact.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_get_side_set_ids.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_get_side_set_param.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_get_sset_var.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_get_sset_var_tab.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_get_var_name.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_get_var_names.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_get_var_param.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_get_var_tab.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_put_concat_node_sets.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_put_concat_side_sets.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_put_concat_var_param.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_put_elem_attr.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_put_elem_attr_names.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_put_elem_block.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_put_elem_conn.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_put_elem_map.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_put_elem_num_map.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_put_elem_var.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_put_elem_var_slab.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_put_elem_var_tab.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_put_glob_vars.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_put_n_attr.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_put_n_coord.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_put_n_elem_attr.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_put_n_elem_conn.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_put_n_elem_num_map.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_put_n_nodal_var.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_put_n_node_num_map.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_put_n_node_set.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_put_n_node_set_df.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_put_n_one_attr.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_put_n_side_set.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_put_n_side_set_df.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_put_n_var.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_put_nodal_var_slab.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_put_node_map.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_put_node_num_map.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_put_node_set.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_put_node_set_dist_fact.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_put_node_set_param.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_put_nset_var.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_put_nset_var_tab.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_put_one_elem_attr.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_put_partial_elem_attr.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_put_partial_elem_conn.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_put_partial_elem_map.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_put_partial_elem_num_map.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_put_partial_nodal_var.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_put_partial_node_num_map.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_put_partial_node_set.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_put_partial_node_set_df.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_put_partial_side_set.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_put_partial_side_set_df.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_put_side_set.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_put_side_set_dist_fact.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_put_side_set_param.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_put_sset_var.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_put_sset_var_tab.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_put_var_name.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_put_var_names.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_put_var_param.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\deprecated\ex_put_var_tab.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_add_attr.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_close.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_conv.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_copy.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_create.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_create_group.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_create_par.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_cvt_nodes_to_sides.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_err.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_get_all_times.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_get_attr.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_get_attr_names.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_get_attr_param.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_get_block.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_get_block_param.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_get_block_params.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_get_cmap_params.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_get_concat_sets.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_get_concat_side_set_node_count.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_get_conn.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_get_coord.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_get_coord_names.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_get_coordinate_frames.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_get_eb_info_global.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_get_elem_cmap.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_get_elem_type.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_get_entity_count_per_polyhedra.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_get_glob_var_time_int.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_get_glob_vars_int.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_get_group_id.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_get_group_ids.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_get_id_map.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_get_ids.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_get_info.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_get_init.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_get_init_ext.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_get_init_global.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_get_init_info.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_get_loadbal_param.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_get_map.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_get_map_param.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_get_name.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_get_names.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_get_nodal_var_int.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_get_nodal_var_time_int.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_get_node_cmap.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_get_ns_param_global.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_get_num_map.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_get_object_truth_vector.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_get_one_attr.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_get_partial_attr.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_get_partial_conn.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_get_partial_coord.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_get_partial_coord_component.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_get_partial_id_map.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_get_partial_nodal_var_int.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_get_partial_num_map.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_get_partial_one_attr.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_get_partial_set.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_get_partial_set_dist_fact.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_get_partial_var.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_get_processor_elem_maps.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_get_processor_node_maps.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_get_prop.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_get_prop_array.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_get_prop_names.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_get_qa.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_get_set.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_get_set_dist_fact.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_get_set_param.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_get_sets.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_get_side_set_node_count.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_get_side_set_node_list.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_get_side_set_node_list_len.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_get_ss_param_global.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_get_time.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_get_truth_table.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_get_var.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_get_var_time.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_get_variable_name.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_get_variable_names.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_get_variable_param.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_inquire.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_int_get_block_param.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_ne_util.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_open.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_open_par.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_opts.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_put_all_var_param.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_put_all_var_param_ext.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_put_attr.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_put_attr_names.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_put_attr_param.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_put_block.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_put_block_param.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_put_block_params.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_put_cmap_params.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_put_cmap_params_cc.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_put_concat_all_blocks.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_put_concat_elem_block.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_put_concat_sets.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_put_conn.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_put_coord.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_put_coord_names.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_put_coordinate_frames.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_put_eb_info_global.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_put_elem_cmap.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_put_entity_count_per_polyhedra.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_put_id_map.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_put_info.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_put_init.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_put_init_ext.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_put_init_global.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_put_init_info.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_put_loadbal_param.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_put_loadbal_param_cc.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_put_map.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_put_map_param.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_put_name.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_put_names.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_put_nodal_var.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_put_nodal_var_int.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_put_node_cmap.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_put_ns_param_global.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_put_num_map.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_put_one_attr.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_put_partial_attr.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_put_partial_conn.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_put_partial_coord.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_put_partial_coord_component.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_put_partial_id_map.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_put_partial_nodal_var_int.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_put_partial_num_map.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_put_partial_one_attr.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_put_partial_set.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_put_partial_set_dist_fact.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_put_partial_var.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_put_processor_elem_maps.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_put_processor_node_maps.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_put_prop.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_put_prop_array.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_put_prop_names.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_put_qa.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_put_set.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_put_set_dist_fact.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_put_set_param.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_put_sets.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_put_ss_param_global.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_put_time.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_put_truth_table.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_put_var.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_put_variable_name.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_put_variable_names.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_put_variable_param.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_threadsafe.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_update.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\src\ex_utils.c" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\include\exodusII.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\include\exodusII_int.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\include\vtk_exodusII_mangle.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\exodusII\vtkexodusII\include\exodusII_cfg.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\exodusII\vtkexodusII\include\exodus_config.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ZERO_CHECK.vcxproj">
+      <Project>{08D62400-3290-3C24-87AA-504F9356C20C}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\hdf5\vtkhdf5\hl\src\vtkhdf5_hl_src.vcxproj">
+      <Project>{50AE6F25-F199-399F-BE4C-58BD143E58F6}</Project>
+      <Name>vtkhdf5_hl_src</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\hdf5\vtkhdf5\src\vtkhdf5_src.vcxproj">
+      <Project>{4D5F3D15-7003-3BE8-9014-EE2074AD3FE1}</Project>
+      <Name>vtkhdf5_src</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\netcdf\vtknetcdf\vtknetcdf.vcxproj">
+      <Project>{5D7F4F05-4FB7-3A68-9485-39F61D833313}</Project>
+      <Name>vtknetcdf</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

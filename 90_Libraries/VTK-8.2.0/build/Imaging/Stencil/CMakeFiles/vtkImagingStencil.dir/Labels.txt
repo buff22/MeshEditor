@@ -1,0 +1,18 @@
+# Target labels
+ vtkImagingStencil
+# Source files and their labels
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Stencil/vtkImageStencil.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Stencil/vtkImageStencilToImage.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Stencil/vtkImageToImageStencil.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Stencil/vtkImplicitFunctionToImageStencil.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Stencil/vtkLassoStencilSource.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Stencil/vtkPolyDataToImageStencil.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Stencil/vtkROIStencilSource.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Stencil/vtkImageStencil.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Stencil/vtkImageStencilToImage.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Stencil/vtkImageToImageStencil.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Stencil/vtkImplicitFunctionToImageStencil.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Stencil/vtkLassoStencilSource.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Stencil/vtkPolyDataToImageStencil.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Stencil/vtkROIStencilSource.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Imaging/Stencil/vtkImagingStencilModule.h

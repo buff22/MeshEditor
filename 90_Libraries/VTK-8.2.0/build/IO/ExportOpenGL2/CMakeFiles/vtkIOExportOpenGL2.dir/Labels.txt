@@ -1,0 +1,8 @@
+# Target labels
+ vtkIOExportOpenGL2
+# Source files and their labels
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/ExportOpenGL2/vtkOpenGLGL2PSExporter.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/build/IO/ExportOpenGL2/vtkIOExportOpenGL2ObjectFactory.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/ExportOpenGL2/vtkOpenGLGL2PSExporter.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/build/IO/ExportOpenGL2/vtkIOExportOpenGL2ObjectFactory.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/build/IO/ExportOpenGL2/vtkIOExportOpenGL2Module.h

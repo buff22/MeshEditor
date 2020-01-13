@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/CMake/vtkModuleInfo.cmake.in
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/ogg/CMakeLists.txt
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/ogg/module.cmake
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/ogg/vtk_ogg.h.in

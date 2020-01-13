@@ -1,0 +1,23 @@
+# Target labels
+ vtkIOMINC
+# Source files and their labels
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/MINC/vtkMINCImageAttributes.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/MINC/vtkMINCImageReader.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/MINC/vtkMINCImageWriter.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/MINC/vtkMNIObjectReader.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/MINC/vtkMNIObjectWriter.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/MINC/vtkMNITagPointReader.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/MINC/vtkMNITagPointWriter.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/MINC/vtkMNITransformReader.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/MINC/vtkMNITransformWriter.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/MINC/vtkMINC.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/MINC/vtkMINCImageAttributes.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/MINC/vtkMINCImageReader.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/MINC/vtkMINCImageWriter.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/MINC/vtkMNIObjectReader.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/MINC/vtkMNIObjectWriter.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/MINC/vtkMNITagPointReader.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/MINC/vtkMNITagPointWriter.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/MINC/vtkMNITransformReader.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/MINC/vtkMNITransformWriter.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/build/IO/MINC/vtkIOMINCModule.h

@@ -1,0 +1,18 @@
+# Target labels
+ vtkFiltersAMR
+# Source files and their labels
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/AMR/vtkAMRCutPlane.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/AMR/vtkAMRGaussianPulseSource.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/AMR/vtkAMRResampleFilter.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/AMR/vtkAMRSliceFilter.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/AMR/vtkAMRToMultiBlockFilter.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/AMR/vtkImageToAMR.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/AMR/vtkParallelAMRUtilities.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/AMR/vtkAMRCutPlane.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/AMR/vtkAMRGaussianPulseSource.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/AMR/vtkAMRResampleFilter.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/AMR/vtkAMRSliceFilter.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/AMR/vtkAMRToMultiBlockFilter.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/AMR/vtkImageToAMR.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/AMR/vtkParallelAMRUtilities.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Filters/AMR/vtkFiltersAMRModule.h

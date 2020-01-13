@@ -1,0 +1,24 @@
+# Target labels
+ vtkImagingColor
+# Source files and their labels
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Color/vtkImageHSIToRGB.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Color/vtkImageHSVToRGB.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Color/vtkImageYIQToRGB.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Color/vtkImageLuminance.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Color/vtkImageMapToRGBA.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Color/vtkImageMapToWindowLevelColors.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Color/vtkImageQuantizeRGBToIndex.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Color/vtkImageRGBToHSI.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Color/vtkImageRGBToHSV.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Color/vtkImageRGBToYIQ.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Color/vtkImageHSIToRGB.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Color/vtkImageHSVToRGB.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Color/vtkImageYIQToRGB.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Color/vtkImageLuminance.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Color/vtkImageMapToRGBA.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Color/vtkImageMapToWindowLevelColors.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Color/vtkImageQuantizeRGBToIndex.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Color/vtkImageRGBToHSI.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Color/vtkImageRGBToHSV.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Color/vtkImageRGBToYIQ.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Imaging/Color/vtkImagingColorModule.h

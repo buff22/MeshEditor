@@ -1,0 +1,7 @@
+# CMake generation dependency list for this directory.
+C:/MeshEditor/90_Libraries/VTK-8.2.0/build/lib/cmake/vtk-8.2/Modules/vtkkwiml.cmake
+C:/MeshEditor/90_Libraries/VTK-8.2.0/build/lib/cmake/vtk-8.2/Modules/vtkzlib.cmake
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/CMake/vtkModuleInfo.cmake.in
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/freetype/CMakeLists.txt
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/freetype/module.cmake
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/freetype/vtk_freetype.h.in

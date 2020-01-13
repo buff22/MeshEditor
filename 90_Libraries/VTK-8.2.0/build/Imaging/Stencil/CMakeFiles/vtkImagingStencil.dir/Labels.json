@@ -1,0 +1,58 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Stencil/vtkImageStencil.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Stencil/vtkImageStencilToImage.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Stencil/vtkImageToImageStencil.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Stencil/vtkImplicitFunctionToImageStencil.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Stencil/vtkLassoStencilSource.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Stencil/vtkPolyDataToImageStencil.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Stencil/vtkROIStencilSource.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Stencil/vtkImageStencil.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Stencil/vtkImageStencilToImage.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Stencil/vtkImageToImageStencil.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Stencil/vtkImplicitFunctionToImageStencil.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Stencil/vtkLassoStencilSource.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Stencil/vtkPolyDataToImageStencil.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Stencil/vtkROIStencilSource.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Imaging/Stencil/vtkImagingStencilModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkImagingStencil"
+		],
+		"name" : "vtkImagingStencil"
+	}
+}

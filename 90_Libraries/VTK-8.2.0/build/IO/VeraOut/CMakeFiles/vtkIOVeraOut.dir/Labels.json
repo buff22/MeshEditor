@@ -1,0 +1,22 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/VeraOut/vtkVeraOutReader.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/VeraOut/vtkVeraOutReader.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/build/IO/VeraOut/vtkIOVeraOutModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkIOVeraOut"
+		],
+		"name" : "vtkIOVeraOut"
+	}
+}

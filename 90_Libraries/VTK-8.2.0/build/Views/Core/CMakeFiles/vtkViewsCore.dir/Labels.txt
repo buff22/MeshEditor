@@ -1,0 +1,16 @@
+# Target labels
+ vtkViewsCore
+# Source files and their labels
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Views/Core/vtkConvertSelectionDomain.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Views/Core/vtkDataRepresentation.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Views/Core/vtkEmptyRepresentation.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Views/Core/vtkRenderViewBase.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Views/Core/vtkView.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Views/Core/vtkViewTheme.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Views/Core/vtkConvertSelectionDomain.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Views/Core/vtkDataRepresentation.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Views/Core/vtkEmptyRepresentation.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Views/Core/vtkRenderViewBase.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Views/Core/vtkView.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Views/Core/vtkViewTheme.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Views/Core/vtkViewsCoreModule.h

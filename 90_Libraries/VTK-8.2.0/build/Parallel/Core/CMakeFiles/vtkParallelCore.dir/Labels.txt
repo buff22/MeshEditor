@@ -1,0 +1,34 @@
+# Target labels
+ vtkParallelCore
+# Source files and their labels
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Parallel/Core/vtkCommunicator.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Parallel/Core/vtkDummyCommunicator.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Parallel/Core/vtkDummyController.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Parallel/Core/vtkMultiProcessController.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Parallel/Core/vtkMultiProcessStream.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Parallel/Core/vtkPDirectory.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Parallel/Core/vtkProcess.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Parallel/Core/vtkProcessGroup.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Parallel/Core/vtkPSystemTools.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Parallel/Core/vtkSocketCommunicator.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Parallel/Core/vtkSocketController.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Parallel/Core/vtkSubCommunicator.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Parallel/Core/vtkSubGroup.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Parallel/Core/vtkFieldDataSerializer.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Parallel/Core/vtkSocketCommunicatorHash.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Parallel/Core/vtkCommunicator.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Parallel/Core/vtkDummyCommunicator.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Parallel/Core/vtkDummyController.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Parallel/Core/vtkMultiProcessController.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Parallel/Core/vtkMultiProcessStream.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Parallel/Core/vtkPDirectory.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Parallel/Core/vtkProcess.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Parallel/Core/vtkProcessGroup.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Parallel/Core/vtkPSystemTools.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Parallel/Core/vtkSocketCommunicator.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Parallel/Core/vtkSocketController.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Parallel/Core/vtkSubCommunicator.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Parallel/Core/vtkSubGroup.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Parallel/Core/vtkFieldDataSerializer.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Parallel/Core/vtkParallelCoreModule.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/build/CMakeFiles/bc64ad143efacba7f6282f23291a6afa/vtkSocketCommunicatorHash.h.rule

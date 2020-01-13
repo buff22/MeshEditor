@@ -1,0 +1,6 @@
+# CMake generation dependency list for this directory.
+C:/MeshEditor/90_Libraries/VTK-8.2.0/build/lib/cmake/vtk-8.2/Modules/vtksys.cmake
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/CMake/vtkModuleInfo.cmake.in
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Utilities/DICOMParser/CMakeLists.txt
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Utilities/DICOMParser/DICOMCMakeConfig.h.in
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Utilities/DICOMParser/module.cmake

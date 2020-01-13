@@ -1,0 +1,34 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Statistics/vtkImageAccumulate.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Statistics/vtkImageHistogram.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Statistics/vtkImageHistogramStatistics.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Statistics/vtkImageAccumulate.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Statistics/vtkImageHistogram.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Statistics/vtkImageHistogramStatistics.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Imaging/Statistics/vtkImagingStatisticsModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkImagingStatistics"
+		],
+		"name" : "vtkImagingStatistics"
+	}
+}

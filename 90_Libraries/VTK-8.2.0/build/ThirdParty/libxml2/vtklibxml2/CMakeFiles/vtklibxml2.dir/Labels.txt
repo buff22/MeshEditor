@@ -1,0 +1,46 @@
+# Target labels
+ vtklibxml2
+# Source files and their labels
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libxml2/vtklibxml2/DOCBparser.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libxml2/vtklibxml2/HTMLparser.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libxml2/vtklibxml2/HTMLtree.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libxml2/vtklibxml2/SAX.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libxml2/vtklibxml2/SAX2.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libxml2/vtklibxml2/c14n.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libxml2/vtklibxml2/catalog.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libxml2/vtklibxml2/chvalid.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libxml2/vtklibxml2/debugXML.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libxml2/vtklibxml2/dict.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libxml2/vtklibxml2/encoding.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libxml2/vtklibxml2/entities.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libxml2/vtklibxml2/error.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libxml2/vtklibxml2/globals.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libxml2/vtklibxml2/hash.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libxml2/vtklibxml2/legacy.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libxml2/vtklibxml2/list.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libxml2/vtklibxml2/nanoftp.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libxml2/vtklibxml2/nanohttp.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libxml2/vtklibxml2/parser.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libxml2/vtklibxml2/parserInternals.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libxml2/vtklibxml2/pattern.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libxml2/vtklibxml2/relaxng.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libxml2/vtklibxml2/schematron.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libxml2/vtklibxml2/threads.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libxml2/vtklibxml2/tree.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libxml2/vtklibxml2/uri.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libxml2/vtklibxml2/valid.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libxml2/vtklibxml2/xinclude.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libxml2/vtklibxml2/xlink.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libxml2/vtklibxml2/xmlIO.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libxml2/vtklibxml2/xmlmemory.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libxml2/vtklibxml2/xmlmodule.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libxml2/vtklibxml2/xmlreader.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libxml2/vtklibxml2/xmlregexp.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libxml2/vtklibxml2/xmlsave.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libxml2/vtklibxml2/xmlschemas.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libxml2/vtklibxml2/xmlschemastypes.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libxml2/vtklibxml2/xmlstring.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libxml2/vtklibxml2/xmlunicode.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libxml2/vtklibxml2/xmlwriter.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libxml2/vtklibxml2/xpath.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libxml2/vtklibxml2/xpointer.c

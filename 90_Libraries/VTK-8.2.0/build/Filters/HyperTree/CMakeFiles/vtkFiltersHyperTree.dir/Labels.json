@@ -1,0 +1,76 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/HyperTree/vtkHyperTreeGridAxisClip.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/HyperTree/vtkHyperTreeGridAxisCut.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/HyperTree/vtkHyperTreeGridAxisReflection.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/HyperTree/vtkHyperTreeGridCellCenters.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/HyperTree/vtkHyperTreeGridContour.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/HyperTree/vtkHyperTreeGridDepthLimiter.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/HyperTree/vtkHyperTreeGridGeometry.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/HyperTree/vtkHyperTreeGridPlaneCutter.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/HyperTree/vtkHyperTreeGridThreshold.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/HyperTree/vtkHyperTreeGridToUnstructuredGrid.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/HyperTree/vtkHyperTreeGridAxisClip.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/HyperTree/vtkHyperTreeGridAxisCut.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/HyperTree/vtkHyperTreeGridAxisReflection.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/HyperTree/vtkHyperTreeGridCellCenters.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/HyperTree/vtkHyperTreeGridContour.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/HyperTree/vtkHyperTreeGridDepthLimiter.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/HyperTree/vtkHyperTreeGridGeometry.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/HyperTree/vtkHyperTreeGridPlaneCutter.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/HyperTree/vtkHyperTreeGridThreshold.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/HyperTree/vtkHyperTreeGridToUnstructuredGrid.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Filters/HyperTree/vtkFiltersHyperTreeModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkFiltersHyperTree"
+		],
+		"name" : "vtkFiltersHyperTree"
+	}
+}

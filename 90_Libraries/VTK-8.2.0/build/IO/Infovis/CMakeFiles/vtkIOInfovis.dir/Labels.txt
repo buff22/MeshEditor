@@ -1,0 +1,36 @@
+# Target labels
+ vtkIOInfovis
+# Source files and their labels
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Infovis/vtkBiomTableReader.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Infovis/vtkChacoGraphReader.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Infovis/vtkDelimitedTextReader.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Infovis/vtkDIMACSGraphReader.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Infovis/vtkDIMACSGraphWriter.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Infovis/vtkFixedWidthTextReader.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Infovis/vtkISIReader.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Infovis/vtkMultiNewickTreeReader.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Infovis/vtkNewickTreeReader.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Infovis/vtkNewickTreeWriter.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Infovis/vtkPhyloXMLTreeReader.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Infovis/vtkPhyloXMLTreeWriter.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Infovis/vtkRISReader.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Infovis/vtkTulipReader.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Infovis/vtkXGMLReader.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Infovis/vtkXMLTreeReader.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Infovis/vtkBiomTableReader.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Infovis/vtkChacoGraphReader.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Infovis/vtkDelimitedTextReader.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Infovis/vtkDIMACSGraphReader.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Infovis/vtkDIMACSGraphWriter.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Infovis/vtkFixedWidthTextReader.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Infovis/vtkISIReader.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Infovis/vtkMultiNewickTreeReader.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Infovis/vtkNewickTreeReader.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Infovis/vtkNewickTreeWriter.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Infovis/vtkPhyloXMLTreeReader.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Infovis/vtkPhyloXMLTreeWriter.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Infovis/vtkRISReader.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Infovis/vtkTulipReader.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Infovis/vtkXGMLReader.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Infovis/vtkXMLTreeReader.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/build/IO/Infovis/vtkIOInfovisModule.h

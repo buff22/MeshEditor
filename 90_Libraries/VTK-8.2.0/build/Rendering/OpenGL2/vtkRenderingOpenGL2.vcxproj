@@ -1,0 +1,1267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0D9F137F-2EE6-3E97-8CF1-0B6A919EDFE4}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>vtkRenderingOpenGL2</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">vtkRenderingOpenGL2.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">vtkRenderingOpenGL2-8.2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">vtkRenderingOpenGL2.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">vtkRenderingOpenGL2-8.2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWIML;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWIML;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWSys;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\utf8;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\utf8;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\DataModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\DataModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Math;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Math;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Misc;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Misc;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\System;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\System;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Transforms;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Transforms;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\ExecutionModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\ExecutionModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Color;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Color;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\ComputationalGeometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\ComputationalGeometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\General;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\General;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Geometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Geometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Sources;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Sources;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\glew;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\glew;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR="Debug";vtkRenderingOpenGL2_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR=\"Debug\";vtkRenderingOpenGL2_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWIML;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWIML;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWSys;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\utf8;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\utf8;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\DataModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\DataModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Math;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Math;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Misc;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Misc;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\System;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\System;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Transforms;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Transforms;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\ExecutionModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\ExecutionModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Color;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Color;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\ComputationalGeometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\ComputationalGeometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\General;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\General;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Geometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Geometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Sources;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Sources;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\glew;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\glew;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWIML;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWIML;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWSys;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\utf8;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\utf8;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\DataModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\DataModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Math;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Math;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Misc;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Misc;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\System;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\System;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Transforms;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Transforms;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\ExecutionModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\ExecutionModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Color;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Color;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\ComputationalGeometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\ComputationalGeometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\General;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\General;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Geometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Geometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Sources;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Sources;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\glew;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\glew;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\Debug\vtkRenderingCore-8.2.lib;..\..\lib\Debug\vtkglew-8.2.lib;opengl32.lib;glu32.lib;dbghelp.lib;..\..\lib\Debug\vtkFiltersCore-8.2.lib;..\..\lib\Debug\vtkCommonExecutionModel-8.2.lib;..\..\lib\Debug\vtkCommonDataModel-8.2.lib;..\..\lib\Debug\vtkCommonSystem-8.2.lib;..\..\lib\Debug\vtkCommonTransforms-8.2.lib;..\..\lib\Debug\vtkCommonMisc-8.2.lib;..\..\lib\Debug\vtkCommonMath-8.2.lib;..\..\lib\Debug\vtkCommonCore-8.2.lib;..\..\lib\Debug\vtksys-8.2.lib;ws2_32.lib;Psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/MeshEditor/90_Libraries/VTK-8.2.0/build/lib/Debug/vtkRenderingOpenGL2-8.2.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/MeshEditor/90_Libraries/VTK-8.2.0/build/bin/Debug/vtkRenderingOpenGL2-8.2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWIML;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWIML;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWSys;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\utf8;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\utf8;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\DataModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\DataModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Math;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Math;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Misc;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Misc;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\System;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\System;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Transforms;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Transforms;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\ExecutionModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\ExecutionModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Color;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Color;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\ComputationalGeometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\ComputationalGeometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\General;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\General;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Geometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Geometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Sources;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Sources;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\glew;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\glew;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR="Release";vtkRenderingOpenGL2_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR=\"Release\";vtkRenderingOpenGL2_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWIML;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWIML;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWSys;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\utf8;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\utf8;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\DataModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\DataModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Math;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Math;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Misc;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Misc;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\System;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\System;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Transforms;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Transforms;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\ExecutionModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\ExecutionModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Color;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Color;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\ComputationalGeometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\ComputationalGeometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\General;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\General;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Geometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Geometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Sources;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Sources;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\glew;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\glew;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWIML;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWIML;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWSys;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\utf8;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\utf8;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\DataModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\DataModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Math;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Math;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Misc;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Misc;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\System;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\System;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Transforms;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Transforms;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\ExecutionModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\ExecutionModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Color;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Color;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\ComputationalGeometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\ComputationalGeometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\General;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\General;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Geometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Geometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Sources;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Sources;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\glew;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\glew;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\Release\vtkRenderingCore-8.2.lib;..\..\lib\Release\vtkglew-8.2.lib;opengl32.lib;glu32.lib;dbghelp.lib;..\..\lib\Release\vtkFiltersCore-8.2.lib;..\..\lib\Release\vtkCommonExecutionModel-8.2.lib;..\..\lib\Release\vtkCommonDataModel-8.2.lib;..\..\lib\Release\vtkCommonSystem-8.2.lib;..\..\lib\Release\vtkCommonTransforms-8.2.lib;..\..\lib\Release\vtkCommonMisc-8.2.lib;..\..\lib\Release\vtkCommonMath-8.2.lib;..\..\lib\Release\vtkCommonCore-8.2.lib;..\..\lib\Release\vtksys-8.2.lib;ws2_32.lib;Psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/MeshEditor/90_Libraries/VTK-8.2.0/build/lib/Release/vtkRenderingOpenGL2-8.2.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/MeshEditor/90_Libraries/VTK-8.2.0/build/bin/Release/vtkRenderingOpenGL2-8.2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\CMakeFiles\2ca5d279d09b6dfc9aa5dffc0b9da1fe\vtkDepthOfFieldPassFS.h.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating vtkDepthOfFieldPassFS.h, vtkDepthOfFieldPassFS.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dsource_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2 -Dbinary_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Rendering/OpenGL2 -Dsource_file=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2/glsl/vtkDepthOfFieldPassFS.glsl -Doutput_name=vtkDepthOfFieldPassFS -Dexport_symbol=VTKRENDERINGOPENGL2_EXPORT -Dexport_header=vtkRenderingOpenGL2Module.h -D_vtk_encode_string_run=ON -P C:/MeshEditor/90_Libraries/VTK-8.2.0/src/CMake/vtkEncodeString.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/MeshEditor/90_Libraries/VTK-8.2.0/build/CMakeFiles/2ca5d279d09b6dfc9aa5dffc0b9da1fe/vtkDepthOfFieldPassFS.h.rule;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\CMake\vtkEncodeString.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\glsl\vtkDepthOfFieldPassFS.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkDepthOfFieldPassFS.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkDepthOfFieldPassFS.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating vtkDepthOfFieldPassFS.h, vtkDepthOfFieldPassFS.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dsource_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2 -Dbinary_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Rendering/OpenGL2 -Dsource_file=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2/glsl/vtkDepthOfFieldPassFS.glsl -Doutput_name=vtkDepthOfFieldPassFS -Dexport_symbol=VTKRENDERINGOPENGL2_EXPORT -Dexport_header=vtkRenderingOpenGL2Module.h -D_vtk_encode_string_run=ON -P C:/MeshEditor/90_Libraries/VTK-8.2.0/src/CMake/vtkEncodeString.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/MeshEditor/90_Libraries/VTK-8.2.0/build/CMakeFiles/2ca5d279d09b6dfc9aa5dffc0b9da1fe/vtkDepthOfFieldPassFS.h.rule;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\CMake\vtkEncodeString.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\glsl\vtkDepthOfFieldPassFS.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkDepthOfFieldPassFS.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkDepthOfFieldPassFS.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\CMakeFiles\2ca5d279d09b6dfc9aa5dffc0b9da1fe\vtkDepthPeelingPassFinalFS.h.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating vtkDepthPeelingPassFinalFS.h, vtkDepthPeelingPassFinalFS.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dsource_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2 -Dbinary_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Rendering/OpenGL2 -Dsource_file=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2/glsl/vtkDepthPeelingPassFinalFS.glsl -Doutput_name=vtkDepthPeelingPassFinalFS -Dexport_symbol=VTKRENDERINGOPENGL2_EXPORT -Dexport_header=vtkRenderingOpenGL2Module.h -D_vtk_encode_string_run=ON -P C:/MeshEditor/90_Libraries/VTK-8.2.0/src/CMake/vtkEncodeString.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/MeshEditor/90_Libraries/VTK-8.2.0/build/CMakeFiles/2ca5d279d09b6dfc9aa5dffc0b9da1fe/vtkDepthPeelingPassFinalFS.h.rule;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\CMake\vtkEncodeString.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\glsl\vtkDepthPeelingPassFinalFS.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkDepthPeelingPassFinalFS.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkDepthPeelingPassFinalFS.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating vtkDepthPeelingPassFinalFS.h, vtkDepthPeelingPassFinalFS.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dsource_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2 -Dbinary_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Rendering/OpenGL2 -Dsource_file=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2/glsl/vtkDepthPeelingPassFinalFS.glsl -Doutput_name=vtkDepthPeelingPassFinalFS -Dexport_symbol=VTKRENDERINGOPENGL2_EXPORT -Dexport_header=vtkRenderingOpenGL2Module.h -D_vtk_encode_string_run=ON -P C:/MeshEditor/90_Libraries/VTK-8.2.0/src/CMake/vtkEncodeString.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/MeshEditor/90_Libraries/VTK-8.2.0/build/CMakeFiles/2ca5d279d09b6dfc9aa5dffc0b9da1fe/vtkDepthPeelingPassFinalFS.h.rule;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\CMake\vtkEncodeString.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\glsl\vtkDepthPeelingPassFinalFS.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkDepthPeelingPassFinalFS.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkDepthPeelingPassFinalFS.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\CMakeFiles\2ca5d279d09b6dfc9aa5dffc0b9da1fe\vtkDepthPeelingPassIntermediateFS.h.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating vtkDepthPeelingPassIntermediateFS.h, vtkDepthPeelingPassIntermediateFS.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dsource_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2 -Dbinary_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Rendering/OpenGL2 -Dsource_file=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2/glsl/vtkDepthPeelingPassIntermediateFS.glsl -Doutput_name=vtkDepthPeelingPassIntermediateFS -Dexport_symbol=VTKRENDERINGOPENGL2_EXPORT -Dexport_header=vtkRenderingOpenGL2Module.h -D_vtk_encode_string_run=ON -P C:/MeshEditor/90_Libraries/VTK-8.2.0/src/CMake/vtkEncodeString.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/MeshEditor/90_Libraries/VTK-8.2.0/build/CMakeFiles/2ca5d279d09b6dfc9aa5dffc0b9da1fe/vtkDepthPeelingPassIntermediateFS.h.rule;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\CMake\vtkEncodeString.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\glsl\vtkDepthPeelingPassIntermediateFS.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkDepthPeelingPassIntermediateFS.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkDepthPeelingPassIntermediateFS.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating vtkDepthPeelingPassIntermediateFS.h, vtkDepthPeelingPassIntermediateFS.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dsource_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2 -Dbinary_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Rendering/OpenGL2 -Dsource_file=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2/glsl/vtkDepthPeelingPassIntermediateFS.glsl -Doutput_name=vtkDepthPeelingPassIntermediateFS -Dexport_symbol=VTKRENDERINGOPENGL2_EXPORT -Dexport_header=vtkRenderingOpenGL2Module.h -D_vtk_encode_string_run=ON -P C:/MeshEditor/90_Libraries/VTK-8.2.0/src/CMake/vtkEncodeString.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/MeshEditor/90_Libraries/VTK-8.2.0/build/CMakeFiles/2ca5d279d09b6dfc9aa5dffc0b9da1fe/vtkDepthPeelingPassIntermediateFS.h.rule;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\CMake\vtkEncodeString.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\glsl\vtkDepthPeelingPassIntermediateFS.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkDepthPeelingPassIntermediateFS.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkDepthPeelingPassIntermediateFS.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\CMakeFiles\2ca5d279d09b6dfc9aa5dffc0b9da1fe\vtkEDLBilateralFilterFS.h.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating vtkEDLBilateralFilterFS.h, vtkEDLBilateralFilterFS.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dsource_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2 -Dbinary_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Rendering/OpenGL2 -Dsource_file=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2/glsl/vtkEDLBilateralFilterFS.glsl -Doutput_name=vtkEDLBilateralFilterFS -Dexport_symbol=VTKRENDERINGOPENGL2_EXPORT -Dexport_header=vtkRenderingOpenGL2Module.h -D_vtk_encode_string_run=ON -P C:/MeshEditor/90_Libraries/VTK-8.2.0/src/CMake/vtkEncodeString.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/MeshEditor/90_Libraries/VTK-8.2.0/build/CMakeFiles/2ca5d279d09b6dfc9aa5dffc0b9da1fe/vtkEDLBilateralFilterFS.h.rule;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\CMake\vtkEncodeString.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\glsl\vtkEDLBilateralFilterFS.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkEDLBilateralFilterFS.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkEDLBilateralFilterFS.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating vtkEDLBilateralFilterFS.h, vtkEDLBilateralFilterFS.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dsource_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2 -Dbinary_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Rendering/OpenGL2 -Dsource_file=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2/glsl/vtkEDLBilateralFilterFS.glsl -Doutput_name=vtkEDLBilateralFilterFS -Dexport_symbol=VTKRENDERINGOPENGL2_EXPORT -Dexport_header=vtkRenderingOpenGL2Module.h -D_vtk_encode_string_run=ON -P C:/MeshEditor/90_Libraries/VTK-8.2.0/src/CMake/vtkEncodeString.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/MeshEditor/90_Libraries/VTK-8.2.0/build/CMakeFiles/2ca5d279d09b6dfc9aa5dffc0b9da1fe/vtkEDLBilateralFilterFS.h.rule;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\CMake\vtkEncodeString.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\glsl\vtkEDLBilateralFilterFS.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkEDLBilateralFilterFS.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkEDLBilateralFilterFS.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\CMakeFiles\2ca5d279d09b6dfc9aa5dffc0b9da1fe\vtkEDLComposeFS.h.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating vtkEDLComposeFS.h, vtkEDLComposeFS.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dsource_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2 -Dbinary_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Rendering/OpenGL2 -Dsource_file=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2/glsl/vtkEDLComposeFS.glsl -Doutput_name=vtkEDLComposeFS -Dexport_symbol=VTKRENDERINGOPENGL2_EXPORT -Dexport_header=vtkRenderingOpenGL2Module.h -D_vtk_encode_string_run=ON -P C:/MeshEditor/90_Libraries/VTK-8.2.0/src/CMake/vtkEncodeString.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/MeshEditor/90_Libraries/VTK-8.2.0/build/CMakeFiles/2ca5d279d09b6dfc9aa5dffc0b9da1fe/vtkEDLComposeFS.h.rule;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\CMake\vtkEncodeString.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\glsl\vtkEDLComposeFS.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkEDLComposeFS.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkEDLComposeFS.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating vtkEDLComposeFS.h, vtkEDLComposeFS.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dsource_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2 -Dbinary_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Rendering/OpenGL2 -Dsource_file=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2/glsl/vtkEDLComposeFS.glsl -Doutput_name=vtkEDLComposeFS -Dexport_symbol=VTKRENDERINGOPENGL2_EXPORT -Dexport_header=vtkRenderingOpenGL2Module.h -D_vtk_encode_string_run=ON -P C:/MeshEditor/90_Libraries/VTK-8.2.0/src/CMake/vtkEncodeString.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/MeshEditor/90_Libraries/VTK-8.2.0/build/CMakeFiles/2ca5d279d09b6dfc9aa5dffc0b9da1fe/vtkEDLComposeFS.h.rule;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\CMake\vtkEncodeString.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\glsl\vtkEDLComposeFS.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkEDLComposeFS.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkEDLComposeFS.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\CMakeFiles\2ca5d279d09b6dfc9aa5dffc0b9da1fe\vtkEDLShadeFS.h.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating vtkEDLShadeFS.h, vtkEDLShadeFS.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dsource_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2 -Dbinary_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Rendering/OpenGL2 -Dsource_file=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2/glsl/vtkEDLShadeFS.glsl -Doutput_name=vtkEDLShadeFS -Dexport_symbol=VTKRENDERINGOPENGL2_EXPORT -Dexport_header=vtkRenderingOpenGL2Module.h -D_vtk_encode_string_run=ON -P C:/MeshEditor/90_Libraries/VTK-8.2.0/src/CMake/vtkEncodeString.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/MeshEditor/90_Libraries/VTK-8.2.0/build/CMakeFiles/2ca5d279d09b6dfc9aa5dffc0b9da1fe/vtkEDLShadeFS.h.rule;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\CMake\vtkEncodeString.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\glsl\vtkEDLShadeFS.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkEDLShadeFS.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkEDLShadeFS.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating vtkEDLShadeFS.h, vtkEDLShadeFS.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dsource_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2 -Dbinary_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Rendering/OpenGL2 -Dsource_file=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2/glsl/vtkEDLShadeFS.glsl -Doutput_name=vtkEDLShadeFS -Dexport_symbol=VTKRENDERINGOPENGL2_EXPORT -Dexport_header=vtkRenderingOpenGL2Module.h -D_vtk_encode_string_run=ON -P C:/MeshEditor/90_Libraries/VTK-8.2.0/src/CMake/vtkEncodeString.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/MeshEditor/90_Libraries/VTK-8.2.0/build/CMakeFiles/2ca5d279d09b6dfc9aa5dffc0b9da1fe/vtkEDLShadeFS.h.rule;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\CMake\vtkEncodeString.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\glsl\vtkEDLShadeFS.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkEDLShadeFS.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkEDLShadeFS.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\CMakeFiles\2ca5d279d09b6dfc9aa5dffc0b9da1fe\vtkFXAAFilterFS.h.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating vtkFXAAFilterFS.h, vtkFXAAFilterFS.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dsource_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2 -Dbinary_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Rendering/OpenGL2 -Dsource_file=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2/glsl/vtkFXAAFilterFS.glsl -Doutput_name=vtkFXAAFilterFS -Dexport_symbol=VTKRENDERINGOPENGL2_EXPORT -Dexport_header=vtkRenderingOpenGL2Module.h -D_vtk_encode_string_run=ON -P C:/MeshEditor/90_Libraries/VTK-8.2.0/src/CMake/vtkEncodeString.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/MeshEditor/90_Libraries/VTK-8.2.0/build/CMakeFiles/2ca5d279d09b6dfc9aa5dffc0b9da1fe/vtkFXAAFilterFS.h.rule;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\CMake\vtkEncodeString.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\glsl\vtkFXAAFilterFS.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkFXAAFilterFS.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkFXAAFilterFS.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating vtkFXAAFilterFS.h, vtkFXAAFilterFS.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dsource_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2 -Dbinary_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Rendering/OpenGL2 -Dsource_file=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2/glsl/vtkFXAAFilterFS.glsl -Doutput_name=vtkFXAAFilterFS -Dexport_symbol=VTKRENDERINGOPENGL2_EXPORT -Dexport_header=vtkRenderingOpenGL2Module.h -D_vtk_encode_string_run=ON -P C:/MeshEditor/90_Libraries/VTK-8.2.0/src/CMake/vtkEncodeString.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/MeshEditor/90_Libraries/VTK-8.2.0/build/CMakeFiles/2ca5d279d09b6dfc9aa5dffc0b9da1fe/vtkFXAAFilterFS.h.rule;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\CMake\vtkEncodeString.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\glsl\vtkFXAAFilterFS.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkFXAAFilterFS.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkFXAAFilterFS.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\CMakeFiles\2ca5d279d09b6dfc9aa5dffc0b9da1fe\vtkGaussianBlurPassFS.h.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating vtkGaussianBlurPassFS.h, vtkGaussianBlurPassFS.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dsource_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2 -Dbinary_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Rendering/OpenGL2 -Dsource_file=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2/glsl/vtkGaussianBlurPassFS.glsl -Doutput_name=vtkGaussianBlurPassFS -Dexport_symbol=VTKRENDERINGOPENGL2_EXPORT -Dexport_header=vtkRenderingOpenGL2Module.h -D_vtk_encode_string_run=ON -P C:/MeshEditor/90_Libraries/VTK-8.2.0/src/CMake/vtkEncodeString.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/MeshEditor/90_Libraries/VTK-8.2.0/build/CMakeFiles/2ca5d279d09b6dfc9aa5dffc0b9da1fe/vtkGaussianBlurPassFS.h.rule;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\CMake\vtkEncodeString.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\glsl\vtkGaussianBlurPassFS.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkGaussianBlurPassFS.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkGaussianBlurPassFS.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating vtkGaussianBlurPassFS.h, vtkGaussianBlurPassFS.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dsource_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2 -Dbinary_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Rendering/OpenGL2 -Dsource_file=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2/glsl/vtkGaussianBlurPassFS.glsl -Doutput_name=vtkGaussianBlurPassFS -Dexport_symbol=VTKRENDERINGOPENGL2_EXPORT -Dexport_header=vtkRenderingOpenGL2Module.h -D_vtk_encode_string_run=ON -P C:/MeshEditor/90_Libraries/VTK-8.2.0/src/CMake/vtkEncodeString.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/MeshEditor/90_Libraries/VTK-8.2.0/build/CMakeFiles/2ca5d279d09b6dfc9aa5dffc0b9da1fe/vtkGaussianBlurPassFS.h.rule;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\CMake\vtkEncodeString.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\glsl\vtkGaussianBlurPassFS.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkGaussianBlurPassFS.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkGaussianBlurPassFS.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\CMakeFiles\2ca5d279d09b6dfc9aa5dffc0b9da1fe\vtkGaussianBlurPassVS.h.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating vtkGaussianBlurPassVS.h, vtkGaussianBlurPassVS.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dsource_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2 -Dbinary_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Rendering/OpenGL2 -Dsource_file=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2/glsl/vtkGaussianBlurPassVS.glsl -Doutput_name=vtkGaussianBlurPassVS -Dexport_symbol=VTKRENDERINGOPENGL2_EXPORT -Dexport_header=vtkRenderingOpenGL2Module.h -D_vtk_encode_string_run=ON -P C:/MeshEditor/90_Libraries/VTK-8.2.0/src/CMake/vtkEncodeString.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/MeshEditor/90_Libraries/VTK-8.2.0/build/CMakeFiles/2ca5d279d09b6dfc9aa5dffc0b9da1fe/vtkGaussianBlurPassVS.h.rule;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\CMake\vtkEncodeString.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\glsl\vtkGaussianBlurPassVS.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkGaussianBlurPassVS.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkGaussianBlurPassVS.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating vtkGaussianBlurPassVS.h, vtkGaussianBlurPassVS.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dsource_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2 -Dbinary_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Rendering/OpenGL2 -Dsource_file=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2/glsl/vtkGaussianBlurPassVS.glsl -Doutput_name=vtkGaussianBlurPassVS -Dexport_symbol=VTKRENDERINGOPENGL2_EXPORT -Dexport_header=vtkRenderingOpenGL2Module.h -D_vtk_encode_string_run=ON -P C:/MeshEditor/90_Libraries/VTK-8.2.0/src/CMake/vtkEncodeString.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/MeshEditor/90_Libraries/VTK-8.2.0/build/CMakeFiles/2ca5d279d09b6dfc9aa5dffc0b9da1fe/vtkGaussianBlurPassVS.h.rule;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\CMake\vtkEncodeString.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\glsl\vtkGaussianBlurPassVS.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkGaussianBlurPassVS.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkGaussianBlurPassVS.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\CMakeFiles\2ca5d279d09b6dfc9aa5dffc0b9da1fe\vtkGlyph3DVS.h.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating vtkGlyph3DVS.h, vtkGlyph3DVS.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dsource_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2 -Dbinary_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Rendering/OpenGL2 -Dsource_file=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2/glsl/vtkGlyph3DVS.glsl -Doutput_name=vtkGlyph3DVS -Dexport_symbol=VTKRENDERINGOPENGL2_EXPORT -Dexport_header=vtkRenderingOpenGL2Module.h -D_vtk_encode_string_run=ON -P C:/MeshEditor/90_Libraries/VTK-8.2.0/src/CMake/vtkEncodeString.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/MeshEditor/90_Libraries/VTK-8.2.0/build/CMakeFiles/2ca5d279d09b6dfc9aa5dffc0b9da1fe/vtkGlyph3DVS.h.rule;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\CMake\vtkEncodeString.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\glsl\vtkGlyph3DVS.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkGlyph3DVS.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkGlyph3DVS.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating vtkGlyph3DVS.h, vtkGlyph3DVS.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dsource_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2 -Dbinary_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Rendering/OpenGL2 -Dsource_file=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2/glsl/vtkGlyph3DVS.glsl -Doutput_name=vtkGlyph3DVS -Dexport_symbol=VTKRENDERINGOPENGL2_EXPORT -Dexport_header=vtkRenderingOpenGL2Module.h -D_vtk_encode_string_run=ON -P C:/MeshEditor/90_Libraries/VTK-8.2.0/src/CMake/vtkEncodeString.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/MeshEditor/90_Libraries/VTK-8.2.0/build/CMakeFiles/2ca5d279d09b6dfc9aa5dffc0b9da1fe/vtkGlyph3DVS.h.rule;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\CMake\vtkEncodeString.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\glsl\vtkGlyph3DVS.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkGlyph3DVS.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkGlyph3DVS.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\CMakeFiles\2ca5d279d09b6dfc9aa5dffc0b9da1fe\vtkOrderIndependentTranslucentPassFinalFS.h.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating vtkOrderIndependentTranslucentPassFinalFS.h, vtkOrderIndependentTranslucentPassFinalFS.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dsource_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2 -Dbinary_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Rendering/OpenGL2 -Dsource_file=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2/glsl/vtkOrderIndependentTranslucentPassFinalFS.glsl -Doutput_name=vtkOrderIndependentTranslucentPassFinalFS -Dexport_symbol=VTKRENDERINGOPENGL2_EXPORT -Dexport_header=vtkRenderingOpenGL2Module.h -D_vtk_encode_string_run=ON -P C:/MeshEditor/90_Libraries/VTK-8.2.0/src/CMake/vtkEncodeString.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/MeshEditor/90_Libraries/VTK-8.2.0/build/CMakeFiles/2ca5d279d09b6dfc9aa5dffc0b9da1fe/vtkOrderIndependentTranslucentPassFinalFS.h.rule;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\CMake\vtkEncodeString.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\glsl\vtkOrderIndependentTranslucentPassFinalFS.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkOrderIndependentTranslucentPassFinalFS.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkOrderIndependentTranslucentPassFinalFS.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating vtkOrderIndependentTranslucentPassFinalFS.h, vtkOrderIndependentTranslucentPassFinalFS.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dsource_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2 -Dbinary_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Rendering/OpenGL2 -Dsource_file=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2/glsl/vtkOrderIndependentTranslucentPassFinalFS.glsl -Doutput_name=vtkOrderIndependentTranslucentPassFinalFS -Dexport_symbol=VTKRENDERINGOPENGL2_EXPORT -Dexport_header=vtkRenderingOpenGL2Module.h -D_vtk_encode_string_run=ON -P C:/MeshEditor/90_Libraries/VTK-8.2.0/src/CMake/vtkEncodeString.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/MeshEditor/90_Libraries/VTK-8.2.0/build/CMakeFiles/2ca5d279d09b6dfc9aa5dffc0b9da1fe/vtkOrderIndependentTranslucentPassFinalFS.h.rule;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\CMake\vtkEncodeString.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\glsl\vtkOrderIndependentTranslucentPassFinalFS.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkOrderIndependentTranslucentPassFinalFS.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkOrderIndependentTranslucentPassFinalFS.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\CMakeFiles\2ca5d279d09b6dfc9aa5dffc0b9da1fe\vtkPointGaussianVS.h.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating vtkPointGaussianVS.h, vtkPointGaussianVS.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dsource_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2 -Dbinary_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Rendering/OpenGL2 -Dsource_file=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2/glsl/vtkPointGaussianVS.glsl -Doutput_name=vtkPointGaussianVS -Dexport_symbol=VTKRENDERINGOPENGL2_EXPORT -Dexport_header=vtkRenderingOpenGL2Module.h -D_vtk_encode_string_run=ON -P C:/MeshEditor/90_Libraries/VTK-8.2.0/src/CMake/vtkEncodeString.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/MeshEditor/90_Libraries/VTK-8.2.0/build/CMakeFiles/2ca5d279d09b6dfc9aa5dffc0b9da1fe/vtkPointGaussianVS.h.rule;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\CMake\vtkEncodeString.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\glsl\vtkPointGaussianVS.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkPointGaussianVS.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkPointGaussianVS.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating vtkPointGaussianVS.h, vtkPointGaussianVS.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dsource_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2 -Dbinary_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Rendering/OpenGL2 -Dsource_file=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2/glsl/vtkPointGaussianVS.glsl -Doutput_name=vtkPointGaussianVS -Dexport_symbol=VTKRENDERINGOPENGL2_EXPORT -Dexport_header=vtkRenderingOpenGL2Module.h -D_vtk_encode_string_run=ON -P C:/MeshEditor/90_Libraries/VTK-8.2.0/src/CMake/vtkEncodeString.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/MeshEditor/90_Libraries/VTK-8.2.0/build/CMakeFiles/2ca5d279d09b6dfc9aa5dffc0b9da1fe/vtkPointGaussianVS.h.rule;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\CMake\vtkEncodeString.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\glsl\vtkPointGaussianVS.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkPointGaussianVS.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkPointGaussianVS.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\CMakeFiles\2ca5d279d09b6dfc9aa5dffc0b9da1fe\vtkPointGaussianGS.h.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating vtkPointGaussianGS.h, vtkPointGaussianGS.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dsource_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2 -Dbinary_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Rendering/OpenGL2 -Dsource_file=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2/glsl/vtkPointGaussianGS.glsl -Doutput_name=vtkPointGaussianGS -Dexport_symbol=VTKRENDERINGOPENGL2_EXPORT -Dexport_header=vtkRenderingOpenGL2Module.h -D_vtk_encode_string_run=ON -P C:/MeshEditor/90_Libraries/VTK-8.2.0/src/CMake/vtkEncodeString.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/MeshEditor/90_Libraries/VTK-8.2.0/build/CMakeFiles/2ca5d279d09b6dfc9aa5dffc0b9da1fe/vtkPointGaussianGS.h.rule;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\CMake\vtkEncodeString.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\glsl\vtkPointGaussianGS.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkPointGaussianGS.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkPointGaussianGS.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating vtkPointGaussianGS.h, vtkPointGaussianGS.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dsource_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2 -Dbinary_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Rendering/OpenGL2 -Dsource_file=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2/glsl/vtkPointGaussianGS.glsl -Doutput_name=vtkPointGaussianGS -Dexport_symbol=VTKRENDERINGOPENGL2_EXPORT -Dexport_header=vtkRenderingOpenGL2Module.h -D_vtk_encode_string_run=ON -P C:/MeshEditor/90_Libraries/VTK-8.2.0/src/CMake/vtkEncodeString.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/MeshEditor/90_Libraries/VTK-8.2.0/build/CMakeFiles/2ca5d279d09b6dfc9aa5dffc0b9da1fe/vtkPointGaussianGS.h.rule;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\CMake\vtkEncodeString.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\glsl\vtkPointGaussianGS.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkPointGaussianGS.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkPointGaussianGS.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\CMakeFiles\2ca5d279d09b6dfc9aa5dffc0b9da1fe\vtkPointFillPassFS.h.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating vtkPointFillPassFS.h, vtkPointFillPassFS.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dsource_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2 -Dbinary_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Rendering/OpenGL2 -Dsource_file=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2/glsl/vtkPointFillPassFS.glsl -Doutput_name=vtkPointFillPassFS -Dexport_symbol=VTKRENDERINGOPENGL2_EXPORT -Dexport_header=vtkRenderingOpenGL2Module.h -D_vtk_encode_string_run=ON -P C:/MeshEditor/90_Libraries/VTK-8.2.0/src/CMake/vtkEncodeString.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/MeshEditor/90_Libraries/VTK-8.2.0/build/CMakeFiles/2ca5d279d09b6dfc9aa5dffc0b9da1fe/vtkPointFillPassFS.h.rule;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\CMake\vtkEncodeString.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\glsl\vtkPointFillPassFS.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkPointFillPassFS.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkPointFillPassFS.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating vtkPointFillPassFS.h, vtkPointFillPassFS.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dsource_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2 -Dbinary_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Rendering/OpenGL2 -Dsource_file=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2/glsl/vtkPointFillPassFS.glsl -Doutput_name=vtkPointFillPassFS -Dexport_symbol=VTKRENDERINGOPENGL2_EXPORT -Dexport_header=vtkRenderingOpenGL2Module.h -D_vtk_encode_string_run=ON -P C:/MeshEditor/90_Libraries/VTK-8.2.0/src/CMake/vtkEncodeString.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/MeshEditor/90_Libraries/VTK-8.2.0/build/CMakeFiles/2ca5d279d09b6dfc9aa5dffc0b9da1fe/vtkPointFillPassFS.h.rule;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\CMake\vtkEncodeString.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\glsl\vtkPointFillPassFS.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkPointFillPassFS.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkPointFillPassFS.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\CMakeFiles\2ca5d279d09b6dfc9aa5dffc0b9da1fe\vtkPolyData2DFS.h.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating vtkPolyData2DFS.h, vtkPolyData2DFS.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dsource_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2 -Dbinary_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Rendering/OpenGL2 -Dsource_file=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2/glsl/vtkPolyData2DFS.glsl -Doutput_name=vtkPolyData2DFS -Dexport_symbol=VTKRENDERINGOPENGL2_EXPORT -Dexport_header=vtkRenderingOpenGL2Module.h -D_vtk_encode_string_run=ON -P C:/MeshEditor/90_Libraries/VTK-8.2.0/src/CMake/vtkEncodeString.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/MeshEditor/90_Libraries/VTK-8.2.0/build/CMakeFiles/2ca5d279d09b6dfc9aa5dffc0b9da1fe/vtkPolyData2DFS.h.rule;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\CMake\vtkEncodeString.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\glsl\vtkPolyData2DFS.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkPolyData2DFS.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkPolyData2DFS.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating vtkPolyData2DFS.h, vtkPolyData2DFS.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dsource_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2 -Dbinary_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Rendering/OpenGL2 -Dsource_file=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2/glsl/vtkPolyData2DFS.glsl -Doutput_name=vtkPolyData2DFS -Dexport_symbol=VTKRENDERINGOPENGL2_EXPORT -Dexport_header=vtkRenderingOpenGL2Module.h -D_vtk_encode_string_run=ON -P C:/MeshEditor/90_Libraries/VTK-8.2.0/src/CMake/vtkEncodeString.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/MeshEditor/90_Libraries/VTK-8.2.0/build/CMakeFiles/2ca5d279d09b6dfc9aa5dffc0b9da1fe/vtkPolyData2DFS.h.rule;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\CMake\vtkEncodeString.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\glsl\vtkPolyData2DFS.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkPolyData2DFS.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkPolyData2DFS.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\CMakeFiles\2ca5d279d09b6dfc9aa5dffc0b9da1fe\vtkPolyData2DVS.h.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating vtkPolyData2DVS.h, vtkPolyData2DVS.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dsource_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2 -Dbinary_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Rendering/OpenGL2 -Dsource_file=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2/glsl/vtkPolyData2DVS.glsl -Doutput_name=vtkPolyData2DVS -Dexport_symbol=VTKRENDERINGOPENGL2_EXPORT -Dexport_header=vtkRenderingOpenGL2Module.h -D_vtk_encode_string_run=ON -P C:/MeshEditor/90_Libraries/VTK-8.2.0/src/CMake/vtkEncodeString.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/MeshEditor/90_Libraries/VTK-8.2.0/build/CMakeFiles/2ca5d279d09b6dfc9aa5dffc0b9da1fe/vtkPolyData2DVS.h.rule;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\CMake\vtkEncodeString.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\glsl\vtkPolyData2DVS.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkPolyData2DVS.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkPolyData2DVS.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating vtkPolyData2DVS.h, vtkPolyData2DVS.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dsource_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2 -Dbinary_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Rendering/OpenGL2 -Dsource_file=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2/glsl/vtkPolyData2DVS.glsl -Doutput_name=vtkPolyData2DVS -Dexport_symbol=VTKRENDERINGOPENGL2_EXPORT -Dexport_header=vtkRenderingOpenGL2Module.h -D_vtk_encode_string_run=ON -P C:/MeshEditor/90_Libraries/VTK-8.2.0/src/CMake/vtkEncodeString.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/MeshEditor/90_Libraries/VTK-8.2.0/build/CMakeFiles/2ca5d279d09b6dfc9aa5dffc0b9da1fe/vtkPolyData2DVS.h.rule;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\CMake\vtkEncodeString.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\glsl\vtkPolyData2DVS.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkPolyData2DVS.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkPolyData2DVS.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\CMakeFiles\2ca5d279d09b6dfc9aa5dffc0b9da1fe\vtkPolyDataFS.h.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating vtkPolyDataFS.h, vtkPolyDataFS.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dsource_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2 -Dbinary_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Rendering/OpenGL2 -Dsource_file=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2/glsl/vtkPolyDataFS.glsl -Doutput_name=vtkPolyDataFS -Dexport_symbol=VTKRENDERINGOPENGL2_EXPORT -Dexport_header=vtkRenderingOpenGL2Module.h -D_vtk_encode_string_run=ON -P C:/MeshEditor/90_Libraries/VTK-8.2.0/src/CMake/vtkEncodeString.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/MeshEditor/90_Libraries/VTK-8.2.0/build/CMakeFiles/2ca5d279d09b6dfc9aa5dffc0b9da1fe/vtkPolyDataFS.h.rule;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\CMake\vtkEncodeString.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\glsl\vtkPolyDataFS.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkPolyDataFS.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkPolyDataFS.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating vtkPolyDataFS.h, vtkPolyDataFS.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dsource_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2 -Dbinary_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Rendering/OpenGL2 -Dsource_file=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2/glsl/vtkPolyDataFS.glsl -Doutput_name=vtkPolyDataFS -Dexport_symbol=VTKRENDERINGOPENGL2_EXPORT -Dexport_header=vtkRenderingOpenGL2Module.h -D_vtk_encode_string_run=ON -P C:/MeshEditor/90_Libraries/VTK-8.2.0/src/CMake/vtkEncodeString.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/MeshEditor/90_Libraries/VTK-8.2.0/build/CMakeFiles/2ca5d279d09b6dfc9aa5dffc0b9da1fe/vtkPolyDataFS.h.rule;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\CMake\vtkEncodeString.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\glsl\vtkPolyDataFS.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkPolyDataFS.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkPolyDataFS.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\CMakeFiles\2ca5d279d09b6dfc9aa5dffc0b9da1fe\vtkPolyDataVS.h.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating vtkPolyDataVS.h, vtkPolyDataVS.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dsource_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2 -Dbinary_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Rendering/OpenGL2 -Dsource_file=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2/glsl/vtkPolyDataVS.glsl -Doutput_name=vtkPolyDataVS -Dexport_symbol=VTKRENDERINGOPENGL2_EXPORT -Dexport_header=vtkRenderingOpenGL2Module.h -D_vtk_encode_string_run=ON -P C:/MeshEditor/90_Libraries/VTK-8.2.0/src/CMake/vtkEncodeString.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/MeshEditor/90_Libraries/VTK-8.2.0/build/CMakeFiles/2ca5d279d09b6dfc9aa5dffc0b9da1fe/vtkPolyDataVS.h.rule;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\CMake\vtkEncodeString.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\glsl\vtkPolyDataVS.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkPolyDataVS.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkPolyDataVS.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating vtkPolyDataVS.h, vtkPolyDataVS.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dsource_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2 -Dbinary_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Rendering/OpenGL2 -Dsource_file=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2/glsl/vtkPolyDataVS.glsl -Doutput_name=vtkPolyDataVS -Dexport_symbol=VTKRENDERINGOPENGL2_EXPORT -Dexport_header=vtkRenderingOpenGL2Module.h -D_vtk_encode_string_run=ON -P C:/MeshEditor/90_Libraries/VTK-8.2.0/src/CMake/vtkEncodeString.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/MeshEditor/90_Libraries/VTK-8.2.0/build/CMakeFiles/2ca5d279d09b6dfc9aa5dffc0b9da1fe/vtkPolyDataVS.h.rule;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\CMake\vtkEncodeString.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\glsl\vtkPolyDataVS.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkPolyDataVS.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkPolyDataVS.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\CMakeFiles\2ca5d279d09b6dfc9aa5dffc0b9da1fe\vtkPolyDataWideLineGS.h.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating vtkPolyDataWideLineGS.h, vtkPolyDataWideLineGS.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dsource_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2 -Dbinary_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Rendering/OpenGL2 -Dsource_file=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2/glsl/vtkPolyDataWideLineGS.glsl -Doutput_name=vtkPolyDataWideLineGS -Dexport_symbol=VTKRENDERINGOPENGL2_EXPORT -Dexport_header=vtkRenderingOpenGL2Module.h -D_vtk_encode_string_run=ON -P C:/MeshEditor/90_Libraries/VTK-8.2.0/src/CMake/vtkEncodeString.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/MeshEditor/90_Libraries/VTK-8.2.0/build/CMakeFiles/2ca5d279d09b6dfc9aa5dffc0b9da1fe/vtkPolyDataWideLineGS.h.rule;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\CMake\vtkEncodeString.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\glsl\vtkPolyDataWideLineGS.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkPolyDataWideLineGS.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkPolyDataWideLineGS.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating vtkPolyDataWideLineGS.h, vtkPolyDataWideLineGS.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dsource_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2 -Dbinary_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Rendering/OpenGL2 -Dsource_file=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2/glsl/vtkPolyDataWideLineGS.glsl -Doutput_name=vtkPolyDataWideLineGS -Dexport_symbol=VTKRENDERINGOPENGL2_EXPORT -Dexport_header=vtkRenderingOpenGL2Module.h -D_vtk_encode_string_run=ON -P C:/MeshEditor/90_Libraries/VTK-8.2.0/src/CMake/vtkEncodeString.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/MeshEditor/90_Libraries/VTK-8.2.0/build/CMakeFiles/2ca5d279d09b6dfc9aa5dffc0b9da1fe/vtkPolyDataWideLineGS.h.rule;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\CMake\vtkEncodeString.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\glsl\vtkPolyDataWideLineGS.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkPolyDataWideLineGS.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkPolyDataWideLineGS.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\CMakeFiles\2ca5d279d09b6dfc9aa5dffc0b9da1fe\vtkSSAAPassFS.h.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating vtkSSAAPassFS.h, vtkSSAAPassFS.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dsource_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2 -Dbinary_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Rendering/OpenGL2 -Dsource_file=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2/glsl/vtkSSAAPassFS.glsl -Doutput_name=vtkSSAAPassFS -Dexport_symbol=VTKRENDERINGOPENGL2_EXPORT -Dexport_header=vtkRenderingOpenGL2Module.h -D_vtk_encode_string_run=ON -P C:/MeshEditor/90_Libraries/VTK-8.2.0/src/CMake/vtkEncodeString.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/MeshEditor/90_Libraries/VTK-8.2.0/build/CMakeFiles/2ca5d279d09b6dfc9aa5dffc0b9da1fe/vtkSSAAPassFS.h.rule;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\CMake\vtkEncodeString.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\glsl\vtkSSAAPassFS.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkSSAAPassFS.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkSSAAPassFS.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating vtkSSAAPassFS.h, vtkSSAAPassFS.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dsource_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2 -Dbinary_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Rendering/OpenGL2 -Dsource_file=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2/glsl/vtkSSAAPassFS.glsl -Doutput_name=vtkSSAAPassFS -Dexport_symbol=VTKRENDERINGOPENGL2_EXPORT -Dexport_header=vtkRenderingOpenGL2Module.h -D_vtk_encode_string_run=ON -P C:/MeshEditor/90_Libraries/VTK-8.2.0/src/CMake/vtkEncodeString.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/MeshEditor/90_Libraries/VTK-8.2.0/build/CMakeFiles/2ca5d279d09b6dfc9aa5dffc0b9da1fe/vtkSSAAPassFS.h.rule;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\CMake\vtkEncodeString.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\glsl\vtkSSAAPassFS.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkSSAAPassFS.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkSSAAPassFS.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\CMakeFiles\2ca5d279d09b6dfc9aa5dffc0b9da1fe\vtkSimpleMotionBlurPassFS.h.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating vtkSimpleMotionBlurPassFS.h, vtkSimpleMotionBlurPassFS.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dsource_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2 -Dbinary_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Rendering/OpenGL2 -Dsource_file=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2/glsl/vtkSimpleMotionBlurPassFS.glsl -Doutput_name=vtkSimpleMotionBlurPassFS -Dexport_symbol=VTKRENDERINGOPENGL2_EXPORT -Dexport_header=vtkRenderingOpenGL2Module.h -D_vtk_encode_string_run=ON -P C:/MeshEditor/90_Libraries/VTK-8.2.0/src/CMake/vtkEncodeString.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/MeshEditor/90_Libraries/VTK-8.2.0/build/CMakeFiles/2ca5d279d09b6dfc9aa5dffc0b9da1fe/vtkSimpleMotionBlurPassFS.h.rule;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\CMake\vtkEncodeString.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\glsl\vtkSimpleMotionBlurPassFS.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkSimpleMotionBlurPassFS.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkSimpleMotionBlurPassFS.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating vtkSimpleMotionBlurPassFS.h, vtkSimpleMotionBlurPassFS.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dsource_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2 -Dbinary_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Rendering/OpenGL2 -Dsource_file=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2/glsl/vtkSimpleMotionBlurPassFS.glsl -Doutput_name=vtkSimpleMotionBlurPassFS -Dexport_symbol=VTKRENDERINGOPENGL2_EXPORT -Dexport_header=vtkRenderingOpenGL2Module.h -D_vtk_encode_string_run=ON -P C:/MeshEditor/90_Libraries/VTK-8.2.0/src/CMake/vtkEncodeString.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/MeshEditor/90_Libraries/VTK-8.2.0/build/CMakeFiles/2ca5d279d09b6dfc9aa5dffc0b9da1fe/vtkSimpleMotionBlurPassFS.h.rule;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\CMake\vtkEncodeString.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\glsl\vtkSimpleMotionBlurPassFS.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkSimpleMotionBlurPassFS.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkSimpleMotionBlurPassFS.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\CMakeFiles\2ca5d279d09b6dfc9aa5dffc0b9da1fe\vtkSobelGradientMagnitudePass1FS.h.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating vtkSobelGradientMagnitudePass1FS.h, vtkSobelGradientMagnitudePass1FS.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dsource_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2 -Dbinary_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Rendering/OpenGL2 -Dsource_file=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2/glsl/vtkSobelGradientMagnitudePass1FS.glsl -Doutput_name=vtkSobelGradientMagnitudePass1FS -Dexport_symbol=VTKRENDERINGOPENGL2_EXPORT -Dexport_header=vtkRenderingOpenGL2Module.h -D_vtk_encode_string_run=ON -P C:/MeshEditor/90_Libraries/VTK-8.2.0/src/CMake/vtkEncodeString.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/MeshEditor/90_Libraries/VTK-8.2.0/build/CMakeFiles/2ca5d279d09b6dfc9aa5dffc0b9da1fe/vtkSobelGradientMagnitudePass1FS.h.rule;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\CMake\vtkEncodeString.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\glsl\vtkSobelGradientMagnitudePass1FS.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkSobelGradientMagnitudePass1FS.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkSobelGradientMagnitudePass1FS.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating vtkSobelGradientMagnitudePass1FS.h, vtkSobelGradientMagnitudePass1FS.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dsource_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2 -Dbinary_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Rendering/OpenGL2 -Dsource_file=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2/glsl/vtkSobelGradientMagnitudePass1FS.glsl -Doutput_name=vtkSobelGradientMagnitudePass1FS -Dexport_symbol=VTKRENDERINGOPENGL2_EXPORT -Dexport_header=vtkRenderingOpenGL2Module.h -D_vtk_encode_string_run=ON -P C:/MeshEditor/90_Libraries/VTK-8.2.0/src/CMake/vtkEncodeString.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/MeshEditor/90_Libraries/VTK-8.2.0/build/CMakeFiles/2ca5d279d09b6dfc9aa5dffc0b9da1fe/vtkSobelGradientMagnitudePass1FS.h.rule;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\CMake\vtkEncodeString.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\glsl\vtkSobelGradientMagnitudePass1FS.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkSobelGradientMagnitudePass1FS.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkSobelGradientMagnitudePass1FS.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\CMakeFiles\2ca5d279d09b6dfc9aa5dffc0b9da1fe\vtkSobelGradientMagnitudePass2FS.h.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating vtkSobelGradientMagnitudePass2FS.h, vtkSobelGradientMagnitudePass2FS.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dsource_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2 -Dbinary_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Rendering/OpenGL2 -Dsource_file=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2/glsl/vtkSobelGradientMagnitudePass2FS.glsl -Doutput_name=vtkSobelGradientMagnitudePass2FS -Dexport_symbol=VTKRENDERINGOPENGL2_EXPORT -Dexport_header=vtkRenderingOpenGL2Module.h -D_vtk_encode_string_run=ON -P C:/MeshEditor/90_Libraries/VTK-8.2.0/src/CMake/vtkEncodeString.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/MeshEditor/90_Libraries/VTK-8.2.0/build/CMakeFiles/2ca5d279d09b6dfc9aa5dffc0b9da1fe/vtkSobelGradientMagnitudePass2FS.h.rule;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\CMake\vtkEncodeString.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\glsl\vtkSobelGradientMagnitudePass2FS.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkSobelGradientMagnitudePass2FS.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkSobelGradientMagnitudePass2FS.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating vtkSobelGradientMagnitudePass2FS.h, vtkSobelGradientMagnitudePass2FS.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dsource_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2 -Dbinary_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Rendering/OpenGL2 -Dsource_file=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2/glsl/vtkSobelGradientMagnitudePass2FS.glsl -Doutput_name=vtkSobelGradientMagnitudePass2FS -Dexport_symbol=VTKRENDERINGOPENGL2_EXPORT -Dexport_header=vtkRenderingOpenGL2Module.h -D_vtk_encode_string_run=ON -P C:/MeshEditor/90_Libraries/VTK-8.2.0/src/CMake/vtkEncodeString.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/MeshEditor/90_Libraries/VTK-8.2.0/build/CMakeFiles/2ca5d279d09b6dfc9aa5dffc0b9da1fe/vtkSobelGradientMagnitudePass2FS.h.rule;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\CMake\vtkEncodeString.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\glsl\vtkSobelGradientMagnitudePass2FS.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkSobelGradientMagnitudePass2FS.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkSobelGradientMagnitudePass2FS.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\CMakeFiles\2ca5d279d09b6dfc9aa5dffc0b9da1fe\vtkSphereMapperGS.h.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating vtkSphereMapperGS.h, vtkSphereMapperGS.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dsource_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2 -Dbinary_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Rendering/OpenGL2 -Dsource_file=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2/glsl/vtkSphereMapperGS.glsl -Doutput_name=vtkSphereMapperGS -Dexport_symbol=VTKRENDERINGOPENGL2_EXPORT -Dexport_header=vtkRenderingOpenGL2Module.h -D_vtk_encode_string_run=ON -P C:/MeshEditor/90_Libraries/VTK-8.2.0/src/CMake/vtkEncodeString.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/MeshEditor/90_Libraries/VTK-8.2.0/build/CMakeFiles/2ca5d279d09b6dfc9aa5dffc0b9da1fe/vtkSphereMapperGS.h.rule;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\CMake\vtkEncodeString.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\glsl\vtkSphereMapperGS.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkSphereMapperGS.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkSphereMapperGS.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating vtkSphereMapperGS.h, vtkSphereMapperGS.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dsource_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2 -Dbinary_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Rendering/OpenGL2 -Dsource_file=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2/glsl/vtkSphereMapperGS.glsl -Doutput_name=vtkSphereMapperGS -Dexport_symbol=VTKRENDERINGOPENGL2_EXPORT -Dexport_header=vtkRenderingOpenGL2Module.h -D_vtk_encode_string_run=ON -P C:/MeshEditor/90_Libraries/VTK-8.2.0/src/CMake/vtkEncodeString.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/MeshEditor/90_Libraries/VTK-8.2.0/build/CMakeFiles/2ca5d279d09b6dfc9aa5dffc0b9da1fe/vtkSphereMapperGS.h.rule;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\CMake\vtkEncodeString.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\glsl\vtkSphereMapperGS.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkSphereMapperGS.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkSphereMapperGS.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\CMakeFiles\2ca5d279d09b6dfc9aa5dffc0b9da1fe\vtkStickMapperGS.h.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating vtkStickMapperGS.h, vtkStickMapperGS.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dsource_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2 -Dbinary_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Rendering/OpenGL2 -Dsource_file=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2/glsl/vtkStickMapperGS.glsl -Doutput_name=vtkStickMapperGS -Dexport_symbol=VTKRENDERINGOPENGL2_EXPORT -Dexport_header=vtkRenderingOpenGL2Module.h -D_vtk_encode_string_run=ON -P C:/MeshEditor/90_Libraries/VTK-8.2.0/src/CMake/vtkEncodeString.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/MeshEditor/90_Libraries/VTK-8.2.0/build/CMakeFiles/2ca5d279d09b6dfc9aa5dffc0b9da1fe/vtkStickMapperGS.h.rule;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\CMake\vtkEncodeString.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\glsl\vtkStickMapperGS.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkStickMapperGS.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkStickMapperGS.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating vtkStickMapperGS.h, vtkStickMapperGS.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dsource_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2 -Dbinary_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Rendering/OpenGL2 -Dsource_file=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2/glsl/vtkStickMapperGS.glsl -Doutput_name=vtkStickMapperGS -Dexport_symbol=VTKRENDERINGOPENGL2_EXPORT -Dexport_header=vtkRenderingOpenGL2Module.h -D_vtk_encode_string_run=ON -P C:/MeshEditor/90_Libraries/VTK-8.2.0/src/CMake/vtkEncodeString.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/MeshEditor/90_Libraries/VTK-8.2.0/build/CMakeFiles/2ca5d279d09b6dfc9aa5dffc0b9da1fe/vtkStickMapperGS.h.rule;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\CMake\vtkEncodeString.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\glsl\vtkStickMapperGS.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkStickMapperGS.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkStickMapperGS.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\CMakeFiles\2ca5d279d09b6dfc9aa5dffc0b9da1fe\vtkTextureObjectFS.h.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating vtkTextureObjectFS.h, vtkTextureObjectFS.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dsource_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2 -Dbinary_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Rendering/OpenGL2 -Dsource_file=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2/glsl/vtkTextureObjectFS.glsl -Doutput_name=vtkTextureObjectFS -Dexport_symbol=VTKRENDERINGOPENGL2_EXPORT -Dexport_header=vtkRenderingOpenGL2Module.h -D_vtk_encode_string_run=ON -P C:/MeshEditor/90_Libraries/VTK-8.2.0/src/CMake/vtkEncodeString.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/MeshEditor/90_Libraries/VTK-8.2.0/build/CMakeFiles/2ca5d279d09b6dfc9aa5dffc0b9da1fe/vtkTextureObjectFS.h.rule;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\CMake\vtkEncodeString.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\glsl\vtkTextureObjectFS.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkTextureObjectFS.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkTextureObjectFS.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating vtkTextureObjectFS.h, vtkTextureObjectFS.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dsource_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2 -Dbinary_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Rendering/OpenGL2 -Dsource_file=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2/glsl/vtkTextureObjectFS.glsl -Doutput_name=vtkTextureObjectFS -Dexport_symbol=VTKRENDERINGOPENGL2_EXPORT -Dexport_header=vtkRenderingOpenGL2Module.h -D_vtk_encode_string_run=ON -P C:/MeshEditor/90_Libraries/VTK-8.2.0/src/CMake/vtkEncodeString.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/MeshEditor/90_Libraries/VTK-8.2.0/build/CMakeFiles/2ca5d279d09b6dfc9aa5dffc0b9da1fe/vtkTextureObjectFS.h.rule;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\CMake\vtkEncodeString.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\glsl\vtkTextureObjectFS.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkTextureObjectFS.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkTextureObjectFS.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\CMakeFiles\2ca5d279d09b6dfc9aa5dffc0b9da1fe\vtkTextureObjectVS.h.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating vtkTextureObjectVS.h, vtkTextureObjectVS.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dsource_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2 -Dbinary_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Rendering/OpenGL2 -Dsource_file=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2/glsl/vtkTextureObjectVS.glsl -Doutput_name=vtkTextureObjectVS -Dexport_symbol=VTKRENDERINGOPENGL2_EXPORT -Dexport_header=vtkRenderingOpenGL2Module.h -D_vtk_encode_string_run=ON -P C:/MeshEditor/90_Libraries/VTK-8.2.0/src/CMake/vtkEncodeString.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/MeshEditor/90_Libraries/VTK-8.2.0/build/CMakeFiles/2ca5d279d09b6dfc9aa5dffc0b9da1fe/vtkTextureObjectVS.h.rule;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\CMake\vtkEncodeString.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\glsl\vtkTextureObjectVS.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkTextureObjectVS.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkTextureObjectVS.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating vtkTextureObjectVS.h, vtkTextureObjectVS.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dsource_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2 -Dbinary_dir=C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Rendering/OpenGL2 -Dsource_file=C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2/glsl/vtkTextureObjectVS.glsl -Doutput_name=vtkTextureObjectVS -Dexport_symbol=VTKRENDERINGOPENGL2_EXPORT -Dexport_header=vtkRenderingOpenGL2Module.h -D_vtk_encode_string_run=ON -P C:/MeshEditor/90_Libraries/VTK-8.2.0/src/CMake/vtkEncodeString.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/MeshEditor/90_Libraries/VTK-8.2.0/build/CMakeFiles/2ca5d279d09b6dfc9aa5dffc0b9da1fe/vtkTextureObjectVS.h.rule;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\CMake\vtkEncodeString.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\glsl\vtkTextureObjectVS.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkTextureObjectVS.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkTextureObjectVS.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/MeshEditor/90_Libraries/VTK-8.2.0/src -BC:/MeshEditor/90_Libraries/VTK-8.2.0/build --check-stamp-file C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Rendering/OpenGL2/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2/CMakeLists.txt;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\lib\cmake\vtk-8.2\Modules\vtkCommonColor.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\lib\cmake\vtk-8.2\Modules\vtkCommonComputationalGeometry.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\lib\cmake\vtk-8.2\Modules\vtkCommonCore.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\lib\cmake\vtk-8.2\Modules\vtkCommonDataModel.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\lib\cmake\vtk-8.2\Modules\vtkCommonExecutionModel.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\lib\cmake\vtk-8.2\Modules\vtkCommonMath.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\lib\cmake\vtk-8.2\Modules\vtkCommonMisc.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\lib\cmake\vtk-8.2\Modules\vtkCommonSystem.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\lib\cmake\vtk-8.2\Modules\vtkCommonTransforms.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\lib\cmake\vtk-8.2\Modules\vtkFiltersCore.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\lib\cmake\vtk-8.2\Modules\vtkFiltersGeneral.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\lib\cmake\vtk-8.2\Modules\vtkFiltersGeometry.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\lib\cmake\vtk-8.2\Modules\vtkFiltersSources.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\lib\cmake\vtk-8.2\Modules\vtkRenderingCore.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\lib\cmake\vtk-8.2\Modules\vtkglew.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\lib\cmake\vtk-8.2\Modules\vtkkwiml.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\lib\cmake\vtk-8.2\Modules\vtksys.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\lib\cmake\vtk-8.2\Modules\vtkutf8.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\CMake\vtkModuleHeaders.cmake.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\CMake\vtkModuleInfo.cmake.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\CMake\vtkObjectFactory.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\CMake\vtkObjectFactory.cxx.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\CMake\vtkObjectFactory.h.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\CMake\vtkOpenGL.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\CMake\vtkexportheader.cmake.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\CMakeLists.txt;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\module.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLError.h.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkRenderingOpenGLConfigure.h.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkTDxConfigure.h.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageMessage.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/MeshEditor/90_Libraries/VTK-8.2.0/src -BC:/MeshEditor/90_Libraries/VTK-8.2.0/build --check-stamp-file C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Rendering/OpenGL2/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/OpenGL2/CMakeLists.txt;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\lib\cmake\vtk-8.2\Modules\vtkCommonColor.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\lib\cmake\vtk-8.2\Modules\vtkCommonComputationalGeometry.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\lib\cmake\vtk-8.2\Modules\vtkCommonCore.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\lib\cmake\vtk-8.2\Modules\vtkCommonDataModel.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\lib\cmake\vtk-8.2\Modules\vtkCommonExecutionModel.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\lib\cmake\vtk-8.2\Modules\vtkCommonMath.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\lib\cmake\vtk-8.2\Modules\vtkCommonMisc.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\lib\cmake\vtk-8.2\Modules\vtkCommonSystem.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\lib\cmake\vtk-8.2\Modules\vtkCommonTransforms.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\lib\cmake\vtk-8.2\Modules\vtkFiltersCore.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\lib\cmake\vtk-8.2\Modules\vtkFiltersGeneral.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\lib\cmake\vtk-8.2\Modules\vtkFiltersGeometry.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\lib\cmake\vtk-8.2\Modules\vtkFiltersSources.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\lib\cmake\vtk-8.2\Modules\vtkRenderingCore.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\lib\cmake\vtk-8.2\Modules\vtkglew.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\lib\cmake\vtk-8.2\Modules\vtkkwiml.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\lib\cmake\vtk-8.2\Modules\vtksys.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\lib\cmake\vtk-8.2\Modules\vtkutf8.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\CMake\vtkModuleHeaders.cmake.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\CMake\vtkModuleInfo.cmake.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\CMake\vtkObjectFactory.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\CMake\vtkObjectFactory.cxx.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\CMake\vtkObjectFactory.h.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\CMake\vtkOpenGL.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\CMake\vtkexportheader.cmake.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\CMakeLists.txt;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\module.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLError.h.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkRenderingOpenGLConfigure.h.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkTDxConfigure.h.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageMessage.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkRenderingOpenGL2ObjectFactory.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkCameraPass.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkClearRGBPass.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkClearZPass.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkCompositePolyDataMapper2.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkDefaultPass.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkDepthOfFieldPass.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkDepthImageProcessingPass.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkDepthPeelingPass.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkDualDepthPeelingPass.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkEDLShading.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkFramebufferPass.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkGaussianBlurPass.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkGenericOpenGLRenderWindow.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkHiddenLineRemovalPass.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkImageProcessingPass.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkLightingMapPass.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkLightsPass.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpaquePass.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLActor.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLBillboardTextActor3D.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLBufferObject.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLCamera.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLFXAAFilter.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLFramebufferObject.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLGL2PSHelper.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLGlyph3DHelper.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLGlyph3DMapper.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLHardwareSelector.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLHelper.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLImageAlgorithmHelper.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLImageMapper.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLImageSliceMapper.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLIndexBufferObject.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLInstanceCulling.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLLabeledContourMapper.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLLight.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLPointGaussianMapper.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLPolyDataMapper.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLPolyDataMapper2D.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLProperty.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLQuadHelper.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLRenderPass.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLRenderTimer.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLRenderTimerLog.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLRenderUtilities.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLRenderWindow.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLRenderer.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLShaderCache.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLSkybox.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLSphereMapper.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLState.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLStickMapper.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLTextActor.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLTextActor3D.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLTextMapper.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLTexture.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLVertexArrayObject.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLVertexBufferObject.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLVertexBufferObjectCache.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLVertexBufferObjectGroup.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOrderIndependentTranslucentPass.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOverlayPass.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkPanoramicProjectionPass.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkPixelBufferObject.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkPointFillPass.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkRenderPassCollection.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkRenderStepsPass.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkRenderbuffer.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkSSAAPass.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkSequencePass.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkShader.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkShaderProgram.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkShadowMapBakerPass.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkShadowMapPass.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkSimpleMotionBlurPass.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkSobelGradientMagnitudePass.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkTextureObject.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkTextureUnitManager.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkToneMappingPass.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkTransformFeedback.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkTranslucentPass.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkValuePass.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkVolumetricPass.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkDataTransferHelper.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkDepthOfFieldPassFS.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkDepthPeelingPassFinalFS.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkDepthPeelingPassIntermediateFS.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkEDLBilateralFilterFS.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkEDLComposeFS.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkEDLShadeFS.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkFXAAFilterFS.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkGaussianBlurPassFS.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkGaussianBlurPassVS.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkGlyph3DVS.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkOrderIndependentTranslucentPassFinalFS.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkPointGaussianVS.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkPointGaussianGS.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkPointFillPassFS.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkPolyData2DFS.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkPolyData2DVS.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkPolyDataFS.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkPolyDataVS.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkPolyDataWideLineGS.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkSSAAPassFS.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkSimpleMotionBlurPassFS.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkSobelGradientMagnitudePass1FS.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkSobelGradientMagnitudePass2FS.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkSphereMapperGS.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkStickMapperGS.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkTextureObjectFS.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkTextureObjectVS.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkDummyGPUInfoList.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkWin32RenderWindowInteractor.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkWin32OpenGLRenderWindow.cxx" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGL.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkStateStorage.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkTDxConfigure.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkOpenGLError.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkRenderingOpenGLConfigure.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkRenderingOpenGL2ObjectFactory.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkCameraPass.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkClearRGBPass.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkClearZPass.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkCompositePolyDataMapper2.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkDefaultPass.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkDepthOfFieldPass.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkDepthImageProcessingPass.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkDepthPeelingPass.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkDualDepthPeelingPass.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkEDLShading.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkFramebufferPass.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkGaussianBlurPass.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkGenericOpenGLRenderWindow.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkHiddenLineRemovalPass.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkImageProcessingPass.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkLightingMapPass.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkLightsPass.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpaquePass.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLActor.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLBillboardTextActor3D.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLBufferObject.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLCamera.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLFXAAFilter.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLFramebufferObject.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLGL2PSHelper.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLGlyph3DHelper.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLGlyph3DMapper.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLHardwareSelector.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLHelper.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLImageAlgorithmHelper.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLImageMapper.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLImageSliceMapper.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLIndexBufferObject.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLInstanceCulling.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLLabeledContourMapper.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLLight.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLPointGaussianMapper.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLPolyDataMapper.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLPolyDataMapper2D.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLProperty.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLQuadHelper.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLRenderPass.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLRenderTimer.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLRenderTimerLog.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLRenderUtilities.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLRenderWindow.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLRenderer.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLShaderCache.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLSkybox.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLSphereMapper.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLState.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLStickMapper.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLTextActor.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLTextActor3D.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLTextMapper.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLTexture.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLVertexArrayObject.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLVertexBufferObject.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLVertexBufferObjectCache.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOpenGLVertexBufferObjectGroup.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOrderIndependentTranslucentPass.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkOverlayPass.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkPanoramicProjectionPass.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkPixelBufferObject.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkPointFillPass.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkRenderPassCollection.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkRenderStepsPass.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkRenderbuffer.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkSSAAPass.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkSequencePass.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkShader.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkShaderProgram.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkShadowMapBakerPass.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkShadowMapPass.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkSimpleMotionBlurPass.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkSobelGradientMagnitudePass.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkTextureObject.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkTextureUnitManager.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkToneMappingPass.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkTransformFeedback.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkTranslucentPass.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkValuePass.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkVolumetricPass.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkDataTransferHelper.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkDummyGPUInfoList.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkWin32RenderWindowInteractor.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2\vtkWin32OpenGLRenderWindow.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkRenderingOpenGL2Module.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ZERO_CHECK.vcxproj">
+      <Project>{08D62400-3290-3C24-87AA-504F9356C20C}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Core\vtkCommonCore.vcxproj">
+      <Project>{34251C80-664B-30CB-8DED-C33D5AC07D65}</Project>
+      <Name>vtkCommonCore</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\DataModel\vtkCommonDataModel.vcxproj">
+      <Project>{0144B4B0-B9A5-3858-AE67-DC1D7DB0C0B1}</Project>
+      <Name>vtkCommonDataModel</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\ExecutionModel\vtkCommonExecutionModel.vcxproj">
+      <Project>{6CFA6415-7915-32BF-B9A7-2B0D1CA50DED}</Project>
+      <Name>vtkCommonExecutionModel</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Math\vtkCommonMath.vcxproj">
+      <Project>{77D1ACF0-400B-322F-9AD3-78E0EF78F719}</Project>
+      <Name>vtkCommonMath</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Misc\vtkCommonMisc.vcxproj">
+      <Project>{23A0D148-04E0-3E0E-AE6F-79B3C0C6DAD2}</Project>
+      <Name>vtkCommonMisc</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\System\vtkCommonSystem.vcxproj">
+      <Project>{CF8D74AE-BE4C-3BED-8ABC-90257D016084}</Project>
+      <Name>vtkCommonSystem</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Transforms\vtkCommonTransforms.vcxproj">
+      <Project>{71D9E924-A5AB-3989-AC62-57F6391AE10F}</Project>
+      <Name>vtkCommonTransforms</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Core\vtkFiltersCore.vcxproj">
+      <Project>{F95E5E59-4CBD-31E8-A474-029FC3082349}</Project>
+      <Name>vtkFiltersCore</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\Core\vtkRenderingCore.vcxproj">
+      <Project>{E53ADD8A-E33F-318A-A94A-3BA54E45A11F}</Project>
+      <Name>vtkRenderingCore</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\glew\vtkglew\vtkglew.vcxproj">
+      <Project>{2F427FBD-6B4A-3226-B161-6CD11EA77C3C}</Project>
+      <Name>vtkglew</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWSys\vtksys\vtksys.vcxproj">
+      <Project>{A36C7A2E-C1E0-3092-AFDB-1AF68108A640}</Project>
+      <Name>vtksys</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

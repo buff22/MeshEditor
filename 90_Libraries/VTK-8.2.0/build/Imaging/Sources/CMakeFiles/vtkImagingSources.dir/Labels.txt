@@ -1,0 +1,18 @@
+# Target labels
+ vtkImagingSources
+# Source files and their labels
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Sources/vtkImageCanvasSource2D.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Sources/vtkImageEllipsoidSource.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Sources/vtkImageGaussianSource.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Sources/vtkImageGridSource.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Sources/vtkImageMandelbrotSource.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Sources/vtkImageNoiseSource.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Sources/vtkImageSinusoidSource.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Sources/vtkImageCanvasSource2D.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Sources/vtkImageEllipsoidSource.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Sources/vtkImageGaussianSource.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Sources/vtkImageGridSource.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Sources/vtkImageMandelbrotSource.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Sources/vtkImageNoiseSource.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Sources/vtkImageSinusoidSource.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Imaging/Sources/vtkImagingSourcesModule.h

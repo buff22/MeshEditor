@@ -1,0 +1,7 @@
+# Target labels
+ vtkjsoncpp
+# Source files and their labels
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/jsoncpp/vtkjsoncpp/jsoncpp.cpp
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/jsoncpp/vtkjsoncpp/json/json-forwards.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/jsoncpp/vtkjsoncpp/json/json.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/build/ThirdParty/jsoncpp/vtkjsoncpp/json/vtkjsoncpp_config.h

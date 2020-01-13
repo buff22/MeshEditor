@@ -1,0 +1,100 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/ParallelXML/vtkXMLPDataSetWriter.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/ParallelXML/vtkXMLPDataObjectWriter.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/ParallelXML/vtkXMLPDataWriter.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/ParallelXML/vtkXMLPImageDataWriter.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/ParallelXML/vtkXMLPPolyDataWriter.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/ParallelXML/vtkXMLPRectilinearGridWriter.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/ParallelXML/vtkXMLPStructuredDataWriter.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/ParallelXML/vtkXMLPStructuredGridWriter.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/ParallelXML/vtkXMLPTableWriter.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/ParallelXML/vtkXMLPUnstructuredDataWriter.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/ParallelXML/vtkXMLPUnstructuredGridWriter.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/ParallelXML/vtkXMLPHierarchicalBoxDataWriter.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/ParallelXML/vtkXMLPMultiBlockDataWriter.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/ParallelXML/vtkXMLPUniformGridAMRWriter.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/ParallelXML/vtkXMLPDataSetWriter.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/ParallelXML/vtkXMLPDataObjectWriter.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/ParallelXML/vtkXMLPDataWriter.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/ParallelXML/vtkXMLPImageDataWriter.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/ParallelXML/vtkXMLPPolyDataWriter.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/ParallelXML/vtkXMLPRectilinearGridWriter.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/ParallelXML/vtkXMLPStructuredDataWriter.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/ParallelXML/vtkXMLPStructuredGridWriter.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/ParallelXML/vtkXMLPTableWriter.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/ParallelXML/vtkXMLPUnstructuredDataWriter.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/ParallelXML/vtkXMLPUnstructuredGridWriter.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/ParallelXML/vtkXMLPHierarchicalBoxDataWriter.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/ParallelXML/vtkXMLPMultiBlockDataWriter.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/ParallelXML/vtkXMLPUniformGridAMRWriter.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/build/IO/ParallelXML/vtkIOParallelXMLModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkIOParallelXML"
+		],
+		"name" : "vtkIOParallelXML"
+	}
+}

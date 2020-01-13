@@ -1,0 +1,12 @@
+# Target labels
+ vtkexpat
+# Source files and their labels
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/expat/vtkexpat/lib/loadlibrary.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/expat/vtkexpat/lib/xmlparse.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/expat/vtkexpat/lib/xmlrole.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/expat/vtkexpat/lib/xmltok.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/expat/vtkexpat/lib/xmltok_impl.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/expat/vtkexpat/lib/xmltok_ns.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/expat/vtkexpat/lib/expat.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/expat/vtkexpat/lib/expat_external.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/expat/vtkexpat/lib/vtk_expat_mangle.h

@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/lz4/vtklz4/CMakeLists.txt
+C:/Program Files/CMake/share/cmake-3.14/Modules/CheckCCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CheckCXXCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/GenerateExportHeader.cmake

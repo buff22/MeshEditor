@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8B39CCFC-4A9B-3C8F-9CBF-30B4C476BD9F}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>vtkmetaio</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">vtkmetaio.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">vtkmetaio-8.2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">vtkmetaio.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">vtkmetaio-8.2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\MetaIO\vtkmetaio;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\MetaIO;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\MetaIO;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\zlib;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;vtkmetaio_BUILD_SHARED_LIBS;CMAKE_INTDIR="Debug";vtkmetaio_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;vtkmetaio_BUILD_SHARED_LIBS;CMAKE_INTDIR=\"Debug\";vtkmetaio_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\MetaIO\vtkmetaio;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\MetaIO;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\MetaIO;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\zlib;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\MetaIO\vtkmetaio;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\MetaIO;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\MetaIO;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\zlib;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\lib\Debug\vtkzlib-8.2.lib;comctl32.lib;wsock32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/MeshEditor/90_Libraries/VTK-8.2.0/build/lib/Debug/vtkmetaio-8.2.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/MeshEditor/90_Libraries/VTK-8.2.0/build/bin/Debug/vtkmetaio-8.2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\MetaIO\vtkmetaio;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\MetaIO;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\MetaIO;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\zlib;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;vtkmetaio_BUILD_SHARED_LIBS;CMAKE_INTDIR="Release";vtkmetaio_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;vtkmetaio_BUILD_SHARED_LIBS;CMAKE_INTDIR=\"Release\";vtkmetaio_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\MetaIO\vtkmetaio;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\MetaIO;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\MetaIO;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\zlib;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\MetaIO\vtkmetaio;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\MetaIO;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\MetaIO;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\zlib;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\lib\Release\vtkzlib-8.2.lib;comctl32.lib;wsock32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/MeshEditor/90_Libraries/VTK-8.2.0/build/lib/Release/vtkmetaio-8.2.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/MeshEditor/90_Libraries/VTK-8.2.0/build/bin/Release/vtkmetaio-8.2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\MetaIO\vtkmetaio\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Utilities/MetaIO/vtkmetaio/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/MeshEditor/90_Libraries/VTK-8.2.0/src -BC:/MeshEditor/90_Libraries/VTK-8.2.0/build --check-stamp-file C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Utilities/MetaIO/vtkmetaio/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Utilities/MetaIO/vtkmetaio/CMakeLists.txt;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\MetaIO\vtkmetaio\CMakeLists.txt;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\MetaIO\vtkmetaio\metaIOConfig.h.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\MetaIO\vtkmetaio\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\MetaIO\vtkmetaio\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Utilities/MetaIO/vtkmetaio/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/MeshEditor/90_Libraries/VTK-8.2.0/src -BC:/MeshEditor/90_Libraries/VTK-8.2.0/build --check-stamp-file C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Utilities/MetaIO/vtkmetaio/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Utilities/MetaIO/vtkmetaio/CMakeLists.txt;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\MetaIO\vtkmetaio\CMakeLists.txt;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\MetaIO\vtkmetaio\metaIOConfig.h.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\MetaIO\vtkmetaio\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\MetaIO\vtkmetaio\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\MetaIO\vtkmetaio\metaTypes.h" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\MetaIO\vtkmetaio\metaUtils.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\MetaIO\vtkmetaio\metaArrow.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\MetaIO\vtkmetaio\metaBlob.cxx" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\MetaIO\vtkmetaio\metaCommand.h" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\MetaIO\vtkmetaio\metaCommand.cxx" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\MetaIO\vtkmetaio\metaContour.h" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\MetaIO\vtkmetaio\metaContour.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\MetaIO\vtkmetaio\metaDTITube.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\MetaIO\vtkmetaio\metaEllipse.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\MetaIO\vtkmetaio\metaGroup.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\MetaIO\vtkmetaio\metaGaussian.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\MetaIO\vtkmetaio\metaImage.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\MetaIO\vtkmetaio\metaImageUtils.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\MetaIO\vtkmetaio\metaLandmark.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\MetaIO\vtkmetaio\metaLine.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\MetaIO\vtkmetaio\metaMesh.cxx" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\MetaIO\vtkmetaio\metaMesh.h" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\MetaIO\vtkmetaio\metaObject.cxx" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\MetaIO\vtkmetaio\metaOutput.h" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\MetaIO\vtkmetaio\metaOutput.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\MetaIO\vtkmetaio\metaScene.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\MetaIO\vtkmetaio\metaSurface.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\MetaIO\vtkmetaio\metaTube.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\MetaIO\vtkmetaio\metaVesselTube.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\MetaIO\vtkmetaio\metaTransform.cxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\MetaIO\vtkmetaio\metaTubeGraph.cxx" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\MetaIO\vtkmetaio\metaForm.h" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\MetaIO\vtkmetaio\metaForm.cxx" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\MetaIO\vtkmetaio\metaArray.h" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\MetaIO\vtkmetaio\metaArray.cxx" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\MetaIO\vtkmetaio\metaFEMObject.h" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\MetaIO\vtkmetaio\metaFEMObject.cxx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ZERO_CHECK.vcxproj">
+      <Project>{08D62400-3290-3C24-87AA-504F9356C20C}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\zlib\vtkzlib\vtkzlib.vcxproj">
+      <Project>{A113368E-42A9-3065-8BFC-E32B22A49519}</Project>
+      <Name>vtkzlib</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

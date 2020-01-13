@@ -1,0 +1,18 @@
+# Target labels
+ vtkIOEnSight
+# Source files and their labels
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/EnSight/vtkEnSight6BinaryReader.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/EnSight/vtkEnSight6Reader.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/EnSight/vtkEnSightGoldBinaryReader.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/EnSight/vtkEnSightGoldReader.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/EnSight/vtkEnSightMasterServerReader.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/EnSight/vtkEnSightReader.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/EnSight/vtkGenericEnSightReader.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/EnSight/vtkEnSight6BinaryReader.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/EnSight/vtkEnSight6Reader.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/EnSight/vtkEnSightGoldBinaryReader.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/EnSight/vtkEnSightGoldReader.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/EnSight/vtkEnSightMasterServerReader.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/EnSight/vtkEnSightReader.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/EnSight/vtkGenericEnSightReader.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/build/IO/EnSight/vtkIOEnSightModule.h

@@ -1,0 +1,22 @@
+# Target labels
+ vtkhdf5
+# Source files and their labels
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/hdf5/vtkhdf5/hl/src/H5DO.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/hdf5/vtkhdf5/hl/src/H5DS.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/hdf5/vtkhdf5/hl/src/H5IM.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/hdf5/vtkhdf5/hl/src/H5LT.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/hdf5/vtkhdf5/hl/src/H5LTanalyze.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/hdf5/vtkhdf5/hl/src/H5LTparse.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/hdf5/vtkhdf5/hl/src/H5PT.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/hdf5/vtkhdf5/hl/src/H5TB.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/hdf5/vtkhdf5/hl/src/H5LD.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/hdf5/vtkhdf5/hl/src/H5DOpublic.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/hdf5/vtkhdf5/hl/src/H5DSpublic.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/hdf5/vtkhdf5/hl/src/H5IMpublic.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/hdf5/vtkhdf5/hl/src/H5LTparse.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/hdf5/vtkhdf5/hl/src/H5LTpublic.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/hdf5/vtkhdf5/hl/src/H5PTpublic.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/hdf5/vtkhdf5/hl/src/H5TBpublic.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/hdf5/vtkhdf5/hl/src/H5LDpublic.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/hdf5/vtkhdf5/hl/src/hdf5_hl.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/hdf5/vtkhdf5/hl/src/vtk_hdf5_hl_mangle.h

@@ -1,0 +1,30 @@
+# Target labels
+ vtkRenderingLabel
+# Source files and their labels
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/Label/vtkLabeledDataMapper.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/Label/vtkLabeledTreeMapDataMapper.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/Label/vtkLabelHierarchyAlgorithm.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/Label/vtkLabelHierarchyCompositeIterator.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/Label/vtkLabelHierarchy.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/Label/vtkLabelHierarchyIterator.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/Label/vtkLabelPlacementMapper.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/Label/vtkLabelPlacer.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/Label/vtkLabelRenderStrategy.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/Label/vtkLabelSizeCalculator.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/Label/vtkFreeTypeLabelRenderStrategy.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/Label/vtkDynamic2DLabelMapper.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/Label/vtkPointSetToLabelHierarchy.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/Label/vtkLabeledDataMapper.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/Label/vtkLabeledTreeMapDataMapper.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/Label/vtkLabelHierarchyAlgorithm.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/Label/vtkLabelHierarchyCompositeIterator.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/Label/vtkLabelHierarchy.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/Label/vtkLabelHierarchyIterator.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/Label/vtkLabelPlacementMapper.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/Label/vtkLabelPlacer.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/Label/vtkLabelRenderStrategy.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/Label/vtkLabelSizeCalculator.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/Label/vtkFreeTypeLabelRenderStrategy.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/Label/vtkDynamic2DLabelMapper.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/Label/vtkPointSetToLabelHierarchy.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Rendering/Label/vtkRenderingLabelModule.h

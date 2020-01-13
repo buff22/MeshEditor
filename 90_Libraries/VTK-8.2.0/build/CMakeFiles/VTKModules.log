@@ -1,0 +1,895 @@
+Enabled 124 modules:
+ * vtkChartsCore, needed by 2 modules:
+        VTK_Group_StandAlone
+        vtkViewsInfovis
+ * vtkCommonColor, needed by 3 modules:
+        vtkChartsCore
+        vtkRenderingCore
+        vtkViewsInfovis
+ * vtkCommonComputationalGeometry, needed by 7 modules:
+        VTK_Group_StandAlone
+        vtkFiltersGeneral
+        vtkFiltersSources
+        vtkImagingStencil
+        vtkInfovisLayout
+        vtkInteractionWidgets
+        vtkRenderingCore
+ * vtkCommonCore, needed by 95 modules:
+        VTK_Group_StandAlone
+        vtkChartsCore
+        vtkCommonColor
+        vtkCommonComputationalGeometry
+        vtkCommonDataModel
+        vtkCommonExecutionModel
+        vtkCommonMath
+        vtkCommonMisc
+        vtkCommonSystem
+        vtkCommonTransforms
+        vtkDomainsChemistry
+        vtkDomainsChemistryOpenGL2
+        vtkFiltersAMR
+        vtkFiltersCore
+        vtkFiltersExtraction
+        vtkFiltersFlowPaths
+        vtkFiltersGeneral
+        vtkFiltersGeneric
+        vtkFiltersGeometry
+        vtkFiltersHybrid
+        vtkFiltersHyperTree
+        vtkFiltersImaging
+        vtkFiltersModeling
+        vtkFiltersParallel
+        vtkFiltersParallelImaging
+        vtkFiltersPoints
+        vtkFiltersProgrammable
+        vtkFiltersSMP
+        vtkFiltersSelection
+        vtkFiltersSources
+        vtkFiltersStatistics
+        vtkFiltersTexture
+        vtkFiltersTopology
+        vtkFiltersVerdict
+        vtkGeovisCore
+        vtkIOAMR
+        vtkIOAsynchronous
+        vtkIOCityGML
+        vtkIOCore
+        vtkIOEnSight
+        vtkIOExodus
+        vtkIOExport
+        vtkIOExportOpenGL2
+        vtkIOExportPDF
+        vtkIOGeometry
+        vtkIOImage
+        vtkIOImport
+        vtkIOInfovis
+        vtkIOLSDyna
+        vtkIOLegacy
+        vtkIOMINC
+        vtkIOMovie
+        vtkIONetCDF
+        vtkIOPLY
+        vtkIOParallel
+        vtkIOParallelXML
+        vtkIOSQL
+        vtkIOSegY
+        vtkIOTecplotTable
+        vtkIOVeraOut
+        vtkIOVideo
+        vtkIOXML
+        vtkIOXMLParser
+        vtkImagingColor
+        vtkImagingCore
+        vtkImagingFourier
+        vtkImagingGeneral
+        vtkImagingHybrid
+        vtkImagingMath
+        vtkImagingMorphological
+        vtkImagingSources
+        vtkImagingStatistics
+        vtkImagingStencil
+        vtkInfovisCore
+        vtkInfovisLayout
+        vtkInteractionImage
+        vtkInteractionStyle
+        vtkInteractionWidgets
+        vtkParallelCore
+        vtkRenderingAnnotation
+        vtkRenderingContext2D
+        vtkRenderingContextOpenGL2
+        vtkRenderingCore
+        vtkRenderingFreeType
+        vtkRenderingGL2PSOpenGL2
+        vtkRenderingImage
+        vtkRenderingLOD
+        vtkRenderingLabel
+        vtkRenderingOpenGL2
+        vtkRenderingParallel
+        vtkRenderingVolume
+        vtkRenderingVolumeOpenGL2
+        vtkViewsContext2D
+        vtkViewsCore
+        vtkViewsInfovis
+ * vtkCommonDataModel, needed by 87 modules:
+        VTK_Group_StandAlone
+        vtkChartsCore
+        vtkCommonColor
+        vtkCommonComputationalGeometry
+        vtkCommonExecutionModel
+        vtkDomainsChemistry
+        vtkDomainsChemistryOpenGL2
+        vtkFiltersAMR
+        vtkFiltersCore
+        vtkFiltersExtraction
+        vtkFiltersFlowPaths
+        vtkFiltersGeneral
+        vtkFiltersGeneric
+        vtkFiltersGeometry
+        vtkFiltersHybrid
+        vtkFiltersHyperTree
+        vtkFiltersImaging
+        vtkFiltersModeling
+        vtkFiltersParallel
+        vtkFiltersParallelImaging
+        vtkFiltersPoints
+        vtkFiltersProgrammable
+        vtkFiltersSMP
+        vtkFiltersSelection
+        vtkFiltersSources
+        vtkFiltersStatistics
+        vtkFiltersTexture
+        vtkFiltersTopology
+        vtkFiltersVerdict
+        vtkGeovisCore
+        vtkIOAMR
+        vtkIOAsynchronous
+        vtkIOCityGML
+        vtkIOCore
+        vtkIOEnSight
+        vtkIOExodus
+        vtkIOExport
+        vtkIOExportOpenGL2
+        vtkIOGeometry
+        vtkIOImage
+        vtkIOImport
+        vtkIOInfovis
+        vtkIOLSDyna
+        vtkIOLegacy
+        vtkIOMINC
+        vtkIOMovie
+        vtkIONetCDF
+        vtkIOPLY
+        vtkIOParallel
+        vtkIOParallelXML
+        vtkIOSegY
+        vtkIOTecplotTable
+        vtkIOVeraOut
+        vtkIOVideo
+        vtkIOXML
+        vtkIOXMLParser
+        vtkImagingColor
+        vtkImagingCore
+        vtkImagingFourier
+        vtkImagingGeneral
+        vtkImagingHybrid
+        vtkImagingMath
+        vtkImagingMorphological
+        vtkImagingSources
+        vtkImagingStatistics
+        vtkImagingStencil
+        vtkInfovisCore
+        vtkInfovisLayout
+        vtkInteractionImage
+        vtkInteractionStyle
+        vtkInteractionWidgets
+        vtkParallelCore
+        vtkRenderingAnnotation
+        vtkRenderingContext2D
+        vtkRenderingContextOpenGL2
+        vtkRenderingCore
+        vtkRenderingFreeType
+        vtkRenderingGL2PSOpenGL2
+        vtkRenderingImage
+        vtkRenderingLOD
+        vtkRenderingLabel
+        vtkRenderingOpenGL2
+        vtkRenderingParallel
+        vtkRenderingVolume
+        vtkRenderingVolumeOpenGL2
+        vtkViewsCore
+        vtkViewsInfovis
+ * vtkCommonExecutionModel, needed by 75 modules:
+        VTK_Group_StandAlone
+        vtkChartsCore
+        vtkDomainsChemistry
+        vtkDomainsChemistryOpenGL2
+        vtkFiltersAMR
+        vtkFiltersCore
+        vtkFiltersExtraction
+        vtkFiltersFlowPaths
+        vtkFiltersGeneral
+        vtkFiltersGeneric
+        vtkFiltersGeometry
+        vtkFiltersHybrid
+        vtkFiltersHyperTree
+        vtkFiltersImaging
+        vtkFiltersModeling
+        vtkFiltersParallel
+        vtkFiltersParallelImaging
+        vtkFiltersPoints
+        vtkFiltersProgrammable
+        vtkFiltersSMP
+        vtkFiltersSelection
+        vtkFiltersSources
+        vtkFiltersStatistics
+        vtkFiltersTexture
+        vtkFiltersTopology
+        vtkFiltersVerdict
+        vtkGeovisCore
+        vtkIOAMR
+        vtkIOAsynchronous
+        vtkIOCityGML
+        vtkIOCore
+        vtkIOEnSight
+        vtkIOExodus
+        vtkIOGeometry
+        vtkIOImage
+        vtkIOImport
+        vtkIOInfovis
+        vtkIOLSDyna
+        vtkIOLegacy
+        vtkIOMINC
+        vtkIOMovie
+        vtkIONetCDF
+        vtkIOParallel
+        vtkIOParallelXML
+        vtkIOSQL
+        vtkIOSegY
+        vtkIOTecplotTable
+        vtkIOVeraOut
+        vtkIOVideo
+        vtkIOXML
+        vtkImagingColor
+        vtkImagingCore
+        vtkImagingFourier
+        vtkImagingGeneral
+        vtkImagingHybrid
+        vtkImagingMath
+        vtkImagingMorphological
+        vtkImagingSources
+        vtkImagingStatistics
+        vtkImagingStencil
+        vtkInfovisCore
+        vtkInfovisLayout
+        vtkInteractionImage
+        vtkInteractionWidgets
+        vtkRenderingAnnotation
+        vtkRenderingContext2D
+        vtkRenderingCore
+        vtkRenderingFreeType
+        vtkRenderingImage
+        vtkRenderingLOD
+        vtkRenderingLabel
+        vtkRenderingOpenGL2
+        vtkRenderingVolume
+        vtkViewsCore
+        vtkViewsInfovis
+ * vtkCommonMath, needed by 30 modules:
+        vtkCommonDataModel
+        vtkCommonMisc
+        vtkCommonTransforms
+        vtkDomainsChemistryOpenGL2
+        vtkFiltersAMR
+        vtkFiltersCore
+        vtkFiltersFlowPaths
+        vtkFiltersGeneral
+        vtkFiltersGeneric
+        vtkFiltersHybrid
+        vtkFiltersSMP
+        vtkIOAsynchronous
+        vtkIOExport
+        vtkIOImage
+        vtkIOMINC
+        vtkImagingCore
+        vtkInteractionStyle
+        vtkInteractionWidgets
+        vtkRenderingAnnotation
+        vtkRenderingContext2D
+        vtkRenderingContextOpenGL2
+        vtkRenderingCore
+        vtkRenderingGL2PSOpenGL2
+        vtkRenderingImage
+        vtkRenderingLOD
+        vtkRenderingLabel
+        vtkRenderingOpenGL2
+        vtkRenderingParallel
+        vtkRenderingVolume
+        vtkRenderingVolumeOpenGL2
+ * vtkCommonMisc, needed by 26 modules:
+        VTK_Group_StandAlone
+        vtkCommonDataModel
+        vtkCommonExecutionModel
+        vtkCommonExecutionModel
+        vtkFiltersCore
+        vtkFiltersGeneral
+        vtkFiltersGeneric
+        vtkFiltersHybrid
+        vtkFiltersHyperTree
+        vtkFiltersModeling
+        vtkFiltersSMP
+        vtkFiltersStatistics
+        vtkIOAsynchronous
+        vtkIOCore
+        vtkIOGeometry
+        vtkIOImage
+        vtkIOImport
+        vtkIOInfovis
+        vtkIOLegacy
+        vtkIOMINC
+        vtkIOMovie
+        vtkIOPLY
+        vtkIOParallel
+        vtkIOParallelXML
+        vtkIOXML
+        vtkRenderingVolume
+ * vtkCommonSystem, needed by 33 modules:
+        VTK_Group_StandAlone
+        vtkCommonDataModel
+        vtkCommonExecutionModel
+        vtkFiltersAMR
+        vtkFiltersCore
+        vtkFiltersGeneral
+        vtkFiltersGeneric
+        vtkFiltersHyperTree
+        vtkFiltersImaging
+        vtkFiltersParallel
+        vtkFiltersParallelImaging
+        vtkFiltersSMP
+        vtkGeovisCore
+        vtkIOAMR
+        vtkIOAsynchronous
+        vtkIOGeometry
+        vtkIOImage
+        vtkIOMovie
+        vtkIOParallel
+        vtkIOVideo
+        vtkIOXML
+        vtkImagingColor
+        vtkInfovisLayout
+        vtkInteractionWidgets
+        vtkParallelCore
+        vtkRenderingContext2D
+        vtkRenderingCore
+        vtkRenderingLOD
+        vtkRenderingLabel
+        vtkRenderingOpenGL2
+        vtkRenderingParallel
+        vtkRenderingVolume
+        vtkRenderingVolumeOpenGL2
+ * vtkCommonTransforms, needed by 34 modules:
+        VTK_Group_StandAlone
+        vtkChartsCore
+        vtkCommonDataModel
+        vtkDomainsChemistry
+        vtkFiltersCore
+        vtkFiltersGeneral
+        vtkFiltersGeneric
+        vtkFiltersHybrid
+        vtkFiltersModeling
+        vtkFiltersParallel
+        vtkFiltersProgrammable
+        vtkFiltersSMP
+        vtkFiltersSources
+        vtkFiltersTexture
+        vtkGeovisCore
+        vtkIOExport
+        vtkIOGeometry
+        vtkIOImage
+        vtkIOImport
+        vtkIOMINC
+        vtkImagingCore
+        vtkInfovisLayout
+        vtkInteractionStyle
+        vtkInteractionWidgets
+        vtkRenderingAnnotation
+        vtkRenderingContext2D
+        vtkRenderingContextOpenGL2
+        vtkRenderingCore
+        vtkRenderingImage
+        vtkRenderingLabel
+        vtkRenderingOpenGL2
+        vtkRenderingVolume
+        vtkRenderingVolumeOpenGL2
+        vtkViewsInfovis
+ * vtkDICOMParser, needed by vtkIOImage.
+ * vtkDomainsChemistry, needed by 3 modules:
+        VTK_Group_StandAlone
+        vtkDomainsChemistryOpenGL2
+        vtkDomainsChemistryOpenGL2
+ * vtkDomainsChemistryOpenGL2, needed by vtkDomainsChemistry.
+ * vtkFiltersAMR, needed by 2 modules:
+        VTK_Group_StandAlone
+        vtkIOAMR
+ * vtkFiltersCore, needed by 25 modules:
+        VTK_Group_StandAlone
+        vtkDomainsChemistry
+        vtkFiltersAMR
+        vtkFiltersExtraction
+        vtkFiltersFlowPaths
+        vtkFiltersGeneral
+        vtkFiltersGeneric
+        vtkFiltersGeometry
+        vtkFiltersHybrid
+        vtkFiltersHyperTree
+        vtkFiltersModeling
+        vtkFiltersParallel
+        vtkFiltersSMP
+        vtkFiltersSources
+        vtkGeovisCore
+        vtkIOExodus
+        vtkIOImport
+        vtkIOParallel
+        vtkInfovisLayout
+        vtkInteractionWidgets
+        vtkRenderingAnnotation
+        vtkRenderingCore
+        vtkRenderingLOD
+        vtkRenderingVolumeOpenGL2
+        vtkViewsInfovis
+ * vtkFiltersExtraction, needed by 7 modules:
+        VTK_Group_StandAlone
+        vtkFiltersParallel
+        vtkFiltersParallelImaging
+        vtkIOParallel
+        vtkInfovisCore
+        vtkInteractionStyle
+        vtkViewsInfovis
+ * vtkFiltersFlowPaths, needed by VTK_Group_StandAlone.
+ * vtkFiltersGeneral, needed by 24 modules:
+        VTK_Group_StandAlone
+        vtkChartsCore
+        vtkDomainsChemistry
+        vtkFiltersExtraction
+        vtkFiltersHybrid
+        vtkFiltersHyperTree
+        vtkFiltersModeling
+        vtkFiltersParallel
+        vtkFiltersSMP
+        vtkFiltersSources
+        vtkFiltersTexture
+        vtkGeovisCore
+        vtkIOCityGML
+        vtkInfovisCore
+        vtkInfovisLayout
+        vtkInteractionWidgets
+        vtkRenderingAnnotation
+        vtkRenderingContext2D
+        vtkRenderingCore
+        vtkRenderingFreeType
+        vtkRenderingLabel
+        vtkRenderingVolumeOpenGL2
+        vtkViewsCore
+        vtkViewsInfovis
+ * vtkFiltersGeneric, needed by VTK_Group_StandAlone.
+ * vtkFiltersGeometry, needed by 7 modules:
+        VTK_Group_StandAlone
+        vtkFiltersFlowPaths
+        vtkFiltersHybrid
+        vtkFiltersParallel
+        vtkIOExport
+        vtkRenderingCore
+        vtkViewsInfovis
+ * vtkFiltersHybrid, needed by 3 modules:
+        VTK_Group_StandAlone
+        vtkIOMINC
+        vtkInteractionWidgets
+ * vtkFiltersHyperTree, needed by VTK_Group_StandAlone.
+ * vtkFiltersImaging, needed by 3 modules:
+        VTK_Group_StandAlone
+        vtkFiltersParallelImaging
+        vtkViewsInfovis
+ * vtkFiltersModeling, needed by 8 modules:
+        VTK_Group_StandAlone
+        vtkFiltersParallel
+        vtkFiltersPoints
+        vtkIOCityGML
+        vtkInfovisLayout
+        vtkInteractionWidgets
+        vtkRenderingLOD
+        vtkViewsInfovis
+ * vtkFiltersParallel, needed by 4 modules:
+        VTK_Group_StandAlone
+        vtkFiltersParallelImaging
+        vtkIOParallel
+        vtkRenderingParallel
+ * vtkFiltersParallelImaging, needed by VTK_Group_StandAlone.
+ * vtkFiltersPoints, needed by VTK_Group_StandAlone.
+ * vtkFiltersProgrammable, needed by VTK_Group_StandAlone.
+ * vtkFiltersSMP, needed by VTK_Group_StandAlone.
+ * vtkFiltersSelection, needed by VTK_Group_StandAlone.
+ * vtkFiltersSources, needed by 14 modules:
+        VTK_Group_StandAlone
+        vtkDomainsChemistry
+        vtkFiltersFlowPaths
+        vtkFiltersGeneric
+        vtkFiltersModeling
+        vtkFiltersParallel
+        vtkIOImport
+        vtkInfovisLayout
+        vtkInteractionStyle
+        vtkInteractionWidgets
+        vtkRenderingAnnotation
+        vtkRenderingCore
+        vtkRenderingVolumeOpenGL2
+        vtkViewsInfovis
+ * vtkFiltersStatistics, needed by 5 modules:
+        VTK_Group_StandAlone
+        vtkFiltersExtraction
+        vtkFiltersImaging
+        vtkFiltersParallelImaging
+        vtkViewsInfovis
+ * vtkFiltersTexture, needed by VTK_Group_StandAlone.
+ * vtkFiltersTopology, needed by VTK_Group_StandAlone.
+ * vtkFiltersVerdict, needed by VTK_Group_StandAlone.
+ * vtkGeovisCore, needed by VTK_Group_Rendering.
+ * vtkIOAMR, needed by VTK_Group_StandAlone.
+ * vtkIOAsynchronous, needed by VTK_Group_StandAlone.
+ * vtkIOCityGML, needed by VTK_Group_StandAlone.
+ * vtkIOCore, needed by 15 modules:
+        VTK_Group_StandAlone
+        vtkFiltersFlowPaths
+        vtkIOAsynchronous
+        vtkIOExodus
+        vtkIOExport
+        vtkIOGeometry
+        vtkIOInfovis
+        vtkIOLegacy
+        vtkIOMINC
+        vtkIOPLY
+        vtkIOParallel
+        vtkIOSQL
+        vtkIOTecplotTable
+        vtkIOXML
+        vtkIOXMLParser
+ * vtkIOEnSight, needed by VTK_Group_StandAlone.
+ * vtkIOExodus, needed by VTK_Group_StandAlone.
+ * vtkIOExport, needed by 5 modules:
+        VTK_Group_Rendering
+        vtkIOExportOpenGL2
+        vtkIOExportOpenGL2
+        vtkIOExportPDF
+        vtkIOExportPDF
+ * vtkIOExportOpenGL2, needed by vtkIOExport.
+ * vtkIOExportPDF, needed by VTK_Group_Rendering.
+ * vtkIOGeometry, needed by 2 modules:
+        VTK_Group_StandAlone
+        vtkIOParallel
+ * vtkIOImage, needed by 12 modules:
+        VTK_Group_StandAlone
+        vtkGeovisCore
+        vtkIOAsynchronous
+        vtkIOExport
+        vtkIOExport
+        vtkIOGeometry
+        vtkIOImport
+        vtkIOMINC
+        vtkIOParallel
+        vtkIOSegY
+        vtkImagingHybrid
+        vtkRenderingParallel
+ * vtkIOImport, needed by VTK_Group_StandAlone.
+ * vtkIOInfovis, needed by VTK_Group_StandAlone.
+ * vtkIOLSDyna, needed by VTK_Group_StandAlone.
+ * vtkIOLegacy, needed by 7 modules:
+        VTK_Group_StandAlone
+        vtkDomainsChemistry
+        vtkFiltersParallel
+        vtkIOGeometry
+        vtkIOInfovis
+        vtkIOParallel
+        vtkParallelCore
+ * vtkIOMINC, needed by VTK_Group_StandAlone.
+ * vtkIOMovie, needed by VTK_Group_StandAlone.
+ * vtkIONetCDF, needed by 2 modules:
+        VTK_Group_StandAlone
+        vtkIOParallel
+ * vtkIOPLY, needed by VTK_Group_StandAlone.
+ * vtkIOParallel, needed by VTK_Group_StandAlone.
+ * vtkIOParallelXML, needed by VTK_Group_StandAlone.
+ * vtkIOSQL, needed by VTK_Group_StandAlone.
+ * vtkIOSegY, needed by VTK_Group_StandAlone.
+ * vtkIOTecplotTable, needed by VTK_Group_StandAlone.
+ * vtkIOVeraOut, needed by VTK_Group_StandAlone.
+ * vtkIOVideo, needed by VTK_Group_StandAlone.
+ * vtkIOXML, needed by 8 modules:
+        VTK_Group_StandAlone
+        vtkFiltersAMR
+        vtkGeovisCore
+        vtkIOAsynchronous
+        vtkIOExport
+        vtkIOInfovis
+        vtkIOParallelXML
+        vtkRenderingVolume
+ * vtkIOXMLParser, needed by 6 modules:
+        VTK_Group_StandAlone
+        vtkDomainsChemistry
+        vtkIOExodus
+        vtkIOInfovis
+        vtkIOLSDyna
+        vtkIOXML
+ * vtkImagingColor, needed by 4 modules:
+        VTK_Group_StandAlone
+        vtkInteractionImage
+        vtkInteractionWidgets
+        vtkRenderingAnnotation
+ * vtkImagingCore, needed by 22 modules:
+        VTK_Group_StandAlone
+        vtkFiltersHybrid
+        vtkFiltersParallelImaging
+        vtkGeovisCore
+        vtkIOExport
+        vtkIOExportOpenGL2
+        vtkIOExportPDF
+        vtkImagingColor
+        vtkImagingFourier
+        vtkImagingGeneral
+        vtkImagingHybrid
+        vtkImagingMorphological
+        vtkImagingSources
+        vtkImagingStatistics
+        vtkImagingStencil
+        vtkInteractionImage
+        vtkInteractionWidgets
+        vtkRenderingContextOpenGL2
+        vtkRenderingImage
+        vtkRenderingParallel
+        vtkRenderingVolume
+        vtkRenderingVolumeOpenGL2
+ * vtkImagingFourier, needed by 2 modules:
+        VTK_Group_StandAlone
+        vtkFiltersStatistics
+ * vtkImagingGeneral, needed by 6 modules:
+        VTK_Group_StandAlone
+        vtkFiltersImaging
+        vtkFiltersParallelImaging
+        vtkImagingMorphological
+        vtkInteractionWidgets
+        vtkViewsInfovis
+ * vtkImagingHybrid, needed by 3 modules:
+        VTK_Group_StandAlone
+        vtkInfovisLayout
+        vtkInteractionWidgets
+ * vtkImagingMath, needed by 2 modules:
+        VTK_Group_StandAlone
+        vtkRenderingVolumeOpenGL2
+ * vtkImagingMorphological, needed by VTK_Group_StandAlone.
+ * vtkImagingSources, needed by 5 modules:
+        VTK_Group_StandAlone
+        vtkFiltersHybrid
+        vtkGeovisCore
+        vtkImagingGeneral
+        vtkImagingMorphological
+ * vtkImagingStatistics, needed by VTK_Group_StandAlone.
+ * vtkImagingStencil, needed by VTK_Group_StandAlone.
+ * vtkInfovisCore, needed by 6 modules:
+        VTK_Group_StandAlone
+        vtkChartsCore
+        vtkGeovisCore
+        vtkIOInfovis
+        vtkInfovisLayout
+        vtkViewsInfovis
+ * vtkInfovisLayout, needed by 3 modules:
+        VTK_Group_StandAlone
+        vtkGeovisCore
+        vtkViewsInfovis
+ * vtkInteractionImage, needed by VTK_Group_Rendering.
+ * vtkInteractionStyle, needed by 5 modules:
+        VTK_Group_Rendering
+        vtkGeovisCore
+        vtkInteractionImage
+        vtkInteractionWidgets
+        vtkViewsInfovis
+ * vtkInteractionWidgets, needed by 5 modules:
+        VTK_Group_Rendering
+        vtkGeovisCore
+        vtkInteractionImage
+        vtkViewsCore
+        vtkViewsInfovis
+ * vtkMetaIO, needed by vtkIOImage.
+ * vtkParallelCore, needed by 8 modules:
+        VTK_Group_StandAlone
+        vtkFiltersAMR
+        vtkFiltersParallel
+        vtkFiltersParallelImaging
+        vtkIOAMR
+        vtkIOParallel
+        vtkIOParallelXML
+        vtkRenderingParallel
+ * vtkRenderingAnnotation, needed by 3 modules:
+        VTK_Group_Rendering
+        vtkInteractionWidgets
+        vtkViewsInfovis
+ * vtkRenderingContext2D, needed by 7 modules:
+        VTK_Group_Rendering
+        vtkChartsCore
+        vtkIOExport
+        vtkRenderingContextOpenGL2
+        vtkRenderingContextOpenGL2
+        vtkViewsContext2D
+        vtkViewsInfovis
+ * vtkRenderingContextOpenGL2, needed by vtkRenderingContext2D.
+ * vtkRenderingCore, needed by 32 modules:
+        VTK_Group_Rendering
+        vtkChartsCore
+        vtkDomainsChemistry
+        vtkDomainsChemistryOpenGL2
+        vtkFiltersHybrid
+        vtkFiltersParallel
+        vtkGeovisCore
+        vtkIOExport
+        vtkIOExportOpenGL2
+        vtkIOImport
+        vtkIOMINC
+        vtkInteractionImage
+        vtkInteractionStyle
+        vtkInteractionStyle
+        vtkInteractionWidgets
+        vtkRenderingAnnotation
+        vtkRenderingContext2D
+        vtkRenderingContextOpenGL2
+        vtkRenderingFreeType
+        vtkRenderingFreeType
+        vtkRenderingGL2PSOpenGL2
+        vtkRenderingImage
+        vtkRenderingLOD
+        vtkRenderingLabel
+        vtkRenderingOpenGL2
+        vtkRenderingOpenGL2
+        vtkRenderingParallel
+        vtkRenderingVolume
+        vtkRenderingVolumeOpenGL2
+        vtkViewsContext2D
+        vtkViewsCore
+        vtkViewsInfovis
+ * vtkRenderingFreeType, needed by 7 modules:
+        VTK_Group_Rendering
+        vtkIOExport
+        vtkInteractionWidgets
+        vtkRenderingAnnotation
+        vtkRenderingContext2D
+        vtkRenderingContextOpenGL2
+        vtkRenderingLabel
+ * vtkRenderingGL2PSOpenGL2, needed by 2 modules:
+        vtkIOExport
+        vtkIOExportOpenGL2
+ * vtkRenderingImage, needed by VTK_Group_Rendering.
+ * vtkRenderingLOD, needed by VTK_Group_Rendering.
+ * vtkRenderingLabel, needed by 2 modules:
+        VTK_Group_Rendering
+        vtkViewsInfovis
+ * vtkRenderingOpenGL2, needed by 8 modules:
+        vtkDomainsChemistryOpenGL2
+        vtkRenderingContextOpenGL2
+        vtkRenderingCore
+        vtkRenderingGL2PSOpenGL2
+        vtkRenderingGL2PSOpenGL2
+        vtkRenderingGL2PSOpenGL2
+        vtkRenderingParallel
+        vtkRenderingVolumeOpenGL2
+ * vtkRenderingParallel, requested by Module_vtkRenderingParallel.
+ * vtkRenderingVolume, needed by 4 modules:
+        VTK_Group_Rendering
+        vtkInteractionWidgets
+        vtkRenderingVolumeOpenGL2
+        vtkRenderingVolumeOpenGL2
+ * vtkRenderingVolumeOpenGL2, needed by vtkRenderingVolume.
+ * vtkViewsContext2D, needed by VTK_Group_Rendering.
+ * vtkViewsCore, needed by 4 modules:
+        VTK_Group_Rendering
+        vtkGeovisCore
+        vtkViewsContext2D
+        vtkViewsInfovis
+ * vtkViewsInfovis, needed by VTK_Group_Rendering.
+ * vtkdoubleconversion, needed by vtkIOCore.
+ * vtkeigen, needed by vtkFiltersStatistics.
+ * vtkexodusII, needed by 2 modules:
+        vtkIOExodus
+        vtkIOParallel
+ * vtkexpat, needed by vtkIOXMLParser.
+ * vtkfreetype, needed by vtkRenderingFreeType.
+ * vtkgl2ps, needed by 2 modules:
+        vtkIOExportOpenGL2
+        vtkRenderingGL2PSOpenGL2
+ * vtkglew, needed by 5 modules:
+        vtkDomainsChemistryOpenGL2
+        vtkRenderingContextOpenGL2
+        vtkRenderingOpenGL2
+        vtkRenderingParallel
+        vtkRenderingVolumeOpenGL2
+ * vtkhdf5, needed by 3 modules:
+        vtkIOAMR
+        vtkIOVeraOut
+        vtknetcdf
+ * vtkjpeg, needed by 3 modules:
+        vtkIOAsynchronous
+        vtkIOImage
+        vtktiff
+ * vtkjsoncpp, needed by vtkIOParallel.
+ * vtkkwiml, needed by 2 modules:
+        vtkCommonCore
+        vtkfreetype
+ * vtklibharu, needed by vtkIOExportPDF.
+ * vtklibproj, needed by vtkGeovisCore.
+ * vtklibxml2, needed by vtkIOInfovis.
+ * vtklz4, needed by vtkIOCore.
+ * vtklzma, needed by vtkIOCore.
+ * vtknetcdf, needed by 4 modules:
+        vtkIOMINC
+        vtkIONetCDF
+        vtkIOParallel
+        vtkexodusII
+ * vtkogg, needed by vtktheora.
+ * vtkpng, needed by 4 modules:
+        vtkIOAsynchronous
+        vtkIOImage
+        vtkgl2ps
+        vtklibharu
+ * vtkpugixml, needed by vtkIOCityGML.
+ * vtksqlite, needed by vtkIOSQL.
+ * vtksys, needed by 35 modules:
+        vtkChartsCore
+        vtkCommonCore
+        vtkCommonDataModel
+        vtkCommonMisc
+        vtkCommonSystem
+        vtkDICOMParser
+        vtkDomainsChemistry
+        vtkFiltersHybrid
+        vtkIOAMR
+        vtkIOAsynchronous
+        vtkIOCityGML
+        vtkIOCore
+        vtkIOExodus
+        vtkIOExport
+        vtkIOGeometry
+        vtkIOImage
+        vtkIOImport
+        vtkIOInfovis
+        vtkIOLSDyna
+        vtkIOLegacy
+        vtkIOMINC
+        vtkIONetCDF
+        vtkIOPLY
+        vtkIOParallel
+        vtkIOParallelXML
+        vtkIOSQL
+        vtkIOTecplotTable
+        vtkIOVideo
+        vtkIOXML
+        vtkIOXMLParser
+        vtkImagingFourier
+        vtkParallelCore
+        vtkRenderingCore
+        vtkRenderingOpenGL2
+        vtkRenderingVolumeOpenGL2
+ * vtktheora, needed by vtkIOMovie.
+ * vtktiff, needed by 2 modules:
+        vtkIOAsynchronous
+        vtkIOImage
+ * vtkutf8, needed by 2 modules:
+        vtkCommonCore
+        vtkIOCore
+ * vtkverdict, needed by vtkFiltersVerdict.
+ * vtkzlib, needed by 12 modules:
+        vtkIOAsynchronous
+        vtkIOCore
+        vtkIOGeometry
+        vtkIOImage
+        vtkMetaIO
+        vtkfreetype
+        vtkgl2ps
+        vtkhdf5
+        vtklibharu
+        vtklibxml2
+        vtkpng
+        vtktiff

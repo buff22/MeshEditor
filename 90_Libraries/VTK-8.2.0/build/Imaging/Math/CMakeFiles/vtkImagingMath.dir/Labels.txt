@@ -1,0 +1,20 @@
+# Target labels
+ vtkImagingMath
+# Source files and their labels
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Math/vtkImageDivergence.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Math/vtkImageDotProduct.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Math/vtkImageLogarithmicScale.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Math/vtkImageLogic.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Math/vtkImageMagnitude.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Math/vtkImageMaskBits.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Math/vtkImageMathematics.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Math/vtkImageWeightedSum.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Math/vtkImageDivergence.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Math/vtkImageDotProduct.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Math/vtkImageLogarithmicScale.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Math/vtkImageLogic.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Math/vtkImageMagnitude.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Math/vtkImageMaskBits.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Math/vtkImageMathematics.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Math/vtkImageWeightedSum.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Imaging/Math/vtkImagingMathModule.h

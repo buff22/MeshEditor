@@ -1,0 +1,39 @@
+# Target labels
+ vtkDomainsChemistry
+# Source files and their labels
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Domains/Chemistry/vtkBlueObeliskData.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Domains/Chemistry/vtkBlueObeliskDataInternal.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Domains/Chemistry/vtkBlueObeliskDataParser.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Domains/Chemistry/vtkCMLMoleculeReader.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Domains/Chemistry/vtkGaussianCubeReader2.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Domains/Chemistry/vtkMoleculeMapper.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Domains/Chemistry/vtkMoleculeToAtomBallFilter.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Domains/Chemistry/vtkMoleculeToBondStickFilter.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Domains/Chemistry/vtkMoleculeToLinesFilter.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Domains/Chemistry/vtkMoleculeToPolyDataFilter.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Domains/Chemistry/vtkPeriodicTable.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Domains/Chemistry/vtkPointSetToMoleculeFilter.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Domains/Chemistry/vtkProgrammableElectronicData.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Domains/Chemistry/vtkProteinRibbonFilter.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Domains/Chemistry/vtkSimpleBondPerceiver.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Domains/Chemistry/vtkVASPAnimationReader.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Domains/Chemistry/vtkVASPTessellationReader.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Domains/Chemistry/vtkXYZMolReader2.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Domains/Chemistry/vtkBlueObeliskData.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Domains/Chemistry/vtkBlueObeliskDataParser.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Domains/Chemistry/vtkCMLMoleculeReader.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Domains/Chemistry/vtkGaussianCubeReader2.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Domains/Chemistry/vtkMoleculeMapper.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Domains/Chemistry/vtkMoleculeToAtomBallFilter.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Domains/Chemistry/vtkMoleculeToBondStickFilter.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Domains/Chemistry/vtkMoleculeToLinesFilter.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Domains/Chemistry/vtkMoleculeToPolyDataFilter.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Domains/Chemistry/vtkPeriodicTable.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Domains/Chemistry/vtkPointSetToMoleculeFilter.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Domains/Chemistry/vtkProgrammableElectronicData.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Domains/Chemistry/vtkProteinRibbonFilter.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Domains/Chemistry/vtkSimpleBondPerceiver.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Domains/Chemistry/vtkVASPAnimationReader.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Domains/Chemistry/vtkVASPTessellationReader.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Domains/Chemistry/vtkXYZMolReader2.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Domains/Chemistry/vtkDomainsChemistryModule.h

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Examples\Build\vtkLocal\CMakeTmp\VTK_UNDEFINED_SYMBOLS_ALLOWED\CMakeFiles\289a65cc05eedf2465767dfa98e2fdaa\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{38698121-280A-398D-A980-BDE5925FCE42}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

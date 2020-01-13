@@ -1,0 +1,12 @@
+# CMake generation dependency list for this directory.
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/expat/vtkexpat/CMakeLists.txt
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/expat/vtkexpat/ConfigureChecks.cmake
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/expat/vtkexpat/expat_config.h.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CheckCCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CheckIncludeFileCXX.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CheckIncludeFiles.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CheckSymbolExists.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CheckTypeSize.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/TestBigEndian.cmake

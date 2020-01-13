@@ -1,0 +1,70 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/hdf5/vtkhdf5/hl/src/H5DO.c"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/hdf5/vtkhdf5/hl/src/H5DS.c"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/hdf5/vtkhdf5/hl/src/H5IM.c"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/hdf5/vtkhdf5/hl/src/H5LT.c"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/hdf5/vtkhdf5/hl/src/H5LTanalyze.c"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/hdf5/vtkhdf5/hl/src/H5LTparse.c"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/hdf5/vtkhdf5/hl/src/H5PT.c"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/hdf5/vtkhdf5/hl/src/H5TB.c"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/hdf5/vtkhdf5/hl/src/H5LD.c"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/hdf5/vtkhdf5/hl/src/H5DOpublic.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/hdf5/vtkhdf5/hl/src/H5DSpublic.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/hdf5/vtkhdf5/hl/src/H5IMpublic.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/hdf5/vtkhdf5/hl/src/H5LTparse.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/hdf5/vtkhdf5/hl/src/H5LTpublic.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/hdf5/vtkhdf5/hl/src/H5PTpublic.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/hdf5/vtkhdf5/hl/src/H5TBpublic.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/hdf5/vtkhdf5/hl/src/H5LDpublic.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/hdf5/vtkhdf5/hl/src/hdf5_hl.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/hdf5/vtkhdf5/hl/src/vtk_hdf5_hl_mangle.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkhdf5"
+		],
+		"name" : "vtkhdf5_hl_src"
+	}
+}

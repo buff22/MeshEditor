@@ -1,0 +1,6 @@
+# Target labels
+ vtkIOAsynchronous
+# Source files and their labels
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Asynchronous/vtkThreadedImageWriter.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Asynchronous/vtkThreadedImageWriter.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/build/IO/Asynchronous/vtkIOAsynchronousModule.h

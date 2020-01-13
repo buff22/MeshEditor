@@ -1,0 +1,8 @@
+# Target labels
+ vtkglew
+# Source files and their labels
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/glew/vtkglew/src/glew.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/glew/vtkglew/include/GL/glew.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/glew/vtkglew/include/GL/glxew.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/glew/vtkglew/include/GL/vtk_glew_mangle.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/glew/vtkglew/include/GL/wglew.h

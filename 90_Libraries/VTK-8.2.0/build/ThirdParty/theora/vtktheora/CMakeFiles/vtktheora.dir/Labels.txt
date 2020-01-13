@@ -1,0 +1,34 @@
+# Target labels
+ vtktheora
+# Source files and their labels
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/theora/vtktheora/lib/analyze.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/theora/vtktheora/lib/encapiwrapper.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/theora/vtktheora/lib/encfrag.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/theora/vtktheora/lib/encinfo.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/theora/vtktheora/lib/encode.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/theora/vtktheora/lib/enquant.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/theora/vtktheora/lib/fdct.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/theora/vtktheora/lib/huffenc.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/theora/vtktheora/lib/mathops.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/theora/vtktheora/lib/mcenc.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/theora/vtktheora/lib/rate.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/theora/vtktheora/lib/tokenize.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/theora/vtktheora/lib/bitpack.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/theora/vtktheora/lib/decapiwrapper.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/theora/vtktheora/lib/decinfo.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/theora/vtktheora/lib/decode.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/theora/vtktheora/lib/dequant.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/theora/vtktheora/lib/huffdec.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/theora/vtktheora/lib/info.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/theora/vtktheora/lib/apiwrapper.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/theora/vtktheora/lib/fragment.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/theora/vtktheora/lib/idct.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/theora/vtktheora/lib/internal.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/theora/vtktheora/lib/quant.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/theora/vtktheora/lib/state.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/theora/vtktheora/include/theora/codec.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/theora/vtktheora/include/theora/theora.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/theora/vtktheora/include/theora/theoradec.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/theora/vtktheora/include/theora/theoraenc.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/theora/vtktheora/include/theora/vtk_theora_mangle.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/build/ThirdParty/theora/vtktheora/include/vtktheora_export.h

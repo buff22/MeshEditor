@@ -1,0 +1,8 @@
+# Target labels
+ vtkViewsContext2D
+# Source files and their labels
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Views/Context2D/vtkContextView.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Views/Context2D/vtkContextInteractorStyle.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Views/Context2D/vtkContextView.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Views/Context2D/vtkContextInteractorStyle.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Views/Context2D/vtkViewsContext2DModule.h

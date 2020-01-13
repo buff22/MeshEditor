@@ -1,0 +1,42 @@
+# Target labels
+ vtkInteractionStyle
+# Source files and their labels
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Style/vtkInteractorStyleDrawPolygon.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Style/vtkInteractorStyleFlight.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Style/vtkInteractorStyleImage.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Style/vtkInteractorStyleJoystickActor.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Style/vtkInteractorStyleJoystickCamera.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Style/vtkInteractorStyleMultiTouchCamera.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Style/vtkInteractorStyleRubberBand2D.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Style/vtkInteractorStyleRubberBand3D.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Style/vtkInteractorStyleRubberBandPick.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Style/vtkInteractorStyleRubberBandZoom.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Style/vtkInteractorStyleTerrain.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Style/vtkInteractorStyleTrackballActor.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Style/vtkInteractorStyleTrackballCamera.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Style/vtkInteractorStyleTrackball.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Style/vtkInteractorStyleUnicam.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Style/vtkInteractorStyleUser.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Style/vtkInteractorStyleSwitch.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Style/vtkParallelCoordinatesInteractorStyle.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Interaction/Style/vtkInteractionStyleObjectFactory.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Style/vtkInteractorStyleDrawPolygon.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Style/vtkInteractorStyleFlight.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Style/vtkInteractorStyleImage.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Style/vtkInteractorStyleJoystickActor.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Style/vtkInteractorStyleJoystickCamera.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Style/vtkInteractorStyleMultiTouchCamera.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Style/vtkInteractorStyleRubberBand2D.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Style/vtkInteractorStyleRubberBand3D.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Style/vtkInteractorStyleRubberBandPick.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Style/vtkInteractorStyleRubberBandZoom.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Style/vtkInteractorStyleTerrain.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Style/vtkInteractorStyleTrackballActor.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Style/vtkInteractorStyleTrackballCamera.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Style/vtkInteractorStyleTrackball.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Style/vtkInteractorStyleUnicam.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Style/vtkInteractorStyleUser.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Style/vtkInteractorStyleSwitch.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Interaction/Style/vtkParallelCoordinatesInteractorStyle.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Interaction/Style/vtkInteractionStyleObjectFactory.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Interaction/Style/vtkInteractionStyleModule.h

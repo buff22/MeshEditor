@@ -1,0 +1,6 @@
+# Target labels
+ vtkLocalExample
+# Source files and their labels
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Examples/Build/vtkLocal/vtkLocalExample.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Examples/Build/vtkLocal/vtkLocalExample.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Examples/Build/vtkLocal/vtkLocalExampleModule.h

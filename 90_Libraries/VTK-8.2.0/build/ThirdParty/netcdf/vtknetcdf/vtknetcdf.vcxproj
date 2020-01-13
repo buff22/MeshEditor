@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5D7F4F05-4FB7-3A68-9485-39F61D833313}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>vtknetcdf</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">vtknetcdf.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">vtkNetCDF-8.2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">vtknetcdf.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">vtkNetCDF-8.2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\netcdf\vtknetcdf;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\netcdf;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\hdf5\vtkhdf5;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\hdf5\vtkhdf5\hl\src;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\hdf5\vtkhdf5\src;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\hdf5;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\hdf5;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\zlib;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\zlib;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\libdispatch;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\libsrc;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\libsrc4;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\netcdf\vtknetcdf\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\hdf5\vtkhdf5\src;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\hdf5\vtkhdf5\hl\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;HAVE_CONFIG_H;DLL_EXPORT;DLL_NETCDF;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;H5_BUILT_AS_DYNAMIC_LIB;CMAKE_INTDIR="Debug";vtknetcdf_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;HAVE_CONFIG_H;DLL_EXPORT;DLL_NETCDF;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;H5_BUILT_AS_DYNAMIC_LIB;CMAKE_INTDIR=\"Debug\";vtknetcdf_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\netcdf\vtknetcdf;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\netcdf;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\hdf5\vtkhdf5;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\hdf5\vtkhdf5\hl\src;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\hdf5\vtkhdf5\src;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\hdf5;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\hdf5;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\zlib;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\zlib;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\libdispatch;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\libsrc;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\libsrc4;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\netcdf\vtknetcdf\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\hdf5\vtkhdf5\src;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\hdf5\vtkhdf5\hl\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\netcdf\vtknetcdf;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\netcdf;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\hdf5\vtkhdf5;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\hdf5\vtkhdf5\hl\src;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\hdf5\vtkhdf5\src;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\hdf5;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\hdf5;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\zlib;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\zlib;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\libdispatch;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\libsrc;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\libsrc4;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\netcdf\vtknetcdf\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\hdf5\vtkhdf5\src;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\hdf5\vtkhdf5\hl\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\lib\Debug\vtkhdf5-8.2.lib;..\..\..\lib\Debug\vtkhdf5_hl-8.2.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/MeshEditor/90_Libraries/VTK-8.2.0/build/lib/Debug/vtkNetCDF-8.2.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/MeshEditor/90_Libraries/VTK-8.2.0/build/bin/Debug/vtkNetCDF-8.2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\netcdf\vtknetcdf;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\netcdf;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\hdf5\vtkhdf5;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\hdf5\vtkhdf5\hl\src;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\hdf5\vtkhdf5\src;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\hdf5;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\hdf5;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\zlib;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\zlib;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\libdispatch;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\libsrc;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\libsrc4;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\netcdf\vtknetcdf\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\hdf5\vtkhdf5\src;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\hdf5\vtkhdf5\hl\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;HAVE_CONFIG_H;DLL_EXPORT;DLL_NETCDF;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;H5_BUILT_AS_DYNAMIC_LIB;CMAKE_INTDIR="Release";vtknetcdf_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;HAVE_CONFIG_H;DLL_EXPORT;DLL_NETCDF;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;H5_BUILT_AS_DYNAMIC_LIB;CMAKE_INTDIR=\"Release\";vtknetcdf_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\netcdf\vtknetcdf;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\netcdf;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\hdf5\vtkhdf5;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\hdf5\vtkhdf5\hl\src;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\hdf5\vtkhdf5\src;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\hdf5;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\hdf5;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\zlib;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\zlib;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\libdispatch;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\libsrc;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\libsrc4;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\netcdf\vtknetcdf\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\hdf5\vtkhdf5\src;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\hdf5\vtkhdf5\hl\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\netcdf\vtknetcdf;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\netcdf;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\hdf5\vtkhdf5;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\hdf5\vtkhdf5\hl\src;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\hdf5\vtkhdf5\src;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\hdf5;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\hdf5;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\zlib;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\zlib;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\libdispatch;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\libsrc;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\libsrc4;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\netcdf\vtknetcdf\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\hdf5\vtkhdf5\src;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\hdf5\vtkhdf5\hl\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\lib\Release\vtkhdf5-8.2.lib;..\..\..\lib\Release\vtkhdf5_hl-8.2.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/MeshEditor/90_Libraries/VTK-8.2.0/build/lib/Release/vtkNetCDF-8.2.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/MeshEditor/90_Libraries/VTK-8.2.0/build/bin/Release/vtkNetCDF-8.2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/netcdf/vtknetcdf/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/MeshEditor/90_Libraries/VTK-8.2.0/src -BC:/MeshEditor/90_Libraries/VTK-8.2.0/build --check-stamp-file C:/MeshEditor/90_Libraries/VTK-8.2.0/build/ThirdParty/netcdf/vtknetcdf/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/netcdf/vtknetcdf/CMakeLists.txt;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\CMakeLists.txt;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\config.h.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\include\netcdf_meta.h.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\vtk_netcdf_config.h.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\TestBigEndian.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\netcdf\vtknetcdf\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/netcdf/vtknetcdf/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/MeshEditor/90_Libraries/VTK-8.2.0/src -BC:/MeshEditor/90_Libraries/VTK-8.2.0/build --check-stamp-file C:/MeshEditor/90_Libraries/VTK-8.2.0/build/ThirdParty/netcdf/vtknetcdf/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/netcdf/vtknetcdf/CMakeLists.txt;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\CMakeLists.txt;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\config.h.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\include\netcdf_meta.h.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\vtk_netcdf_config.h.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\TestBigEndian.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\netcdf\vtknetcdf\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\libdispatch\datt.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\libdispatch\dattget.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\libdispatch\dattinq.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\libdispatch\dattput.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\libdispatch\dcompound.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\libdispatch\dcopy.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\libdispatch\ddim.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\libdispatch\ddispatch.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\libdispatch\denum.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\libdispatch\derror.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\libdispatch\dfile.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\libdispatch\dgroup.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\libdispatch\dinternal.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\libdispatch\doffsets.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\libdispatch\dopaque.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\libdispatch\dparallel.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\libdispatch\drc.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\libdispatch\dstring.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\libdispatch\dtype.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\libdispatch\dutf8.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\libdispatch\dvar.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\libdispatch\dvarget.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\libdispatch\dvarinq.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\libdispatch\dvarput.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\libdispatch\dvlen.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\libdispatch\dwinpath.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\libdispatch\nc.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\libdispatch\ncaux.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\libdispatch\ncbytes.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\libdispatch\nchashmap.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\libdispatch\nclist.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\libdispatch\nclistmgr.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\libdispatch\nclog.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\libdispatch\nctime.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\libdispatch\ncuri.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\libdispatch\utf8proc.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\liblib\nc_initialize.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\libsrc\attr.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\libsrc\dim.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\libsrc\lookup3.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\libsrc\memio.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\libsrc\nc3dispatch.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\libsrc\nc3internal.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\libsrc\nc_hashmap.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\libsrc\ncio.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\libsrc\ncx.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\libsrc\posixio.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\libsrc\putget.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\libsrc\v1hpg.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\libsrc\var.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\libsrc4\error4.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\libsrc4\nc4attr.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\libsrc4\nc4dim.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\libsrc4\nc4dispatch.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\libsrc4\nc4file.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\libsrc4\nc4grp.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\libsrc4\nc4hdf.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\libsrc4\nc4info.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\libsrc4\nc4internal.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\libsrc4\nc4printer.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\libsrc4\nc4type.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\libsrc4\nc4var.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\libsrc4\ncfunc.c" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\include\netcdf.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\include\vtk_netcdf_mangle.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\netcdf\vtknetcdf\include\netcdf_meta.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\netcdf\vtknetcdf\vtk_netcdf_config.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ZERO_CHECK.vcxproj">
+      <Project>{08D62400-3290-3C24-87AA-504F9356C20C}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\hdf5\vtkhdf5\hl\src\vtkhdf5_hl_src.vcxproj">
+      <Project>{50AE6F25-F199-399F-BE4C-58BD143E58F6}</Project>
+      <Name>vtkhdf5_hl_src</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\hdf5\vtkhdf5\src\vtkhdf5_src.vcxproj">
+      <Project>{4D5F3D15-7003-3BE8-9014-EE2074AD3FE1}</Project>
+      <Name>vtkhdf5_src</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,8 @@
+# Target labels
+ vtkIOVideo
+# Source files and their labels
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Video/vtkVideoSource.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Video/vtkWin32VideoSource.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Video/vtkVideoSource.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Video/vtkWin32VideoSource.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/build/IO/Video/vtkIOVideoModule.h

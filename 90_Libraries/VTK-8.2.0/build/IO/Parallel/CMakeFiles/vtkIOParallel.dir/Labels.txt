@@ -1,0 +1,24 @@
+# Target labels
+ vtkIOParallel
+# Source files and their labels
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Parallel/vtkEnSightWriter.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Parallel/vtkMultiBlockPLOT3DReader.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Parallel/vtkMultiBlockPLOT3DReaderInternals.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Parallel/vtkPlot3DMetaReader.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Parallel/vtkPChacoReader.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Parallel/vtkPDataSetReader.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Parallel/vtkPDataSetWriter.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Parallel/vtkPImageWriter.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Parallel/vtkPOpenFOAMReader.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Parallel/vtkPSLACReader.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Parallel/vtkEnSightWriter.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Parallel/vtkMultiBlockPLOT3DReader.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Parallel/vtkMultiBlockPLOT3DReaderInternals.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Parallel/vtkPlot3DMetaReader.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Parallel/vtkPChacoReader.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Parallel/vtkPDataSetReader.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Parallel/vtkPDataSetWriter.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Parallel/vtkPImageWriter.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Parallel/vtkPOpenFOAMReader.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Parallel/vtkPSLACReader.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/build/IO/Parallel/vtkIOParallelModule.h

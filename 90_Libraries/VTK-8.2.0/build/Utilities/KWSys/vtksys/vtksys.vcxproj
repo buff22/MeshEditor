@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A36C7A2E-C1E0-3092-AFDB-1AF68108A640}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>vtksys</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">vtksys.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">vtksys-8.2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">vtksys.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">vtksys-8.2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWSys;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;KWSYS_NAMESPACE=vtksys;UNICODE;_UNICODE;CMAKE_INTDIR="Debug";vtksys_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;KWSYS_NAMESPACE=vtksys;UNICODE;_UNICODE;CMAKE_INTDIR=\"Debug\";vtksys_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWSys;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWSys;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>ws2_32.lib;Psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/MeshEditor/90_Libraries/VTK-8.2.0/build/lib/Debug/vtksys-8.2.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/MeshEditor/90_Libraries/VTK-8.2.0/build/bin/Debug/vtksys-8.2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWSys;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;KWSYS_NAMESPACE=vtksys;UNICODE;_UNICODE;CMAKE_INTDIR="Release";vtksys_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;KWSYS_NAMESPACE=vtksys;UNICODE;_UNICODE;CMAKE_INTDIR=\"Release\";vtksys_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWSys;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWSys;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>ws2_32.lib;Psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/MeshEditor/90_Libraries/VTK-8.2.0/build/lib/Release/vtksys-8.2.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/MeshEditor/90_Libraries/VTK-8.2.0/build/bin/Release/vtksys-8.2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys\vtksys\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Utilities/KWSys/vtksys/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/MeshEditor/90_Libraries/VTK-8.2.0/src -BC:/MeshEditor/90_Libraries/VTK-8.2.0/build --check-stamp-file C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Utilities/KWSys/vtksys/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Utilities/KWSys/vtksys/CMakeLists.txt;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys\vtksys\Base64.h.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys\vtksys\CMakeLists.txt;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys\vtksys\CommandLineArguments.hxx.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys\vtksys\Configure.h.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys\vtksys\Configure.hxx.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys\vtksys\Directory.hxx.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys\vtksys\DynamicLoader.hxx.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys\vtksys\Encoding.h.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys\vtksys\Encoding.hxx.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys\vtksys\FStream.hxx.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys\vtksys\Glob.hxx.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys\vtksys\MD5.h.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys\vtksys\Process.h.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys\vtksys\RegularExpression.hxx.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys\vtksys\SharedForward.h.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys\vtksys\String.hxx.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys\vtksys\System.h.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys\vtksys\SystemInformation.hxx.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys\vtksys\SystemTools.hxx.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys\vtksys\hash_fun.hxx.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys\vtksys\hash_map.hxx.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys\vtksys\hash_set.hxx.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys\vtksys\hashtable.hxx.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys\vtksys\kwsysPlatformTests.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys\vtksys\kwsysPrivate.h;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckTypeSize.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys\vtksys\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWSys\vtksys\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Utilities/KWSys/vtksys/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/MeshEditor/90_Libraries/VTK-8.2.0/src -BC:/MeshEditor/90_Libraries/VTK-8.2.0/build --check-stamp-file C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Utilities/KWSys/vtksys/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Utilities/KWSys/vtksys/CMakeLists.txt;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys\vtksys\Base64.h.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys\vtksys\CMakeLists.txt;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys\vtksys\CommandLineArguments.hxx.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys\vtksys\Configure.h.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys\vtksys\Configure.hxx.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys\vtksys\Directory.hxx.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys\vtksys\DynamicLoader.hxx.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys\vtksys\Encoding.h.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys\vtksys\Encoding.hxx.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys\vtksys\FStream.hxx.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys\vtksys\Glob.hxx.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys\vtksys\MD5.h.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys\vtksys\Process.h.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys\vtksys\RegularExpression.hxx.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys\vtksys\SharedForward.h.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys\vtksys\String.hxx.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys\vtksys\System.h.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys\vtksys\SystemInformation.hxx.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys\vtksys\SystemTools.hxx.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys\vtksys\hash_fun.hxx.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys\vtksys\hash_map.hxx.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys\vtksys\hash_set.hxx.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys\vtksys\hashtable.hxx.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys\vtksys\kwsysPlatformTests.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys\vtksys\kwsysPrivate.h;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckTypeSize.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys\vtksys\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWSys\vtksys\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys\vtksys\ProcessWin32.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys\vtksys\Base64.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys\vtksys\EncodingC.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">KWSYS_ENCODING_DEFAULT_CODEPAGE=CP_ACP;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">KWSYS_ENCODING_DEFAULT_CODEPAGE=CP_ACP;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys\vtksys\MD5.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys\vtksys\System.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">KWSYS_C_HAS_PTRDIFF_T=1;KWSYS_C_HAS_SSIZE_T=0;KWSYS_C_HAS_CLOCK_GETTIME_MONOTONIC=0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">KWSYS_C_HAS_PTRDIFF_T=1;KWSYS_C_HAS_SSIZE_T=0;KWSYS_C_HAS_CLOCK_GETTIME_MONOTONIC=0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWSys\vtksys\Configure.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWSys\vtksys\SharedForward.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWSys\vtksys\Process.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWSys\vtksys\Base64.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWSys\vtksys\Encoding.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWSys\vtksys\MD5.h" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWSys\vtksys\System.h" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys\vtksys\Directory.cxx" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWSys\vtksys\Directory.hxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys\vtksys\DynamicLoader.cxx">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">KWSYS_SUPPORTS_SHARED_LIBS=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">KWSYS_SUPPORTS_SHARED_LIBS=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWSys\vtksys\DynamicLoader.hxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys\vtksys\EncodingCXX.cxx">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">KWSYS_ENCODING_DEFAULT_CODEPAGE=CP_ACP;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">KWSYS_ENCODING_DEFAULT_CODEPAGE=CP_ACP;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWSys\vtksys\Encoding.hxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys\vtksys\Glob.cxx" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWSys\vtksys\Glob.hxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys\vtksys\RegularExpression.cxx" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWSys\vtksys\RegularExpression.hxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys\vtksys\SystemTools.cxx">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">KWSYS_CXX_HAS_SETENV=0;KWSYS_CXX_HAS_UNSETENV=0;KWSYS_CXX_HAS_ENVIRON_IN_STDLIB_H=1;KWSYS_CXX_HAS_UTIMES=0;KWSYS_CXX_HAS_UTIMENSAT=0;KWSYS_CXX_STAT_HAS_ST_MTIM=0;KWSYS_CXX_STAT_HAS_ST_MTIMESPEC=0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">KWSYS_CXX_HAS_SETENV=0;KWSYS_CXX_HAS_UNSETENV=0;KWSYS_CXX_HAS_ENVIRON_IN_STDLIB_H=1;KWSYS_CXX_HAS_UTIMES=0;KWSYS_CXX_HAS_UTIMENSAT=0;KWSYS_CXX_STAT_HAS_ST_MTIM=0;KWSYS_CXX_STAT_HAS_ST_MTIMESPEC=0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWSys\vtksys\SystemTools.hxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys\vtksys\CommandLineArguments.cxx" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWSys\vtksys\CommandLineArguments.hxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys\vtksys\FStream.cxx" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWSys\vtksys\FStream.hxx" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys\vtksys\SystemInformation.cxx">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">SIZEOF_VOID_P=8;KWSYS_SYS_HAS_PSAPI=1;KWSYS_CXX_HAS_ATOL=1;KWSYS_CXX_HAS_ATOLL=1;KWSYS_CXX_HAS__ATOI64=1;KWSYS_USE_LONG_LONG=1;KWSYS_BUILD_SHARED=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">SIZEOF_VOID_P=8;KWSYS_SYS_HAS_PSAPI=1;KWSYS_CXX_HAS_ATOL=1;KWSYS_CXX_HAS_ATOLL=1;KWSYS_CXX_HAS__ATOI64=1;KWSYS_USE_LONG_LONG=1;KWSYS_BUILD_SHARED=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWSys\vtksys\SystemInformation.hxx" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWSys\vtksys\Configure.hxx" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWSys\vtksys\String.hxx" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWSys\vtksys\hashtable.hxx" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWSys\vtksys\hash_fun.hxx" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWSys\vtksys\hash_map.hxx" />
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWSys\vtksys\hash_set.hxx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ZERO_CHECK.vcxproj">
+      <Project>{08D62400-3290-3C24-87AA-504F9356C20C}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

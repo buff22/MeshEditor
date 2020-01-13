@@ -1,0 +1,118 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/VolumeOpenGL2/vtkMultiBlockVolumeMapper.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/VolumeOpenGL2/vtkOpenGLGPUVolumeRayCastMapper.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/VolumeOpenGL2/vtkOpenGLProjectedTetrahedraMapper.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/VolumeOpenGL2/vtkOpenGLRayCastImageDisplayHelper.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/VolumeOpenGL2/vtkSmartVolumeMapper.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/VolumeOpenGL2/vtkVolumeTexture.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/VolumeOpenGL2/vtkVolumeInputHelper.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/VolumeOpenGL2/vtkOpenGLVolumeRGBTable.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/VolumeOpenGL2/vtkOpenGLVolumeOpacityTable.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/VolumeOpenGL2/vtkOpenGLVolumeGradientOpacityTable.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/VolumeOpenGL2/vtkOpenGLTransferFunction2D.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/VolumeOpenGL2/vtkOpenGLUniforms.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Rendering/VolumeOpenGL2/raycasterfs.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Rendering/VolumeOpenGL2/raycastervs.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Rendering/VolumeOpenGL2/vtkglProjectedTetrahedraVS.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Rendering/VolumeOpenGL2/vtkglProjectedTetrahedraFS.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Rendering/VolumeOpenGL2/vtkRenderingVolumeOpenGL2ObjectFactory.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/VolumeOpenGL2/vtkMultiBlockVolumeMapper.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/VolumeOpenGL2/vtkOpenGLGPUVolumeRayCastMapper.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/VolumeOpenGL2/vtkOpenGLProjectedTetrahedraMapper.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/VolumeOpenGL2/vtkOpenGLRayCastImageDisplayHelper.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/VolumeOpenGL2/vtkSmartVolumeMapper.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/VolumeOpenGL2/vtkVolumeTexture.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/VolumeOpenGL2/vtkVolumeInputHelper.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/VolumeOpenGL2/vtkOpenGLVolumeRGBTable.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/VolumeOpenGL2/vtkOpenGLVolumeOpacityTable.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/VolumeOpenGL2/vtkOpenGLVolumeGradientOpacityTable.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/VolumeOpenGL2/vtkOpenGLTransferFunction2D.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/VolumeOpenGL2/vtkOpenGLUniforms.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Rendering/VolumeOpenGL2/vtkRenderingVolumeOpenGL2ObjectFactory.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Rendering/VolumeOpenGL2/vtkRenderingVolumeOpenGL2Module.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/build/CMakeFiles/660bda54ee68d40af22392d536a14fd2/raycasterfs.h.rule"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/build/CMakeFiles/660bda54ee68d40af22392d536a14fd2/raycastervs.h.rule"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/build/CMakeFiles/660bda54ee68d40af22392d536a14fd2/vtkglProjectedTetrahedraVS.h.rule"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/build/CMakeFiles/660bda54ee68d40af22392d536a14fd2/vtkglProjectedTetrahedraFS.h.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkRenderingVolumeOpenGL2"
+		],
+		"name" : "vtkRenderingVolumeOpenGL2"
+	}
+}

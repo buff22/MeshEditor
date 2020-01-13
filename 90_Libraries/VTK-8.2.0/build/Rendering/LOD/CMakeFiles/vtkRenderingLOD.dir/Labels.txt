@@ -1,0 +1,8 @@
+# Target labels
+ vtkRenderingLOD
+# Source files and their labels
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/LOD/vtkLODActor.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/LOD/vtkQuadricLODActor.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/LOD/vtkLODActor.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/LOD/vtkQuadricLODActor.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Rendering/LOD/vtkRenderingLODModule.h

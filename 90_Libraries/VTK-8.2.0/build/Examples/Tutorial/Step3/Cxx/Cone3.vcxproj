@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2CA4C878-6325-3DA5-95BF-2368FD26F560}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>Cone3</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Cone3.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Cone3</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Cone3.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Cone3</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWIML;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWIML;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWSys;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\utf8;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\utf8;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Sources;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Sources;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\ComputationalGeometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\ComputationalGeometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\DataModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\DataModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Math;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Math;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Misc;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Misc;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\System;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\System;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Transforms;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Transforms;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\ExecutionModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\ExecutionModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\General;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\General;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Interaction\Style;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Interaction\Style;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Extraction;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Extraction;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Statistics;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Statistics;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\Fourier;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Imaging\Fourier;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Imaging\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\eigen;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\eigen;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Color;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Color;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Geometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Geometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\glew;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\glew;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;vtkRenderingCore_INCLUDE="C:/MeshEditor/90_Libraries/VTK-8.2.0/build/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingOpenGL2.h";CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;vtkRenderingCore_INCLUDE=\"C:/MeshEditor/90_Libraries/VTK-8.2.0/build/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingOpenGL2.h\";CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWIML;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWIML;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWSys;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\utf8;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\utf8;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Sources;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Sources;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\ComputationalGeometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\ComputationalGeometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\DataModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\DataModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Math;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Math;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Misc;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Misc;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\System;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\System;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Transforms;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Transforms;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\ExecutionModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\ExecutionModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\General;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\General;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Interaction\Style;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Interaction\Style;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Extraction;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Extraction;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Statistics;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Statistics;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\Fourier;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Imaging\Fourier;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Imaging\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\eigen;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\eigen;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Color;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Color;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Geometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Geometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\glew;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\glew;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWIML;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWIML;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWSys;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\utf8;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\utf8;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Sources;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Sources;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\ComputationalGeometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\ComputationalGeometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\DataModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\DataModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Math;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Math;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Misc;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Misc;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\System;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\System;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Transforms;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Transforms;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\ExecutionModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\ExecutionModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\General;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\General;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Interaction\Style;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Interaction\Style;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Extraction;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Extraction;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Statistics;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Statistics;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\Fourier;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Imaging\Fourier;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Imaging\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\eigen;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\eigen;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Color;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Color;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Geometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Geometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\glew;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\glew;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\..\lib\Debug\vtkInteractionStyle-8.2.lib;..\..\..\..\lib\Debug\vtkFiltersExtraction-8.2.lib;..\..\..\..\lib\Debug\vtkFiltersStatistics-8.2.lib;..\..\..\..\lib\Debug\vtkImagingFourier-8.2.lib;..\..\..\..\lib\Debug\vtkImagingCore-8.2.lib;..\..\..\..\lib\Debug\vtkRenderingOpenGL2-8.2.lib;..\..\..\..\lib\Debug\vtkglew-8.2.lib;..\..\..\..\lib\Debug\vtkRenderingCore-8.2.lib;..\..\..\..\lib\Debug\vtkFiltersSources-8.2.lib;..\..\..\..\lib\Debug\vtkFiltersGeneral-8.2.lib;..\..\..\..\lib\Debug\vtkCommonComputationalGeometry-8.2.lib;..\..\..\..\lib\Debug\vtkCommonColor-8.2.lib;..\..\..\..\lib\Debug\vtkFiltersGeometry-8.2.lib;..\..\..\..\lib\Debug\vtkFiltersCore-8.2.lib;..\..\..\..\lib\Debug\vtkCommonExecutionModel-8.2.lib;..\..\..\..\lib\Debug\vtkCommonDataModel-8.2.lib;..\..\..\..\lib\Debug\vtkCommonTransforms-8.2.lib;..\..\..\..\lib\Debug\vtkCommonMisc-8.2.lib;..\..\..\..\lib\Debug\vtkCommonMath-8.2.lib;..\..\..\..\lib\Debug\vtkCommonSystem-8.2.lib;..\..\..\..\lib\Debug\vtkCommonCore-8.2.lib;..\..\..\..\lib\Debug\vtksys-8.2.lib;ws2_32.lib;Psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/MeshEditor/90_Libraries/VTK-8.2.0/build/lib/Debug/Cone3.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/MeshEditor/90_Libraries/VTK-8.2.0/build/bin/Debug/Cone3.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWIML;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWIML;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWSys;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\utf8;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\utf8;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Sources;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Sources;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\ComputationalGeometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\ComputationalGeometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\DataModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\DataModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Math;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Math;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Misc;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Misc;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\System;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\System;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Transforms;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Transforms;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\ExecutionModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\ExecutionModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\General;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\General;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Interaction\Style;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Interaction\Style;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Extraction;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Extraction;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Statistics;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Statistics;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\Fourier;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Imaging\Fourier;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Imaging\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\eigen;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\eigen;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Color;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Color;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Geometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Geometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\glew;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\glew;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;vtkRenderingCore_INCLUDE="C:/MeshEditor/90_Libraries/VTK-8.2.0/build/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingOpenGL2.h";CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;vtkRenderingCore_INCLUDE=\"C:/MeshEditor/90_Libraries/VTK-8.2.0/build/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingOpenGL2.h\";CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWIML;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWIML;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWSys;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\utf8;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\utf8;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Sources;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Sources;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\ComputationalGeometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\ComputationalGeometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\DataModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\DataModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Math;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Math;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Misc;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Misc;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\System;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\System;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Transforms;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Transforms;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\ExecutionModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\ExecutionModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\General;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\General;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Interaction\Style;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Interaction\Style;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Extraction;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Extraction;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Statistics;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Statistics;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\Fourier;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Imaging\Fourier;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Imaging\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\eigen;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\eigen;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Color;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Color;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Geometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Geometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\glew;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\glew;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWIML;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWIML;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWSys;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\utf8;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\utf8;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Sources;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Sources;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\ComputationalGeometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\ComputationalGeometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\DataModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\DataModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Math;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Math;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Misc;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Misc;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\System;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\System;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Transforms;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Transforms;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\ExecutionModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\ExecutionModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\General;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\General;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Interaction\Style;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Interaction\Style;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Extraction;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Extraction;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Statistics;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Statistics;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\Fourier;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Imaging\Fourier;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Imaging\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\eigen;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\eigen;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Color;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Color;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Geometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Geometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\glew;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\glew;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\..\lib\Release\vtkInteractionStyle-8.2.lib;..\..\..\..\lib\Release\vtkFiltersExtraction-8.2.lib;..\..\..\..\lib\Release\vtkFiltersStatistics-8.2.lib;..\..\..\..\lib\Release\vtkImagingFourier-8.2.lib;..\..\..\..\lib\Release\vtkImagingCore-8.2.lib;..\..\..\..\lib\Release\vtkRenderingOpenGL2-8.2.lib;..\..\..\..\lib\Release\vtkglew-8.2.lib;..\..\..\..\lib\Release\vtkRenderingCore-8.2.lib;..\..\..\..\lib\Release\vtkFiltersSources-8.2.lib;..\..\..\..\lib\Release\vtkFiltersGeneral-8.2.lib;..\..\..\..\lib\Release\vtkCommonComputationalGeometry-8.2.lib;..\..\..\..\lib\Release\vtkCommonColor-8.2.lib;..\..\..\..\lib\Release\vtkFiltersGeometry-8.2.lib;..\..\..\..\lib\Release\vtkFiltersCore-8.2.lib;..\..\..\..\lib\Release\vtkCommonExecutionModel-8.2.lib;..\..\..\..\lib\Release\vtkCommonDataModel-8.2.lib;..\..\..\..\lib\Release\vtkCommonTransforms-8.2.lib;..\..\..\..\lib\Release\vtkCommonMisc-8.2.lib;..\..\..\..\lib\Release\vtkCommonMath-8.2.lib;..\..\..\..\lib\Release\vtkCommonSystem-8.2.lib;..\..\..\..\lib\Release\vtkCommonCore-8.2.lib;..\..\..\..\lib\Release\vtksys-8.2.lib;ws2_32.lib;Psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/MeshEditor/90_Libraries/VTK-8.2.0/build/lib/Release/Cone3.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/MeshEditor/90_Libraries/VTK-8.2.0/build/bin/Release/Cone3.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Examples\Tutorial\Step3\Cxx\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Examples/Tutorial/Step3/Cxx/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/MeshEditor/90_Libraries/VTK-8.2.0/src -BC:/MeshEditor/90_Libraries/VTK-8.2.0/build --check-stamp-file C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Examples/Tutorial/Step3/Cxx/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Examples/Tutorial/Step3/Cxx/CMakeLists.txt;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\VTKConfig.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\VTKConfigVersion.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\CMake\UseVTK.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\CMake\vtkModuleAPI.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Examples\Tutorial\Step3\Cxx\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeConfigurableFile.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Examples\Tutorial\Step3\Cxx\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Examples\Tutorial\Step3\Cxx\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Examples/Tutorial/Step3/Cxx/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/MeshEditor/90_Libraries/VTK-8.2.0/src -BC:/MeshEditor/90_Libraries/VTK-8.2.0/build --check-stamp-file C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Examples/Tutorial/Step3/Cxx/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Examples/Tutorial/Step3/Cxx/CMakeLists.txt;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\VTKConfig.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\VTKConfigVersion.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\CMake\UseVTK.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\CMake\vtkModuleAPI.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Examples\Tutorial\Step3\Cxx\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeConfigurableFile.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Examples\Tutorial\Step3\Cxx\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Examples\Tutorial\Step3\Cxx\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Examples\Tutorial\Step3\Cxx\Cone3.cxx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ZERO_CHECK.vcxproj">
+      <Project>{08D62400-3290-3C24-87AA-504F9356C20C}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Color\vtkCommonColor.vcxproj">
+      <Project>{20081C8C-6BE1-3477-A795-24B0E409F04A}</Project>
+      <Name>vtkCommonColor</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\ComputationalGeometry\vtkCommonComputationalGeometry.vcxproj">
+      <Project>{88C3575F-63CC-3491-BE25-06B164DB2B37}</Project>
+      <Name>vtkCommonComputationalGeometry</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Core\vtkCommonCore.vcxproj">
+      <Project>{34251C80-664B-30CB-8DED-C33D5AC07D65}</Project>
+      <Name>vtkCommonCore</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\DataModel\vtkCommonDataModel.vcxproj">
+      <Project>{0144B4B0-B9A5-3858-AE67-DC1D7DB0C0B1}</Project>
+      <Name>vtkCommonDataModel</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\ExecutionModel\vtkCommonExecutionModel.vcxproj">
+      <Project>{6CFA6415-7915-32BF-B9A7-2B0D1CA50DED}</Project>
+      <Name>vtkCommonExecutionModel</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Math\vtkCommonMath.vcxproj">
+      <Project>{77D1ACF0-400B-322F-9AD3-78E0EF78F719}</Project>
+      <Name>vtkCommonMath</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Misc\vtkCommonMisc.vcxproj">
+      <Project>{23A0D148-04E0-3E0E-AE6F-79B3C0C6DAD2}</Project>
+      <Name>vtkCommonMisc</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\System\vtkCommonSystem.vcxproj">
+      <Project>{CF8D74AE-BE4C-3BED-8ABC-90257D016084}</Project>
+      <Name>vtkCommonSystem</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Transforms\vtkCommonTransforms.vcxproj">
+      <Project>{71D9E924-A5AB-3989-AC62-57F6391AE10F}</Project>
+      <Name>vtkCommonTransforms</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Core\vtkFiltersCore.vcxproj">
+      <Project>{F95E5E59-4CBD-31E8-A474-029FC3082349}</Project>
+      <Name>vtkFiltersCore</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Extraction\vtkFiltersExtraction.vcxproj">
+      <Project>{787D025C-AE68-30D9-8279-EC16E13754FC}</Project>
+      <Name>vtkFiltersExtraction</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\General\vtkFiltersGeneral.vcxproj">
+      <Project>{FB074DC9-4721-3A2B-BB1E-4CCE691B0642}</Project>
+      <Name>vtkFiltersGeneral</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Geometry\vtkFiltersGeometry.vcxproj">
+      <Project>{5F3DB54C-13E5-3DE3-9530-0503786A094D}</Project>
+      <Name>vtkFiltersGeometry</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Sources\vtkFiltersSources.vcxproj">
+      <Project>{BF72F72E-A8FE-3DFD-A2D8-4AD6BB1E5719}</Project>
+      <Name>vtkFiltersSources</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Statistics\vtkFiltersStatistics.vcxproj">
+      <Project>{9F02B5ED-701A-3525-85B6-2D0C99348D35}</Project>
+      <Name>vtkFiltersStatistics</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\Core\vtkImagingCore.vcxproj">
+      <Project>{45F28357-C227-30A6-AA01-4479610467D7}</Project>
+      <Name>vtkImagingCore</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\Fourier\vtkImagingFourier.vcxproj">
+      <Project>{6B0FF83D-A462-3A87-9054-8BC623F1B86B}</Project>
+      <Name>vtkImagingFourier</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Interaction\Style\vtkInteractionStyle.vcxproj">
+      <Project>{9F9FFF82-7BD6-302F-A5EA-58C973669A85}</Project>
+      <Name>vtkInteractionStyle</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\Core\vtkRenderingCore.vcxproj">
+      <Project>{E53ADD8A-E33F-318A-A94A-3BA54E45A11F}</Project>
+      <Name>vtkRenderingCore</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkRenderingOpenGL2.vcxproj">
+      <Project>{0D9F137F-2EE6-3E97-8CF1-0B6A919EDFE4}</Project>
+      <Name>vtkRenderingOpenGL2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\glew\vtkglew\vtkglew.vcxproj">
+      <Project>{2F427FBD-6B4A-3226-B161-6CD11EA77C3C}</Project>
+      <Name>vtkglew</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWSys\vtksys\vtksys.vcxproj">
+      <Project>{A36C7A2E-C1E0-3092-AFDB-1AF68108A640}</Project>
+      <Name>vtksys</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

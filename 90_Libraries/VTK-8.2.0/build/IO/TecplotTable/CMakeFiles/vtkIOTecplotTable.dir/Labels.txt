@@ -1,0 +1,6 @@
+# Target labels
+ vtkIOTecplotTable
+# Source files and their labels
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/TecplotTable/vtkTecplotTableReader.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/TecplotTable/vtkTecplotTableReader.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/build/IO/TecplotTable/vtkIOTecplotTableModule.h

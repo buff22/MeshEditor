@@ -1,0 +1,11 @@
+# Target labels
+ vtklz4
+# Source files and their labels
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/lz4/vtklz4/lib/lz4.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/lz4/vtklz4/lib/lz4hc.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/lz4/vtklz4/lib/lz4frame.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/lz4/vtklz4/lib/xxhash.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/lz4/vtklz4/lib/lz4.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/lz4/vtklz4/lib/lz4hc.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/lz4/vtklz4/lib/lz4frame.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/lz4/vtklz4/lib/lz4frame_static.h

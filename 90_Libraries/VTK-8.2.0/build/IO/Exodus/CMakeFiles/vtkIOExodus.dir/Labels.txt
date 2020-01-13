@@ -1,0 +1,23 @@
+# Target labels
+ vtkIOExodus
+# Source files and their labels
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Exodus/vtkCPExodusIIElementBlock.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Exodus/vtkCPExodusIIInSituReader.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Exodus/vtkCPExodusIINodalCoordinatesTemplate.txx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Exodus/vtkCPExodusIIResultsArrayTemplate.txx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Exodus/vtkExodusIICache.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Exodus/vtkExodusIIReader.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Exodus/vtkExodusIIReaderParser.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Exodus/vtkExodusIIReaderVariableCheck.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Exodus/vtkExodusIIWriter.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Exodus/vtkModelMetadata.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Exodus/vtkCPExodusIINodalCoordinatesTemplate.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Exodus/vtkCPExodusIIResultsArrayTemplate.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Exodus/vtkCPExodusIIElementBlock.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Exodus/vtkCPExodusIIInSituReader.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Exodus/vtkExodusIICache.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Exodus/vtkExodusIIReader.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Exodus/vtkExodusIIReaderParser.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Exodus/vtkExodusIIWriter.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Exodus/vtkModelMetadata.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/build/IO/Exodus/vtkIOExodusModule.h

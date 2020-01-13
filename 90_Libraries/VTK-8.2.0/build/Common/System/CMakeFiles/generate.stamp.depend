@@ -1,0 +1,13 @@
+# CMake generation dependency list for this directory.
+C:/MeshEditor/90_Libraries/VTK-8.2.0/build/lib/cmake/vtk-8.2/Modules/vtkCommonCore.cmake
+C:/MeshEditor/90_Libraries/VTK-8.2.0/build/lib/cmake/vtk-8.2/Modules/vtkkwiml.cmake
+C:/MeshEditor/90_Libraries/VTK-8.2.0/build/lib/cmake/vtk-8.2/Modules/vtksys.cmake
+C:/MeshEditor/90_Libraries/VTK-8.2.0/build/lib/cmake/vtk-8.2/Modules/vtkutf8.cmake
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/CMake/vtkModuleHeaders.cmake.in
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/CMake/vtkModuleInfo.cmake.in
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/CMake/vtkexportheader.cmake.in
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Common/System/CMakeLists.txt
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Common/System/module.cmake
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Common/System/vtkTestSocketFeatures.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CheckLibraryExists.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CheckSymbolExists.cmake

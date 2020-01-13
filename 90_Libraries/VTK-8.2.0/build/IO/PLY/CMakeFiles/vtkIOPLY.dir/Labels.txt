@@ -1,0 +1,10 @@
+# Target labels
+ vtkIOPLY
+# Source files and their labels
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/PLY/vtkPLY.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/PLY/vtkPLYReader.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/PLY/vtkPLYWriter.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/PLY/vtkPLY.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/PLY/vtkPLYReader.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/PLY/vtkPLYWriter.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/build/IO/PLY/vtkIOPLYModule.h

@@ -1,0 +1,25 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/pugixml/vtkpugixml/src/pugixml.cpp"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/pugixml/vtkpugixml/src/pugixml.hpp"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/build/ThirdParty/pugixml/vtkpugixml/pugiconfig.hpp"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/pugixml/vtkpugixml/src/vtk_pugixml_mangle.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkpugixml"
+		],
+		"name" : "vtkpugixml"
+	}
+}

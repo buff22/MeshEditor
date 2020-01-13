@@ -1,0 +1,20 @@
+# Target labels
+ vtkdoubleconversion
+# Source files and their labels
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/doubleconversion/vtkdoubleconversion/double-conversion/bignum.cc
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/doubleconversion/vtkdoubleconversion/double-conversion/bignum-dtoa.cc
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/doubleconversion/vtkdoubleconversion/double-conversion/cached-powers.cc
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/doubleconversion/vtkdoubleconversion/double-conversion/diy-fp.cc
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/doubleconversion/vtkdoubleconversion/double-conversion/double-conversion.cc
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/doubleconversion/vtkdoubleconversion/double-conversion/fast-dtoa.cc
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/doubleconversion/vtkdoubleconversion/double-conversion/fixed-dtoa.cc
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/doubleconversion/vtkdoubleconversion/double-conversion/strtod.cc
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/doubleconversion/vtkdoubleconversion/double-conversion/bignum.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/doubleconversion/vtkdoubleconversion/double-conversion/cached-powers.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/doubleconversion/vtkdoubleconversion/double-conversion/diy-fp.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/doubleconversion/vtkdoubleconversion/double-conversion/double-conversion.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/doubleconversion/vtkdoubleconversion/double-conversion/fast-dtoa.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/doubleconversion/vtkdoubleconversion/double-conversion/fixed-dtoa.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/doubleconversion/vtkdoubleconversion/double-conversion/ieee.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/doubleconversion/vtkdoubleconversion/double-conversion/strtod.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/doubleconversion/vtkdoubleconversion/double-conversion/utils.h

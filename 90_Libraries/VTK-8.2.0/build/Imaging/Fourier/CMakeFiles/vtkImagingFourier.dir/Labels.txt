@@ -1,0 +1,22 @@
+# Target labels
+ vtkImagingFourier
+# Source files and their labels
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Fourier/vtkImageButterworthHighPass.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Fourier/vtkImageButterworthLowPass.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Fourier/vtkImageFFT.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Fourier/vtkImageFourierCenter.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Fourier/vtkImageFourierFilter.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Fourier/vtkImageIdealHighPass.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Fourier/vtkImageIdealLowPass.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Fourier/vtkImageRFFT.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Fourier/vtkTableFFT.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Fourier/vtkImageButterworthHighPass.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Fourier/vtkImageButterworthLowPass.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Fourier/vtkImageFFT.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Fourier/vtkImageFourierCenter.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Fourier/vtkImageFourierFilter.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Fourier/vtkImageIdealHighPass.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Fourier/vtkImageIdealLowPass.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Fourier/vtkImageRFFT.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Imaging/Fourier/vtkTableFFT.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Imaging/Fourier/vtkImagingFourierModule.h

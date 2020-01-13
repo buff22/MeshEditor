@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1F4B3162-C7F3-39BE-A5D2-0BCF49147169}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\libxml2\vtklibxml2;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\libxml2;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\zlib;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\libxml2\vtklibxml2;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\libxml2;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\zlib;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libxml2/vtklibxml2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/MeshEditor/90_Libraries/VTK-8.2.0/src -BC:/MeshEditor/90_Libraries/VTK-8.2.0/build --check-stamp-file C:/MeshEditor/90_Libraries/VTK-8.2.0/build/ThirdParty/libxml2/vtklibxml2/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libxml2/vtklibxml2/CMakeLists.txt;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\CMakeLists.txt;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\config_cmake.h.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\DOCBparser.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\HTMLparser.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\HTMLtree.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\SAX.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\SAX2.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\c14n.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\catalog.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\chvalid.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\debugXML.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\dict.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\encoding.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\entities.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\globals.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\hash.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\list.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\nanoftp.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\nanohttp.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\parser.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\parserInternals.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\pattern.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\relaxng.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\schemasInternals.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\schematron.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\threads.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\tree.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\uri.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\valid.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\vtk_libxml2_mangle.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\xinclude.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\xlink.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlIO.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlautomata.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlerror.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlexports.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlmemory.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlmodule.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlreader.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlregexp.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlsave.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlschemas.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlschemastypes.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlstring.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlunicode.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlversion.h.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlwriter.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\xpath.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\xpathInternals.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\xpointer.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\libxml2PlatformTests.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindThreads.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\libxml2\vtklibxml2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libxml2/vtklibxml2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/MeshEditor/90_Libraries/VTK-8.2.0/src -BC:/MeshEditor/90_Libraries/VTK-8.2.0/build --check-stamp-file C:/MeshEditor/90_Libraries/VTK-8.2.0/build/ThirdParty/libxml2/vtklibxml2/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/libxml2/vtklibxml2/CMakeLists.txt;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\CMakeLists.txt;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\config_cmake.h.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\DOCBparser.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\HTMLparser.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\HTMLtree.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\SAX.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\SAX2.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\c14n.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\catalog.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\chvalid.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\debugXML.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\dict.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\encoding.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\entities.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\globals.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\hash.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\list.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\nanoftp.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\nanohttp.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\parser.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\parserInternals.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\pattern.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\relaxng.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\schemasInternals.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\schematron.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\threads.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\tree.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\uri.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\valid.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\vtk_libxml2_mangle.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\xinclude.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\xlink.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlIO.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlautomata.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlerror.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlexports.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlmemory.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlmodule.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlreader.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlregexp.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlsave.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlschemas.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlschemastypes.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlstring.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlunicode.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlversion.h.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlwriter.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\xpath.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\xpathInternals.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\include\libxml\xpointer.h;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\libxml2PlatformTests.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindThreads.cmake;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2\vtklibxml2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\libxml2\vtklibxml2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ZERO_CHECK.vcxproj">
+      <Project>{08D62400-3290-3C24-87AA-504F9356C20C}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\libxml2\vtklibxml2\vtklibxml2.vcxproj">
+      <Project>{1B78CF2C-5F66-38CE-8E27-AFBEA39442C0}</Project>
+      <Name>vtklibxml2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

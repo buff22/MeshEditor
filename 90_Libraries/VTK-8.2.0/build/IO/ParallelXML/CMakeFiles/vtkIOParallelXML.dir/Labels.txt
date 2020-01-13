@@ -1,0 +1,32 @@
+# Target labels
+ vtkIOParallelXML
+# Source files and their labels
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/ParallelXML/vtkXMLPDataSetWriter.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/ParallelXML/vtkXMLPDataObjectWriter.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/ParallelXML/vtkXMLPDataWriter.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/ParallelXML/vtkXMLPImageDataWriter.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/ParallelXML/vtkXMLPPolyDataWriter.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/ParallelXML/vtkXMLPRectilinearGridWriter.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/ParallelXML/vtkXMLPStructuredDataWriter.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/ParallelXML/vtkXMLPStructuredGridWriter.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/ParallelXML/vtkXMLPTableWriter.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/ParallelXML/vtkXMLPUnstructuredDataWriter.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/ParallelXML/vtkXMLPUnstructuredGridWriter.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/ParallelXML/vtkXMLPHierarchicalBoxDataWriter.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/ParallelXML/vtkXMLPMultiBlockDataWriter.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/ParallelXML/vtkXMLPUniformGridAMRWriter.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/ParallelXML/vtkXMLPDataSetWriter.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/ParallelXML/vtkXMLPDataObjectWriter.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/ParallelXML/vtkXMLPDataWriter.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/ParallelXML/vtkXMLPImageDataWriter.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/ParallelXML/vtkXMLPPolyDataWriter.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/ParallelXML/vtkXMLPRectilinearGridWriter.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/ParallelXML/vtkXMLPStructuredDataWriter.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/ParallelXML/vtkXMLPStructuredGridWriter.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/ParallelXML/vtkXMLPTableWriter.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/ParallelXML/vtkXMLPUnstructuredDataWriter.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/ParallelXML/vtkXMLPUnstructuredGridWriter.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/ParallelXML/vtkXMLPHierarchicalBoxDataWriter.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/ParallelXML/vtkXMLPMultiBlockDataWriter.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/ParallelXML/vtkXMLPUniformGridAMRWriter.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/build/IO/ParallelXML/vtkIOParallelXMLModule.h

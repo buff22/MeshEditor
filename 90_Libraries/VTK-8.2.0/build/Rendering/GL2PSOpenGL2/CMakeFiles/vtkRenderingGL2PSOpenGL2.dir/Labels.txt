@@ -1,0 +1,8 @@
+# Target labels
+ vtkRenderingGL2PSOpenGL2
+# Source files and their labels
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/GL2PSOpenGL2/vtkOpenGLGL2PSHelperImpl.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Rendering/GL2PSOpenGL2/vtkRenderingGL2PSOpenGL2ObjectFactory.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/GL2PSOpenGL2/vtkOpenGLGL2PSHelperImpl.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Rendering/GL2PSOpenGL2/vtkRenderingGL2PSOpenGL2ObjectFactory.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Rendering/GL2PSOpenGL2/vtkRenderingGL2PSOpenGL2Module.h

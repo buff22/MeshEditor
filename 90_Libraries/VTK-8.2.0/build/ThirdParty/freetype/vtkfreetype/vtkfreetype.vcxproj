@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9B9C31D9-2959-3729-ACB2-F83D10E65924}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>vtkfreetype</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">vtkfreetype.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">vtkfreetype-8.2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">vtkfreetype.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">vtkfreetype-8.2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\freetype;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\freetype;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWIML;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWIML;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\zlib;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\zlib;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\freetype\vtkfreetype\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\freetype\vtkfreetype\src;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\freetype\vtkfreetype;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\freetype\vtkfreetype\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;FT2_BUILD_LIBRARY;CMAKE_INTDIR="Debug";vtkfreetype_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;FT2_BUILD_LIBRARY;CMAKE_INTDIR=\"Debug\";vtkfreetype_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\freetype;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\freetype;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWIML;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWIML;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\zlib;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\zlib;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\freetype\vtkfreetype\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\freetype\vtkfreetype\src;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\freetype\vtkfreetype;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\freetype\vtkfreetype\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\freetype;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\freetype;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWIML;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWIML;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\zlib;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\zlib;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\freetype\vtkfreetype\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\freetype\vtkfreetype\src;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\freetype\vtkfreetype;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\freetype\vtkfreetype\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\lib\Debug\vtkzlib-8.2.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/MeshEditor/90_Libraries/VTK-8.2.0/build/lib/Debug/vtkfreetype-8.2.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/MeshEditor/90_Libraries/VTK-8.2.0/build/bin/Debug/vtkfreetype-8.2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\freetype;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\freetype;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWIML;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWIML;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\zlib;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\zlib;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\freetype\vtkfreetype\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\freetype\vtkfreetype\src;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\freetype\vtkfreetype;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\freetype\vtkfreetype\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;FT2_BUILD_LIBRARY;CMAKE_INTDIR="Release";vtkfreetype_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;FT2_BUILD_LIBRARY;CMAKE_INTDIR=\"Release\";vtkfreetype_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\freetype;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\freetype;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWIML;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWIML;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\zlib;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\zlib;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\freetype\vtkfreetype\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\freetype\vtkfreetype\src;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\freetype\vtkfreetype;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\freetype\vtkfreetype\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\freetype;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\freetype;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWIML;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWIML;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\zlib;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\zlib;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\freetype\vtkfreetype\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\freetype\vtkfreetype\src;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\freetype\vtkfreetype;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\freetype\vtkfreetype\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\lib\Release\vtkzlib-8.2.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/MeshEditor/90_Libraries/VTK-8.2.0/build/lib/Release/vtkfreetype-8.2.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/MeshEditor/90_Libraries/VTK-8.2.0/build/bin/Release/vtkfreetype-8.2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\freetype\vtkfreetype\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/freetype/vtkfreetype/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/MeshEditor/90_Libraries/VTK-8.2.0/src -BC:/MeshEditor/90_Libraries/VTK-8.2.0/build --check-stamp-file C:/MeshEditor/90_Libraries/VTK-8.2.0/build/ThirdParty/freetype/vtkfreetype/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/freetype/vtkfreetype/CMakeLists.txt;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\freetype\vtkfreetype\CMakeLists.txt;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\freetype\vtkfreetype\include\vtkFreeTypeConfig.h.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\freetype\vtkfreetype\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\freetype\vtkfreetype\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/freetype/vtkfreetype/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/MeshEditor/90_Libraries/VTK-8.2.0/src -BC:/MeshEditor/90_Libraries/VTK-8.2.0/build --check-stamp-file C:/MeshEditor/90_Libraries/VTK-8.2.0/build/ThirdParty/freetype/vtkfreetype/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/freetype/vtkfreetype/CMakeLists.txt;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\freetype\vtkfreetype\CMakeLists.txt;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\freetype\vtkfreetype\include\vtkFreeTypeConfig.h.in;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\freetype\vtkfreetype\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\freetype\vtkfreetype\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\freetype\vtkfreetype\src\base\ftbase.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\freetype\vtkfreetype\src\base\ftbbox.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\freetype\vtkfreetype\src\base\ftbitmap.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\freetype\vtkfreetype\src\base\ftglyph.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\freetype\vtkfreetype\src\base\ftinit.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\freetype\vtkfreetype\src\base\ftmm.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\freetype\vtkfreetype\src\bdf\bdf.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\freetype\vtkfreetype\src\cache\ftcache.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\freetype\vtkfreetype\src\cff\cff.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\freetype\vtkfreetype\src\cid\type1cid.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\freetype\vtkfreetype\src\gzip\ftgzip.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\freetype\vtkfreetype\src\lzw\ftlzw.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\freetype\vtkfreetype\src\pcf\pcf.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\freetype\vtkfreetype\src\pfr\pfr.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\freetype\vtkfreetype\src\psaux\psaux.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\freetype\vtkfreetype\src\pshinter\pshinter.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\freetype\vtkfreetype\src\psnames\psmodule.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\freetype\vtkfreetype\src\raster\raster.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\freetype\vtkfreetype\src\sfnt\sfnt.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\freetype\vtkfreetype\src\smooth\smooth.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\freetype\vtkfreetype\src\truetype\truetype.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\freetype\vtkfreetype\src\type1\type1.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\freetype\vtkfreetype\src\type42\type42.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\freetype\vtkfreetype\src\winfonts\winfnt.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\freetype\vtkfreetype\builds\win32\ftdebug.c" />
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\freetype\vtkfreetype\src\base\ftsystem.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ZERO_CHECK.vcxproj">
+      <Project>{08D62400-3290-3C24-87AA-504F9356C20C}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\zlib\vtkzlib\vtkzlib.vcxproj">
+      <Project>{A113368E-42A9-3065-8BFC-E32B22A49519}</Project>
+      <Name>vtkzlib</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

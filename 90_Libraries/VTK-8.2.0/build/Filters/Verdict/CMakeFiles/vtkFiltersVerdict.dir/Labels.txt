@@ -1,0 +1,12 @@
+# Target labels
+ vtkFiltersVerdict
+# Source files and their labels
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Verdict/vtkCellQuality.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Verdict/vtkCellSizeFilter.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Verdict/vtkMatrixMathFilter.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Verdict/vtkMeshQuality.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Verdict/vtkCellQuality.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Verdict/vtkCellSizeFilter.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Verdict/vtkMatrixMathFilter.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Filters/Verdict/vtkMeshQuality.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Filters/Verdict/vtkFiltersVerdictModule.h

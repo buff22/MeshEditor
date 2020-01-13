@@ -1,0 +1,16 @@
+# Target labels
+ vtkRenderingContextOpenGL2
+# Source files and their labels
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/ContextOpenGL2/vtkOpenGLContextActor.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/ContextOpenGL2/vtkOpenGLContextBufferId.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/ContextOpenGL2/vtkOpenGLContextDevice2D.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/ContextOpenGL2/vtkOpenGLContextDevice3D.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/ContextOpenGL2/vtkOpenGLPropItem.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Rendering/ContextOpenGL2/vtkRenderingContextOpenGL2ObjectFactory.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/ContextOpenGL2/vtkOpenGLContextActor.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/ContextOpenGL2/vtkOpenGLContextBufferId.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/ContextOpenGL2/vtkOpenGLContextDevice2D.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/ContextOpenGL2/vtkOpenGLContextDevice3D.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Rendering/ContextOpenGL2/vtkOpenGLPropItem.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Rendering/ContextOpenGL2/vtkRenderingContextOpenGL2ObjectFactory.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Rendering/ContextOpenGL2/vtkRenderingContextOpenGL2Module.h

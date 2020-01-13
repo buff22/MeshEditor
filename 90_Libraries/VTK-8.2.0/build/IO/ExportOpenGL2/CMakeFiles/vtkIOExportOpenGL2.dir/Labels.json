@@ -1,0 +1,28 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/ExportOpenGL2/vtkOpenGLGL2PSExporter.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/build/IO/ExportOpenGL2/vtkIOExportOpenGL2ObjectFactory.cxx"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/ExportOpenGL2/vtkOpenGLGL2PSExporter.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/build/IO/ExportOpenGL2/vtkIOExportOpenGL2ObjectFactory.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/build/IO/ExportOpenGL2/vtkIOExportOpenGL2Module.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkIOExportOpenGL2"
+		],
+		"name" : "vtkIOExportOpenGL2"
+	}
+}

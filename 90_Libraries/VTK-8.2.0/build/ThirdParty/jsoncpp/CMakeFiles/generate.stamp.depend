@@ -1,0 +1,7 @@
+# CMake generation dependency list for this directory.
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/CMake/vtkModuleInfo.cmake.in
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/jsoncpp/CMakeLists.txt
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/jsoncpp/module.cmake
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/jsoncpp/vtk_jsoncpp.h.in
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/jsoncpp/vtk_jsoncpp_fwd.h.in
+C:/Program Files/CMake/share/cmake-3.14/Modules/CMakeDependentOption.cmake

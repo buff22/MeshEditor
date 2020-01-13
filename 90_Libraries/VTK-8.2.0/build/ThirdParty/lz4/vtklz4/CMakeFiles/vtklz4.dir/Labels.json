@@ -1,0 +1,37 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/lz4/vtklz4/lib/lz4.c"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/lz4/vtklz4/lib/lz4hc.c"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/lz4/vtklz4/lib/lz4frame.c"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/lz4/vtklz4/lib/xxhash.c"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/lz4/vtklz4/lib/lz4.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/lz4/vtklz4/lib/lz4hc.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/lz4/vtklz4/lib/lz4frame.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/lz4/vtklz4/lib/lz4frame_static.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtklz4"
+		],
+		"name" : "vtklz4"
+	}
+}

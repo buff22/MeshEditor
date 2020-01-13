@@ -1,0 +1,36 @@
+# Target labels
+ vtkMetaIO
+# Source files and their labels
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Utilities/MetaIO/vtkmetaio/metaTypes.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Utilities/MetaIO/vtkmetaio/metaUtils.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Utilities/MetaIO/vtkmetaio/metaArrow.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Utilities/MetaIO/vtkmetaio/metaBlob.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Utilities/MetaIO/vtkmetaio/metaCommand.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Utilities/MetaIO/vtkmetaio/metaCommand.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Utilities/MetaIO/vtkmetaio/metaContour.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Utilities/MetaIO/vtkmetaio/metaContour.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Utilities/MetaIO/vtkmetaio/metaDTITube.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Utilities/MetaIO/vtkmetaio/metaEllipse.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Utilities/MetaIO/vtkmetaio/metaGroup.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Utilities/MetaIO/vtkmetaio/metaGaussian.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Utilities/MetaIO/vtkmetaio/metaImage.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Utilities/MetaIO/vtkmetaio/metaImageUtils.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Utilities/MetaIO/vtkmetaio/metaLandmark.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Utilities/MetaIO/vtkmetaio/metaLine.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Utilities/MetaIO/vtkmetaio/metaMesh.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Utilities/MetaIO/vtkmetaio/metaMesh.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Utilities/MetaIO/vtkmetaio/metaObject.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Utilities/MetaIO/vtkmetaio/metaOutput.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Utilities/MetaIO/vtkmetaio/metaOutput.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Utilities/MetaIO/vtkmetaio/metaScene.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Utilities/MetaIO/vtkmetaio/metaSurface.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Utilities/MetaIO/vtkmetaio/metaTube.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Utilities/MetaIO/vtkmetaio/metaVesselTube.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Utilities/MetaIO/vtkmetaio/metaTransform.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Utilities/MetaIO/vtkmetaio/metaTubeGraph.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Utilities/MetaIO/vtkmetaio/metaForm.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Utilities/MetaIO/vtkmetaio/metaForm.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Utilities/MetaIO/vtkmetaio/metaArray.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Utilities/MetaIO/vtkmetaio/metaArray.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Utilities/MetaIO/vtkmetaio/metaFEMObject.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Utilities/MetaIO/vtkmetaio/metaFEMObject.cxx

@@ -1,0 +1,18 @@
+# Target labels
+ vtkCommonSystem
+# Source files and their labels
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Common/System/vtkClientSocket.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Common/System/vtkDirectory.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Common/System/vtkServerSocket.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Common/System/vtkSocket.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Common/System/vtkSocketCollection.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Common/System/vtkThreadMessager.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Common/System/vtkTimerLog.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Common/System/vtkClientSocket.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Common/System/vtkDirectory.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Common/System/vtkServerSocket.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Common/System/vtkSocket.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Common/System/vtkSocketCollection.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Common/System/vtkThreadMessager.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Common/System/vtkTimerLog.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Common/System/vtkCommonSystemModule.h

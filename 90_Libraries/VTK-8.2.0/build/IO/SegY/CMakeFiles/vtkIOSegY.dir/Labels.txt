@@ -1,0 +1,12 @@
+# Target labels
+ vtkIOSegY
+# Source files and their labels
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/SegY/vtkSegYReader.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/SegY/vtkSegYIOUtils.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/SegY/vtkSegYReaderInternal.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/SegY/vtkSegYTraceReader.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/SegY/vtkSegYReader.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/SegY/vtkSegYIOUtils.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/SegY/vtkSegYReaderInternal.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/SegY/vtkSegYTraceReader.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/build/IO/SegY/vtkIOSegYModule.h

@@ -1,0 +1,933 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D6AE4B58-9965-3BB0-A924-9D18556CBE59}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>vtkmyEx1</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">vtkmyEx1.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">vtkmyEx1</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">vtkmyEx1.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">vtkmyEx1</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWIML;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWIML;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWSys;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\utf8;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\utf8;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Math;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Math;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Misc;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Misc;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\System;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\System;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Transforms;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Transforms;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\DataModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\DataModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Color;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Color;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\ExecutionModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\ExecutionModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\ComputationalGeometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\ComputationalGeometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\General;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\General;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Imaging\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\Fourier;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Imaging\Fourier;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\eigen;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\eigen;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Statistics;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Statistics;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Extraction;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Extraction;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Infovis\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Infovis\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Geometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Geometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Sources;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Sources;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\zlib;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\zlib;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\freetype;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\freetype;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\FreeType;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\FreeType;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\Context2D;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\Context2D;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Charts\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Charts\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\DICOMParser;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\DICOMParser;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\doubleconversion\vtkdoubleconversion;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\doubleconversion\vtkdoubleconversion;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\doubleconversion;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\doubleconversion;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\lz4\vtklz4\lib;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\lz4\vtklz4;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\lz4;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\lz4;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\lzma;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\lzma;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Legacy;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Legacy;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\expat;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\expat;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\XMLParser;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\XMLParser;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Domains\Chemistry;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Domains\Chemistry;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\glew;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\glew;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Domains\ChemistryOpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Domains\ChemistryOpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\XML;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\XML;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Parallel\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Parallel\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\AMR;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\AMR;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\FlowPaths;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\FlowPaths;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Generic;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Generic;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\Sources;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Imaging\Sources;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Hybrid;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Hybrid;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\HyperTree;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\HyperTree;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\General;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Imaging\General;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Imaging;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Imaging;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Modeling;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Modeling;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Parallel;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Parallel;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\ParallelImaging;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\ParallelImaging;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Points;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Programmable;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Programmable;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\SMP;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\SMP;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Selection;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Selection;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Texture;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Texture;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Topology;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Topology;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\verdict;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\verdict;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Verdict;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Verdict;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\MetaIO\vtkmetaio;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\MetaIO;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\MetaIO;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\jpeg\vtkjpeg;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\jpeg;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\jpeg;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\png;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\png;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\tiff\vtktiff\libtiff;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\tiff;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\tiff;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Image;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Image;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\Hybrid;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Imaging\Hybrid;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Infovis\Layout;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Infovis\Layout;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Interaction\Style;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Interaction\Style;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\Color;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Imaging\Color;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\Annotation;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\Annotation;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\Volume;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\Volume;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Interaction\Widgets;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Interaction\Widgets;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Views\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Views\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libproj\vtklibproj;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\libproj\vtklibproj;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\libproj;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libproj;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Geovis\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Geovis\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\hdf5\vtkhdf5;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\hdf5\vtkhdf5\hl\src;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\hdf5\vtkhdf5\src;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\hdf5;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\hdf5;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\AMR;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\AMR;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Asynchronous;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Asynchronous;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\pugixml\vtkpugixml;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\pugixml\vtkpugixml;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\pugixml;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\pugixml;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\CityGML;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\CityGML;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\EnSight;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\EnSight;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\netcdf\vtknetcdf;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\netcdf;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\exodusII\vtkexodusII\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\exodusII;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Exodus;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Exodus;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\gl2ps;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\gl2ps;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\GL2PSOpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\GL2PSOpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Export;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Export;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\ExportOpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\ExportOpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libharu\vtklibharu\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\libharu\vtklibharu\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\libharu;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libharu;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\ExportPDF;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\ExportPDF;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Geometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Geometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Import;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Import;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\libxml2\vtklibxml2;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\libxml2;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Infovis;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Infovis;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\LSDyna;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\LSDyna;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\MINC;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\MINC;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\ogg\vtkogg\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\ogg\vtkogg\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\ogg;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\ogg;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\theora\vtktheora\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\theora\vtktheora\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\theora;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\theora;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Movie;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Movie;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\NetCDF;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\NetCDF;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\PLY;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\PLY;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\jsoncpp;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\jsoncpp;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Parallel;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Parallel;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\ParallelXML;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\ParallelXML;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\sqlite\vtksqlite;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\sqlite;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\sqlite;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\SQL;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\SQL;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\SegY;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\SegY;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\TecplotTable;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\TecplotTable;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\VeraOut;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\VeraOut;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Video;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Video;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\Math;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Imaging\Math;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\Morphological;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Imaging\Morphological;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\Statistics;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Imaging\Statistics;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\Stencil;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Imaging\Stencil;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Interaction\Image;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Interaction\Image;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\ContextOpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\ContextOpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\Image;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\Image;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\LOD;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\LOD;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\Label;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\Label;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\Parallel;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\Parallel;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\VolumeOpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\VolumeOpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Views\Context2D;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Views\Context2D;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Views\Infovis;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Views\Infovis;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Examples\Build\vtkMy;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Examples\Build\vtkMy\Common;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Examples\Build\vtkMy\Imaging;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Examples\Build\vtkMy\Unsorted;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\png\vtkpng;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\libproj\vtklibproj\src;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\hdf5\vtkhdf5\src;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\hdf5\vtkhdf5\hl\src;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libharu\vtklibharu\src\..\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\libharu\vtklibharu\src\..\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\jsoncpp\vtkjsoncpp\json;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;vtkDomainsChemistry_AUTOINIT=1(vtkDomainsChemistryOpenGL2);vtkIOExport_INCLUDE="C:/MeshEditor/90_Libraries/VTK-8.2.0/build/CMakeFiles/vtkIOExport_AUTOINIT_vtkIOExportOpenGL2_vtkIOExportPDF.h";vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2);vtkRenderingCore_INCLUDE="C:/MeshEditor/90_Libraries/VTK-8.2.0/build/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL2.h";vtkRenderingOpenGL2_AUTOINIT=1(vtkRenderingGL2PSOpenGL2);vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL2);LZ4_DLL_IMPORT=1;H5_BUILT_AS_DYNAMIC_LIB;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;vtkDomainsChemistry_AUTOINIT=1(vtkDomainsChemistryOpenGL2);vtkIOExport_INCLUDE=\"C:/MeshEditor/90_Libraries/VTK-8.2.0/build/CMakeFiles/vtkIOExport_AUTOINIT_vtkIOExportOpenGL2_vtkIOExportPDF.h\";vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2);vtkRenderingCore_INCLUDE=\"C:/MeshEditor/90_Libraries/VTK-8.2.0/build/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL2.h\";vtkRenderingOpenGL2_AUTOINIT=1(vtkRenderingGL2PSOpenGL2);vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL2);LZ4_DLL_IMPORT=1;H5_BUILT_AS_DYNAMIC_LIB;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWIML;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWIML;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWSys;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\utf8;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\utf8;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Math;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Math;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Misc;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Misc;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\System;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\System;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Transforms;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Transforms;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\DataModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\DataModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Color;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Color;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\ExecutionModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\ExecutionModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\ComputationalGeometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\ComputationalGeometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\General;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\General;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Imaging\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\Fourier;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Imaging\Fourier;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\eigen;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\eigen;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Statistics;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Statistics;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Extraction;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Extraction;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Infovis\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Infovis\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Geometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Geometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Sources;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Sources;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\zlib;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\zlib;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\freetype;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\freetype;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\FreeType;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\FreeType;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\Context2D;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\Context2D;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Charts\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Charts\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\DICOMParser;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\DICOMParser;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\doubleconversion\vtkdoubleconversion;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\doubleconversion\vtkdoubleconversion;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\doubleconversion;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\doubleconversion;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\lz4\vtklz4\lib;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\lz4\vtklz4;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\lz4;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\lz4;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\lzma;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\lzma;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Legacy;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Legacy;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\expat;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\expat;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\XMLParser;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\XMLParser;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Domains\Chemistry;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Domains\Chemistry;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\glew;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\glew;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Domains\ChemistryOpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Domains\ChemistryOpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\XML;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\XML;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Parallel\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Parallel\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\AMR;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\AMR;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\FlowPaths;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\FlowPaths;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Generic;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Generic;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\Sources;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Imaging\Sources;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Hybrid;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Hybrid;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\HyperTree;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\HyperTree;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\General;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Imaging\General;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Imaging;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Imaging;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Modeling;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Modeling;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Parallel;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Parallel;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\ParallelImaging;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\ParallelImaging;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Points;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Programmable;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Programmable;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\SMP;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\SMP;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Selection;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Selection;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Texture;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Texture;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Topology;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Topology;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\verdict;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\verdict;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Verdict;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Verdict;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\MetaIO\vtkmetaio;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\MetaIO;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\MetaIO;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\jpeg\vtkjpeg;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\jpeg;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\jpeg;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\png;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\png;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\tiff\vtktiff\libtiff;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\tiff;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\tiff;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Image;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Image;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\Hybrid;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Imaging\Hybrid;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Infovis\Layout;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Infovis\Layout;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Interaction\Style;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Interaction\Style;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\Color;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Imaging\Color;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\Annotation;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\Annotation;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\Volume;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\Volume;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Interaction\Widgets;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Interaction\Widgets;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Views\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Views\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libproj\vtklibproj;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\libproj\vtklibproj;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\libproj;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libproj;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Geovis\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Geovis\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\hdf5\vtkhdf5;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\hdf5\vtkhdf5\hl\src;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\hdf5\vtkhdf5\src;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\hdf5;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\hdf5;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\AMR;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\AMR;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Asynchronous;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Asynchronous;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\pugixml\vtkpugixml;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\pugixml\vtkpugixml;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\pugixml;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\pugixml;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\CityGML;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\CityGML;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\EnSight;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\EnSight;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\netcdf\vtknetcdf;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\netcdf;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\exodusII\vtkexodusII\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\exodusII;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Exodus;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Exodus;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\gl2ps;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\gl2ps;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\GL2PSOpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\GL2PSOpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Export;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Export;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\ExportOpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\ExportOpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libharu\vtklibharu\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\libharu\vtklibharu\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\libharu;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libharu;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\ExportPDF;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\ExportPDF;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Geometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Geometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Import;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Import;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\libxml2\vtklibxml2;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\libxml2;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Infovis;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Infovis;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\LSDyna;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\LSDyna;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\MINC;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\MINC;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\ogg\vtkogg\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\ogg\vtkogg\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\ogg;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\ogg;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\theora\vtktheora\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\theora\vtktheora\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\theora;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\theora;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Movie;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Movie;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\NetCDF;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\NetCDF;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\PLY;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\PLY;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\jsoncpp;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\jsoncpp;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Parallel;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Parallel;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\ParallelXML;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\ParallelXML;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\sqlite\vtksqlite;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\sqlite;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\sqlite;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\SQL;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\SQL;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\SegY;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\SegY;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\TecplotTable;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\TecplotTable;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\VeraOut;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\VeraOut;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Video;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Video;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\Math;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Imaging\Math;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\Morphological;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Imaging\Morphological;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\Statistics;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Imaging\Statistics;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\Stencil;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Imaging\Stencil;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Interaction\Image;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Interaction\Image;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\ContextOpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\ContextOpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\Image;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\Image;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\LOD;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\LOD;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\Label;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\Label;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\Parallel;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\Parallel;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\VolumeOpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\VolumeOpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Views\Context2D;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Views\Context2D;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Views\Infovis;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Views\Infovis;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Examples\Build\vtkMy;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Examples\Build\vtkMy\Common;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Examples\Build\vtkMy\Imaging;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Examples\Build\vtkMy\Unsorted;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\png\vtkpng;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\libproj\vtklibproj\src;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\hdf5\vtkhdf5\src;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\hdf5\vtkhdf5\hl\src;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libharu\vtklibharu\src\..\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\libharu\vtklibharu\src\..\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\jsoncpp\vtkjsoncpp\json;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWIML;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWIML;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWSys;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\utf8;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\utf8;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Math;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Math;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Misc;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Misc;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\System;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\System;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Transforms;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Transforms;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\DataModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\DataModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Color;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Color;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\ExecutionModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\ExecutionModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\ComputationalGeometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\ComputationalGeometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\General;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\General;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Imaging\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\Fourier;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Imaging\Fourier;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\eigen;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\eigen;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Statistics;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Statistics;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Extraction;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Extraction;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Infovis\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Infovis\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Geometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Geometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Sources;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Sources;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\zlib;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\zlib;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\freetype;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\freetype;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\FreeType;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\FreeType;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\Context2D;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\Context2D;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Charts\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Charts\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\DICOMParser;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\DICOMParser;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\doubleconversion\vtkdoubleconversion;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\doubleconversion\vtkdoubleconversion;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\doubleconversion;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\doubleconversion;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\lz4\vtklz4\lib;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\lz4\vtklz4;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\lz4;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\lz4;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\lzma;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\lzma;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Legacy;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Legacy;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\expat;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\expat;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\XMLParser;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\XMLParser;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Domains\Chemistry;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Domains\Chemistry;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\glew;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\glew;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Domains\ChemistryOpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Domains\ChemistryOpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\XML;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\XML;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Parallel\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Parallel\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\AMR;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\AMR;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\FlowPaths;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\FlowPaths;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Generic;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Generic;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\Sources;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Imaging\Sources;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Hybrid;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Hybrid;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\HyperTree;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\HyperTree;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\General;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Imaging\General;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Imaging;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Imaging;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Modeling;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Modeling;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Parallel;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Parallel;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\ParallelImaging;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\ParallelImaging;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Points;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Programmable;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Programmable;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\SMP;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\SMP;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Selection;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Selection;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Texture;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Texture;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Topology;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Topology;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\verdict;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\verdict;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Verdict;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Verdict;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\MetaIO\vtkmetaio;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\MetaIO;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\MetaIO;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\jpeg\vtkjpeg;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\jpeg;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\jpeg;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\png;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\png;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\tiff\vtktiff\libtiff;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\tiff;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\tiff;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Image;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Image;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\Hybrid;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Imaging\Hybrid;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Infovis\Layout;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Infovis\Layout;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Interaction\Style;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Interaction\Style;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\Color;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Imaging\Color;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\Annotation;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\Annotation;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\Volume;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\Volume;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Interaction\Widgets;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Interaction\Widgets;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Views\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Views\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libproj\vtklibproj;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\libproj\vtklibproj;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\libproj;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libproj;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Geovis\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Geovis\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\hdf5\vtkhdf5;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\hdf5\vtkhdf5\hl\src;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\hdf5\vtkhdf5\src;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\hdf5;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\hdf5;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\AMR;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\AMR;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Asynchronous;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Asynchronous;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\pugixml\vtkpugixml;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\pugixml\vtkpugixml;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\pugixml;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\pugixml;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\CityGML;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\CityGML;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\EnSight;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\EnSight;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\netcdf\vtknetcdf;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\netcdf;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\exodusII\vtkexodusII\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\exodusII;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Exodus;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Exodus;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\gl2ps;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\gl2ps;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\GL2PSOpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\GL2PSOpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Export;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Export;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\ExportOpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\ExportOpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libharu\vtklibharu\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\libharu\vtklibharu\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\libharu;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libharu;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\ExportPDF;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\ExportPDF;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Geometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Geometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Import;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Import;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\libxml2\vtklibxml2;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\libxml2;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Infovis;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Infovis;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\LSDyna;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\LSDyna;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\MINC;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\MINC;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\ogg\vtkogg\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\ogg\vtkogg\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\ogg;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\ogg;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\theora\vtktheora\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\theora\vtktheora\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\theora;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\theora;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Movie;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Movie;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\NetCDF;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\NetCDF;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\PLY;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\PLY;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\jsoncpp;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\jsoncpp;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Parallel;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Parallel;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\ParallelXML;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\ParallelXML;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\sqlite\vtksqlite;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\sqlite;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\sqlite;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\SQL;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\SQL;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\SegY;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\SegY;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\TecplotTable;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\TecplotTable;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\VeraOut;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\VeraOut;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Video;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Video;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\Math;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Imaging\Math;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\Morphological;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Imaging\Morphological;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\Statistics;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Imaging\Statistics;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\Stencil;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Imaging\Stencil;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Interaction\Image;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Interaction\Image;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\ContextOpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\ContextOpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\Image;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\Image;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\LOD;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\LOD;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\Label;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\Label;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\Parallel;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\Parallel;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\VolumeOpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\VolumeOpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Views\Context2D;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Views\Context2D;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Views\Infovis;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Views\Infovis;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Examples\Build\vtkMy;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Examples\Build\vtkMy\Common;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Examples\Build\vtkMy\Imaging;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Examples\Build\vtkMy\Unsorted;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\png\vtkpng;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\libproj\vtklibproj\src;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\hdf5\vtkhdf5\src;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\hdf5\vtkhdf5\hl\src;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libharu\vtklibharu\src\..\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\libharu\vtklibharu\src\..\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\jsoncpp\vtkjsoncpp\json;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\..\..\..\lib\Debug\vtkmyUnsorted.lib;..\..\..\..\..\..\lib\Debug\vtkmyImaging.lib;..\..\..\..\..\..\lib\Debug\vtkmyCommon.lib;..\..\..\..\..\..\lib\Debug\vtkDomainsChemistryOpenGL2-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkDomainsChemistry-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkFiltersFlowPaths-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkFiltersGeneric-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkFiltersHyperTree-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkFiltersParallelImaging-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkFiltersPoints-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkFiltersProgrammable-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkFiltersSMP-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkFiltersSelection-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkFiltersTexture-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkFiltersTopology-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkFiltersVerdict-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkverdict-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkGeovisCore-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkproj-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkIOAMR-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkFiltersAMR-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkIOAsynchronous-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkIOCityGML-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkpugixml-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkIOEnSight-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkIOExodus-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkIOExportOpenGL2-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkIOExportPDF-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkIOExport-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkRenderingGL2PSOpenGL2-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkgl2ps-8.2.lib;..\..\..\..\..\..\lib\Debug\vtklibharu-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkIOImport-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkIOInfovis-8.2.lib;..\..\..\..\..\..\lib\Debug\vtklibxml2-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkIOLSDyna-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkIOMINC-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkIOMovie-8.2.lib;..\..\..\..\..\..\lib\Debug\vtktheora-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkogg-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkIOPLY-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkIOParallel-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkexodusII-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkIOGeometry-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkIONetCDF-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkNetCDF-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkjsoncpp-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkIOParallelXML-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkIOSQL-8.2.lib;..\..\..\..\..\..\lib\Debug\vtksqlite-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkIOSegY-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkIOTecplotTable-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkIOVeraOut-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkhdf5-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkhdf5_hl-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkIOVideo-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkImagingMorphological-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkImagingStatistics-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkImagingStencil-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkInteractionImage-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkRenderingContextOpenGL2-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkRenderingImage-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkRenderingLOD-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkRenderingParallel-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkFiltersParallel-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkParallelCore-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkIOLegacy-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkRenderingVolumeOpenGL2-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkRenderingOpenGL2-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkglew-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkImagingMath-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkViewsContext2D-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkViewsInfovis-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkChartsCore-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkRenderingContext2D-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkFiltersImaging-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkInfovisLayout-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkInfovisCore-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkViewsCore-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkInteractionWidgets-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkFiltersHybrid-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkImagingGeneral-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkImagingSources-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkFiltersModeling-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkImagingHybrid-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkIOImage-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkDICOMParser-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkmetaio-8.2.lib;comctl32.lib;wsock32.lib;..\..\..\..\..\..\lib\Debug\vtkjpeg-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkpng-8.2.lib;..\..\..\..\..\..\lib\Debug\vtktiff-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkInteractionStyle-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkFiltersExtraction-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkFiltersStatistics-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkImagingFourier-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkRenderingAnnotation-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkImagingColor-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkRenderingVolume-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkImagingCore-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkIOXML-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkIOXMLParser-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkIOCore-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkdoubleconversion-8.2.lib;..\..\..\..\..\..\lib\Debug\vtklz4-8.2.lib;..\..\..\..\..\..\lib\Debug\vtklzma-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkexpat-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkRenderingLabel-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkRenderingFreeType-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkRenderingCore-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkCommonColor-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkFiltersGeometry-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkFiltersSources-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkFiltersGeneral-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkCommonComputationalGeometry-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkFiltersCore-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkCommonExecutionModel-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkCommonDataModel-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkCommonMisc-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkCommonSystem-8.2.lib;..\..\..\..\..\..\lib\Debug\vtksys-8.2.lib;ws2_32.lib;Psapi.lib;..\..\..\..\..\..\lib\Debug\vtkCommonTransforms-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkCommonMath-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkCommonCore-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkfreetype-8.2.lib;..\..\..\..\..\..\lib\Debug\vtkzlib-8.2.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/MeshEditor/90_Libraries/VTK-8.2.0/build/lib/Debug/vtkmyEx1.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/MeshEditor/90_Libraries/VTK-8.2.0/build/bin/Debug/vtkmyEx1.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWIML;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWIML;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWSys;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\utf8;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\utf8;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Math;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Math;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Misc;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Misc;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\System;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\System;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Transforms;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Transforms;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\DataModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\DataModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Color;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Color;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\ExecutionModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\ExecutionModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\ComputationalGeometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\ComputationalGeometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\General;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\General;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Imaging\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\Fourier;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Imaging\Fourier;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\eigen;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\eigen;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Statistics;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Statistics;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Extraction;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Extraction;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Infovis\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Infovis\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Geometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Geometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Sources;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Sources;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\zlib;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\zlib;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\freetype;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\freetype;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\FreeType;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\FreeType;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\Context2D;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\Context2D;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Charts\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Charts\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\DICOMParser;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\DICOMParser;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\doubleconversion\vtkdoubleconversion;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\doubleconversion\vtkdoubleconversion;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\doubleconversion;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\doubleconversion;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\lz4\vtklz4\lib;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\lz4\vtklz4;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\lz4;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\lz4;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\lzma;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\lzma;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Legacy;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Legacy;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\expat;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\expat;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\XMLParser;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\XMLParser;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Domains\Chemistry;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Domains\Chemistry;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\glew;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\glew;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Domains\ChemistryOpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Domains\ChemistryOpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\XML;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\XML;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Parallel\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Parallel\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\AMR;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\AMR;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\FlowPaths;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\FlowPaths;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Generic;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Generic;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\Sources;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Imaging\Sources;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Hybrid;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Hybrid;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\HyperTree;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\HyperTree;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\General;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Imaging\General;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Imaging;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Imaging;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Modeling;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Modeling;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Parallel;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Parallel;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\ParallelImaging;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\ParallelImaging;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Points;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Programmable;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Programmable;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\SMP;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\SMP;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Selection;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Selection;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Texture;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Texture;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Topology;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Topology;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\verdict;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\verdict;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Verdict;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Verdict;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\MetaIO\vtkmetaio;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\MetaIO;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\MetaIO;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\jpeg\vtkjpeg;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\jpeg;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\jpeg;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\png;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\png;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\tiff\vtktiff\libtiff;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\tiff;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\tiff;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Image;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Image;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\Hybrid;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Imaging\Hybrid;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Infovis\Layout;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Infovis\Layout;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Interaction\Style;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Interaction\Style;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\Color;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Imaging\Color;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\Annotation;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\Annotation;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\Volume;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\Volume;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Interaction\Widgets;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Interaction\Widgets;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Views\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Views\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libproj\vtklibproj;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\libproj\vtklibproj;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\libproj;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libproj;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Geovis\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Geovis\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\hdf5\vtkhdf5;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\hdf5\vtkhdf5\hl\src;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\hdf5\vtkhdf5\src;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\hdf5;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\hdf5;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\AMR;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\AMR;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Asynchronous;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Asynchronous;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\pugixml\vtkpugixml;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\pugixml\vtkpugixml;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\pugixml;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\pugixml;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\CityGML;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\CityGML;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\EnSight;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\EnSight;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\netcdf\vtknetcdf;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\netcdf;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\exodusII\vtkexodusII\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\exodusII;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Exodus;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Exodus;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\gl2ps;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\gl2ps;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\GL2PSOpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\GL2PSOpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Export;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Export;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\ExportOpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\ExportOpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libharu\vtklibharu\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\libharu\vtklibharu\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\libharu;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libharu;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\ExportPDF;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\ExportPDF;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Geometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Geometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Import;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Import;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\libxml2\vtklibxml2;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\libxml2;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Infovis;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Infovis;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\LSDyna;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\LSDyna;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\MINC;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\MINC;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\ogg\vtkogg\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\ogg\vtkogg\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\ogg;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\ogg;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\theora\vtktheora\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\theora\vtktheora\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\theora;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\theora;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Movie;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Movie;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\NetCDF;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\NetCDF;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\PLY;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\PLY;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\jsoncpp;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\jsoncpp;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Parallel;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Parallel;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\ParallelXML;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\ParallelXML;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\sqlite\vtksqlite;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\sqlite;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\sqlite;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\SQL;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\SQL;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\SegY;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\SegY;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\TecplotTable;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\TecplotTable;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\VeraOut;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\VeraOut;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Video;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Video;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\Math;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Imaging\Math;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\Morphological;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Imaging\Morphological;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\Statistics;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Imaging\Statistics;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\Stencil;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Imaging\Stencil;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Interaction\Image;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Interaction\Image;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\ContextOpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\ContextOpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\Image;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\Image;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\LOD;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\LOD;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\Label;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\Label;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\Parallel;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\Parallel;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\VolumeOpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\VolumeOpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Views\Context2D;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Views\Context2D;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Views\Infovis;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Views\Infovis;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Examples\Build\vtkMy;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Examples\Build\vtkMy\Common;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Examples\Build\vtkMy\Imaging;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Examples\Build\vtkMy\Unsorted;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\png\vtkpng;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\libproj\vtklibproj\src;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\hdf5\vtkhdf5\src;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\hdf5\vtkhdf5\hl\src;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libharu\vtklibharu\src\..\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\libharu\vtklibharu\src\..\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\jsoncpp\vtkjsoncpp\json;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;vtkDomainsChemistry_AUTOINIT=1(vtkDomainsChemistryOpenGL2);vtkIOExport_INCLUDE="C:/MeshEditor/90_Libraries/VTK-8.2.0/build/CMakeFiles/vtkIOExport_AUTOINIT_vtkIOExportOpenGL2_vtkIOExportPDF.h";vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2);vtkRenderingCore_INCLUDE="C:/MeshEditor/90_Libraries/VTK-8.2.0/build/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL2.h";vtkRenderingOpenGL2_AUTOINIT=1(vtkRenderingGL2PSOpenGL2);vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL2);LZ4_DLL_IMPORT=1;H5_BUILT_AS_DYNAMIC_LIB;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;vtkDomainsChemistry_AUTOINIT=1(vtkDomainsChemistryOpenGL2);vtkIOExport_INCLUDE=\"C:/MeshEditor/90_Libraries/VTK-8.2.0/build/CMakeFiles/vtkIOExport_AUTOINIT_vtkIOExportOpenGL2_vtkIOExportPDF.h\";vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2);vtkRenderingCore_INCLUDE=\"C:/MeshEditor/90_Libraries/VTK-8.2.0/build/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL2.h\";vtkRenderingOpenGL2_AUTOINIT=1(vtkRenderingGL2PSOpenGL2);vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL2);LZ4_DLL_IMPORT=1;H5_BUILT_AS_DYNAMIC_LIB;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWIML;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWIML;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWSys;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\utf8;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\utf8;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Math;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Math;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Misc;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Misc;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\System;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\System;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Transforms;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Transforms;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\DataModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\DataModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Color;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Color;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\ExecutionModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\ExecutionModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\ComputationalGeometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\ComputationalGeometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\General;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\General;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Imaging\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\Fourier;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Imaging\Fourier;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\eigen;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\eigen;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Statistics;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Statistics;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Extraction;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Extraction;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Infovis\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Infovis\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Geometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Geometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Sources;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Sources;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\zlib;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\zlib;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\freetype;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\freetype;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\FreeType;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\FreeType;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\Context2D;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\Context2D;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Charts\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Charts\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\DICOMParser;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\DICOMParser;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\doubleconversion\vtkdoubleconversion;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\doubleconversion\vtkdoubleconversion;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\doubleconversion;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\doubleconversion;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\lz4\vtklz4\lib;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\lz4\vtklz4;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\lz4;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\lz4;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\lzma;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\lzma;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Legacy;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Legacy;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\expat;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\expat;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\XMLParser;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\XMLParser;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Domains\Chemistry;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Domains\Chemistry;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\glew;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\glew;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Domains\ChemistryOpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Domains\ChemistryOpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\XML;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\XML;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Parallel\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Parallel\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\AMR;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\AMR;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\FlowPaths;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\FlowPaths;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Generic;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Generic;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\Sources;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Imaging\Sources;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Hybrid;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Hybrid;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\HyperTree;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\HyperTree;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\General;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Imaging\General;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Imaging;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Imaging;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Modeling;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Modeling;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Parallel;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Parallel;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\ParallelImaging;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\ParallelImaging;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Points;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Programmable;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Programmable;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\SMP;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\SMP;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Selection;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Selection;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Texture;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Texture;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Topology;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Topology;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\verdict;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\verdict;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Verdict;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Verdict;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\MetaIO\vtkmetaio;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\MetaIO;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\MetaIO;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\jpeg\vtkjpeg;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\jpeg;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\jpeg;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\png;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\png;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\tiff\vtktiff\libtiff;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\tiff;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\tiff;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Image;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Image;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\Hybrid;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Imaging\Hybrid;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Infovis\Layout;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Infovis\Layout;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Interaction\Style;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Interaction\Style;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\Color;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Imaging\Color;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\Annotation;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\Annotation;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\Volume;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\Volume;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Interaction\Widgets;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Interaction\Widgets;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Views\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Views\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libproj\vtklibproj;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\libproj\vtklibproj;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\libproj;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libproj;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Geovis\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Geovis\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\hdf5\vtkhdf5;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\hdf5\vtkhdf5\hl\src;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\hdf5\vtkhdf5\src;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\hdf5;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\hdf5;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\AMR;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\AMR;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Asynchronous;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Asynchronous;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\pugixml\vtkpugixml;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\pugixml\vtkpugixml;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\pugixml;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\pugixml;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\CityGML;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\CityGML;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\EnSight;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\EnSight;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\netcdf\vtknetcdf;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\netcdf;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\exodusII\vtkexodusII\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\exodusII;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Exodus;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Exodus;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\gl2ps;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\gl2ps;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\GL2PSOpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\GL2PSOpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Export;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Export;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\ExportOpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\ExportOpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libharu\vtklibharu\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\libharu\vtklibharu\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\libharu;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libharu;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\ExportPDF;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\ExportPDF;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Geometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Geometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Import;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Import;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\libxml2\vtklibxml2;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\libxml2;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Infovis;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Infovis;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\LSDyna;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\LSDyna;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\MINC;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\MINC;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\ogg\vtkogg\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\ogg\vtkogg\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\ogg;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\ogg;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\theora\vtktheora\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\theora\vtktheora\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\theora;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\theora;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Movie;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Movie;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\NetCDF;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\NetCDF;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\PLY;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\PLY;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\jsoncpp;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\jsoncpp;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Parallel;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Parallel;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\ParallelXML;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\ParallelXML;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\sqlite\vtksqlite;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\sqlite;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\sqlite;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\SQL;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\SQL;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\SegY;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\SegY;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\TecplotTable;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\TecplotTable;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\VeraOut;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\VeraOut;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Video;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Video;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\Math;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Imaging\Math;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\Morphological;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Imaging\Morphological;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\Statistics;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Imaging\Statistics;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\Stencil;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Imaging\Stencil;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Interaction\Image;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Interaction\Image;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\ContextOpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\ContextOpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\Image;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\Image;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\LOD;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\LOD;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\Label;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\Label;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\Parallel;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\Parallel;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\VolumeOpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\VolumeOpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Views\Context2D;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Views\Context2D;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Views\Infovis;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Views\Infovis;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Examples\Build\vtkMy;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Examples\Build\vtkMy\Common;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Examples\Build\vtkMy\Imaging;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Examples\Build\vtkMy\Unsorted;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\png\vtkpng;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\libproj\vtklibproj\src;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\hdf5\vtkhdf5\src;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\hdf5\vtkhdf5\hl\src;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libharu\vtklibharu\src\..\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\libharu\vtklibharu\src\..\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\jsoncpp\vtkjsoncpp\json;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWIML;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWIML;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWSys;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\KWSys;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\utf8;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\utf8;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Math;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Math;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Misc;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Misc;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\System;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\System;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Transforms;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Transforms;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\DataModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\DataModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Color;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\Color;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\ExecutionModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\ExecutionModel;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\ComputationalGeometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\ComputationalGeometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\General;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\General;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Imaging\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\Fourier;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Imaging\Fourier;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\eigen;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\eigen;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Statistics;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Statistics;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Extraction;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Extraction;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Infovis\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Infovis\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Geometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Geometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Sources;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Sources;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\zlib;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\zlib;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\freetype;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\freetype;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\FreeType;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\FreeType;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\Context2D;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\Context2D;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Charts\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Charts\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\DICOMParser;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\DICOMParser;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\doubleconversion\vtkdoubleconversion;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\doubleconversion\vtkdoubleconversion;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\doubleconversion;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\doubleconversion;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\lz4\vtklz4\lib;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\lz4\vtklz4;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\lz4;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\lz4;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\lzma;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\lzma;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Legacy;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Legacy;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\expat;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\expat;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\XMLParser;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\XMLParser;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Domains\Chemistry;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Domains\Chemistry;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\glew;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\glew;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\OpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Domains\ChemistryOpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Domains\ChemistryOpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\XML;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\XML;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Parallel\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Parallel\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\AMR;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\AMR;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\FlowPaths;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\FlowPaths;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Generic;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Generic;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\Sources;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Imaging\Sources;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Hybrid;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Hybrid;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\HyperTree;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\HyperTree;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\General;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Imaging\General;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Imaging;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Imaging;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Modeling;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Modeling;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Parallel;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Parallel;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\ParallelImaging;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\ParallelImaging;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Points;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Points;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Programmable;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Programmable;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\SMP;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\SMP;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Selection;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Selection;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Texture;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Texture;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Topology;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Topology;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\verdict;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\verdict;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Verdict;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Filters\Verdict;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\MetaIO\vtkmetaio;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\MetaIO;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Utilities\MetaIO;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\jpeg\vtkjpeg;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\jpeg;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\jpeg;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\png;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\png;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\tiff\vtktiff\libtiff;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\tiff;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\tiff;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Image;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Image;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\Hybrid;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Imaging\Hybrid;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Infovis\Layout;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Infovis\Layout;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Interaction\Style;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Interaction\Style;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\Color;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Imaging\Color;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\Annotation;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\Annotation;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\Volume;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\Volume;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Interaction\Widgets;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Interaction\Widgets;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Views\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Views\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libproj\vtklibproj;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\libproj\vtklibproj;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\libproj;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libproj;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Geovis\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Geovis\Core;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\hdf5\vtkhdf5;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\hdf5\vtkhdf5\hl\src;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\hdf5\vtkhdf5\src;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\hdf5;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\hdf5;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\AMR;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\AMR;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Asynchronous;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Asynchronous;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\pugixml\vtkpugixml;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\pugixml\vtkpugixml;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\pugixml;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\pugixml;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\CityGML;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\CityGML;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\EnSight;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\EnSight;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf\vtknetcdf\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\netcdf\vtknetcdf;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\netcdf;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\netcdf;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\exodusII\vtkexodusII\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII\vtkexodusII\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\exodusII;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\exodusII;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Exodus;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Exodus;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\gl2ps;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\gl2ps;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\GL2PSOpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\GL2PSOpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Export;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Export;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\ExportOpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\ExportOpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libharu\vtklibharu\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\libharu\vtklibharu\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\libharu;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libharu;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\ExportPDF;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\ExportPDF;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Geometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Geometry;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Import;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Import;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\libxml2\vtklibxml2;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\libxml2;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libxml2;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Infovis;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Infovis;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\LSDyna;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\LSDyna;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\MINC;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\MINC;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\ogg\vtkogg\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\ogg\vtkogg\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\ogg;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\ogg;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\theora\vtktheora\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\theora\vtktheora\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\theora;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\theora;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Movie;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Movie;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\NetCDF;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\NetCDF;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\PLY;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\PLY;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\jsoncpp;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\jsoncpp;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Parallel;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Parallel;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\ParallelXML;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\ParallelXML;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\sqlite\vtksqlite;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\sqlite;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\sqlite;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\SQL;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\SQL;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\SegY;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\SegY;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\TecplotTable;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\TecplotTable;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\VeraOut;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\VeraOut;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Video;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\IO\Video;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\Math;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Imaging\Math;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\Morphological;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Imaging\Morphological;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\Statistics;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Imaging\Statistics;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\Stencil;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Imaging\Stencil;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Interaction\Image;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Interaction\Image;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\ContextOpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\ContextOpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\Image;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\Image;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\LOD;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\LOD;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\Label;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\Label;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\Parallel;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\Parallel;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\VolumeOpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Rendering\VolumeOpenGL2;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Views\Context2D;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Views\Context2D;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Views\Infovis;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Views\Infovis;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Examples\Build\vtkMy;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Examples\Build\vtkMy\Common;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Examples\Build\vtkMy\Imaging;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Examples\Build\vtkMy\Unsorted;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\png\vtkpng;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\libproj\vtklibproj\src;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\hdf5\vtkhdf5\src;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\hdf5\vtkhdf5\hl\src;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\ThirdParty\libharu\vtklibharu\src\..\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\libharu\vtklibharu\src\..\include;C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\jsoncpp\vtkjsoncpp\json;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\..\..\..\lib\Release\vtkmyUnsorted.lib;..\..\..\..\..\..\lib\Release\vtkmyImaging.lib;..\..\..\..\..\..\lib\Release\vtkmyCommon.lib;..\..\..\..\..\..\lib\Release\vtkDomainsChemistryOpenGL2-8.2.lib;..\..\..\..\..\..\lib\Release\vtkDomainsChemistry-8.2.lib;..\..\..\..\..\..\lib\Release\vtkFiltersFlowPaths-8.2.lib;..\..\..\..\..\..\lib\Release\vtkFiltersGeneric-8.2.lib;..\..\..\..\..\..\lib\Release\vtkFiltersHyperTree-8.2.lib;..\..\..\..\..\..\lib\Release\vtkFiltersParallelImaging-8.2.lib;..\..\..\..\..\..\lib\Release\vtkFiltersPoints-8.2.lib;..\..\..\..\..\..\lib\Release\vtkFiltersProgrammable-8.2.lib;..\..\..\..\..\..\lib\Release\vtkFiltersSMP-8.2.lib;..\..\..\..\..\..\lib\Release\vtkFiltersSelection-8.2.lib;..\..\..\..\..\..\lib\Release\vtkFiltersTexture-8.2.lib;..\..\..\..\..\..\lib\Release\vtkFiltersTopology-8.2.lib;..\..\..\..\..\..\lib\Release\vtkFiltersVerdict-8.2.lib;..\..\..\..\..\..\lib\Release\vtkverdict-8.2.lib;..\..\..\..\..\..\lib\Release\vtkGeovisCore-8.2.lib;..\..\..\..\..\..\lib\Release\vtkproj-8.2.lib;..\..\..\..\..\..\lib\Release\vtkIOAMR-8.2.lib;..\..\..\..\..\..\lib\Release\vtkFiltersAMR-8.2.lib;..\..\..\..\..\..\lib\Release\vtkIOAsynchronous-8.2.lib;..\..\..\..\..\..\lib\Release\vtkIOCityGML-8.2.lib;..\..\..\..\..\..\lib\Release\vtkpugixml-8.2.lib;..\..\..\..\..\..\lib\Release\vtkIOEnSight-8.2.lib;..\..\..\..\..\..\lib\Release\vtkIOExodus-8.2.lib;..\..\..\..\..\..\lib\Release\vtkIOExportOpenGL2-8.2.lib;..\..\..\..\..\..\lib\Release\vtkIOExportPDF-8.2.lib;..\..\..\..\..\..\lib\Release\vtkIOExport-8.2.lib;..\..\..\..\..\..\lib\Release\vtkRenderingGL2PSOpenGL2-8.2.lib;..\..\..\..\..\..\lib\Release\vtkgl2ps-8.2.lib;..\..\..\..\..\..\lib\Release\vtklibharu-8.2.lib;..\..\..\..\..\..\lib\Release\vtkIOImport-8.2.lib;..\..\..\..\..\..\lib\Release\vtkIOInfovis-8.2.lib;..\..\..\..\..\..\lib\Release\vtklibxml2-8.2.lib;..\..\..\..\..\..\lib\Release\vtkIOLSDyna-8.2.lib;..\..\..\..\..\..\lib\Release\vtkIOMINC-8.2.lib;..\..\..\..\..\..\lib\Release\vtkIOMovie-8.2.lib;..\..\..\..\..\..\lib\Release\vtktheora-8.2.lib;..\..\..\..\..\..\lib\Release\vtkogg-8.2.lib;..\..\..\..\..\..\lib\Release\vtkIOPLY-8.2.lib;..\..\..\..\..\..\lib\Release\vtkIOParallel-8.2.lib;..\..\..\..\..\..\lib\Release\vtkexodusII-8.2.lib;..\..\..\..\..\..\lib\Release\vtkIOGeometry-8.2.lib;..\..\..\..\..\..\lib\Release\vtkIONetCDF-8.2.lib;..\..\..\..\..\..\lib\Release\vtkNetCDF-8.2.lib;..\..\..\..\..\..\lib\Release\vtkjsoncpp-8.2.lib;..\..\..\..\..\..\lib\Release\vtkIOParallelXML-8.2.lib;..\..\..\..\..\..\lib\Release\vtkIOSQL-8.2.lib;..\..\..\..\..\..\lib\Release\vtksqlite-8.2.lib;..\..\..\..\..\..\lib\Release\vtkIOSegY-8.2.lib;..\..\..\..\..\..\lib\Release\vtkIOTecplotTable-8.2.lib;..\..\..\..\..\..\lib\Release\vtkIOVeraOut-8.2.lib;..\..\..\..\..\..\lib\Release\vtkhdf5-8.2.lib;..\..\..\..\..\..\lib\Release\vtkhdf5_hl-8.2.lib;..\..\..\..\..\..\lib\Release\vtkIOVideo-8.2.lib;..\..\..\..\..\..\lib\Release\vtkImagingMorphological-8.2.lib;..\..\..\..\..\..\lib\Release\vtkImagingStatistics-8.2.lib;..\..\..\..\..\..\lib\Release\vtkImagingStencil-8.2.lib;..\..\..\..\..\..\lib\Release\vtkInteractionImage-8.2.lib;..\..\..\..\..\..\lib\Release\vtkRenderingContextOpenGL2-8.2.lib;..\..\..\..\..\..\lib\Release\vtkRenderingImage-8.2.lib;..\..\..\..\..\..\lib\Release\vtkRenderingLOD-8.2.lib;..\..\..\..\..\..\lib\Release\vtkRenderingParallel-8.2.lib;..\..\..\..\..\..\lib\Release\vtkFiltersParallel-8.2.lib;..\..\..\..\..\..\lib\Release\vtkParallelCore-8.2.lib;..\..\..\..\..\..\lib\Release\vtkIOLegacy-8.2.lib;..\..\..\..\..\..\lib\Release\vtkRenderingVolumeOpenGL2-8.2.lib;..\..\..\..\..\..\lib\Release\vtkRenderingOpenGL2-8.2.lib;..\..\..\..\..\..\lib\Release\vtkglew-8.2.lib;..\..\..\..\..\..\lib\Release\vtkImagingMath-8.2.lib;..\..\..\..\..\..\lib\Release\vtkViewsContext2D-8.2.lib;..\..\..\..\..\..\lib\Release\vtkViewsInfovis-8.2.lib;..\..\..\..\..\..\lib\Release\vtkChartsCore-8.2.lib;..\..\..\..\..\..\lib\Release\vtkRenderingContext2D-8.2.lib;..\..\..\..\..\..\lib\Release\vtkFiltersImaging-8.2.lib;..\..\..\..\..\..\lib\Release\vtkInfovisLayout-8.2.lib;..\..\..\..\..\..\lib\Release\vtkInfovisCore-8.2.lib;..\..\..\..\..\..\lib\Release\vtkViewsCore-8.2.lib;..\..\..\..\..\..\lib\Release\vtkInteractionWidgets-8.2.lib;..\..\..\..\..\..\lib\Release\vtkFiltersHybrid-8.2.lib;..\..\..\..\..\..\lib\Release\vtkImagingGeneral-8.2.lib;..\..\..\..\..\..\lib\Release\vtkImagingSources-8.2.lib;..\..\..\..\..\..\lib\Release\vtkFiltersModeling-8.2.lib;..\..\..\..\..\..\lib\Release\vtkImagingHybrid-8.2.lib;..\..\..\..\..\..\lib\Release\vtkIOImage-8.2.lib;..\..\..\..\..\..\lib\Release\vtkDICOMParser-8.2.lib;..\..\..\..\..\..\lib\Release\vtkmetaio-8.2.lib;comctl32.lib;wsock32.lib;..\..\..\..\..\..\lib\Release\vtkjpeg-8.2.lib;..\..\..\..\..\..\lib\Release\vtkpng-8.2.lib;..\..\..\..\..\..\lib\Release\vtktiff-8.2.lib;..\..\..\..\..\..\lib\Release\vtkInteractionStyle-8.2.lib;..\..\..\..\..\..\lib\Release\vtkFiltersExtraction-8.2.lib;..\..\..\..\..\..\lib\Release\vtkFiltersStatistics-8.2.lib;..\..\..\..\..\..\lib\Release\vtkImagingFourier-8.2.lib;..\..\..\..\..\..\lib\Release\vtkRenderingAnnotation-8.2.lib;..\..\..\..\..\..\lib\Release\vtkImagingColor-8.2.lib;..\..\..\..\..\..\lib\Release\vtkRenderingVolume-8.2.lib;..\..\..\..\..\..\lib\Release\vtkImagingCore-8.2.lib;..\..\..\..\..\..\lib\Release\vtkIOXML-8.2.lib;..\..\..\..\..\..\lib\Release\vtkIOXMLParser-8.2.lib;..\..\..\..\..\..\lib\Release\vtkIOCore-8.2.lib;..\..\..\..\..\..\lib\Release\vtkdoubleconversion-8.2.lib;..\..\..\..\..\..\lib\Release\vtklz4-8.2.lib;..\..\..\..\..\..\lib\Release\vtklzma-8.2.lib;..\..\..\..\..\..\lib\Release\vtkexpat-8.2.lib;..\..\..\..\..\..\lib\Release\vtkRenderingLabel-8.2.lib;..\..\..\..\..\..\lib\Release\vtkRenderingFreeType-8.2.lib;..\..\..\..\..\..\lib\Release\vtkRenderingCore-8.2.lib;..\..\..\..\..\..\lib\Release\vtkCommonColor-8.2.lib;..\..\..\..\..\..\lib\Release\vtkFiltersGeometry-8.2.lib;..\..\..\..\..\..\lib\Release\vtkFiltersSources-8.2.lib;..\..\..\..\..\..\lib\Release\vtkFiltersGeneral-8.2.lib;..\..\..\..\..\..\lib\Release\vtkCommonComputationalGeometry-8.2.lib;..\..\..\..\..\..\lib\Release\vtkFiltersCore-8.2.lib;..\..\..\..\..\..\lib\Release\vtkCommonExecutionModel-8.2.lib;..\..\..\..\..\..\lib\Release\vtkCommonDataModel-8.2.lib;..\..\..\..\..\..\lib\Release\vtkCommonMisc-8.2.lib;..\..\..\..\..\..\lib\Release\vtkCommonSystem-8.2.lib;..\..\..\..\..\..\lib\Release\vtksys-8.2.lib;ws2_32.lib;Psapi.lib;..\..\..\..\..\..\lib\Release\vtkCommonTransforms-8.2.lib;..\..\..\..\..\..\lib\Release\vtkCommonMath-8.2.lib;..\..\..\..\..\..\lib\Release\vtkCommonCore-8.2.lib;..\..\..\..\..\..\lib\Release\vtkfreetype-8.2.lib;..\..\..\..\..\..\lib\Release\vtkzlib-8.2.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/MeshEditor/90_Libraries/VTK-8.2.0/build/lib/Release/vtkmyEx1.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/MeshEditor/90_Libraries/VTK-8.2.0/build/bin/Release/vtkmyEx1.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Examples\Build\vtkMy\Examples\Cxx\Ex1\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Examples/Build/vtkMy/Examples/Cxx/Ex1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/MeshEditor/90_Libraries/VTK-8.2.0/src -BC:/MeshEditor/90_Libraries/VTK-8.2.0/build --check-stamp-file C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Examples/Build/vtkMy/Examples/Cxx/Ex1/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Examples/Build/vtkMy/Examples/Cxx/Ex1/CMakeLists.txt;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Examples\Build\vtkMy\Examples\Cxx\Ex1\CMakeLists.txt;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Examples\Build\vtkMy\Examples\Cxx\Ex1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Examples\Build\vtkMy\Examples\Cxx\Ex1\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Examples/Build/vtkMy/Examples/Cxx/Ex1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/MeshEditor/90_Libraries/VTK-8.2.0/src -BC:/MeshEditor/90_Libraries/VTK-8.2.0/build --check-stamp-file C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Examples/Build/vtkMy/Examples/Cxx/Ex1/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Examples/Build/vtkMy/Examples/Cxx/Ex1/CMakeLists.txt;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Examples\Build\vtkMy\Examples\Cxx\Ex1\CMakeLists.txt;C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Examples\Build\vtkMy\Examples\Cxx\Ex1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Examples\Build\vtkMy\Examples\Cxx\Ex1\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Examples\Build\vtkMy\Examples\Cxx\Ex1\vtkmyEx1.cxx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ZERO_CHECK.vcxproj">
+      <Project>{08D62400-3290-3C24-87AA-504F9356C20C}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\verdict\vtkverdict\verdict.vcxproj">
+      <Project>{2F084D5A-5BD6-393A-9336-202D8D1240B0}</Project>
+      <Name>verdict</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Charts\Core\vtkChartsCore.vcxproj">
+      <Project>{4CD08D5E-764B-3935-876E-2273BC86A81A}</Project>
+      <Name>vtkChartsCore</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Color\vtkCommonColor.vcxproj">
+      <Project>{20081C8C-6BE1-3477-A795-24B0E409F04A}</Project>
+      <Name>vtkCommonColor</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\ComputationalGeometry\vtkCommonComputationalGeometry.vcxproj">
+      <Project>{88C3575F-63CC-3491-BE25-06B164DB2B37}</Project>
+      <Name>vtkCommonComputationalGeometry</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Core\vtkCommonCore.vcxproj">
+      <Project>{34251C80-664B-30CB-8DED-C33D5AC07D65}</Project>
+      <Name>vtkCommonCore</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\DataModel\vtkCommonDataModel.vcxproj">
+      <Project>{0144B4B0-B9A5-3858-AE67-DC1D7DB0C0B1}</Project>
+      <Name>vtkCommonDataModel</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\ExecutionModel\vtkCommonExecutionModel.vcxproj">
+      <Project>{6CFA6415-7915-32BF-B9A7-2B0D1CA50DED}</Project>
+      <Name>vtkCommonExecutionModel</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Math\vtkCommonMath.vcxproj">
+      <Project>{77D1ACF0-400B-322F-9AD3-78E0EF78F719}</Project>
+      <Name>vtkCommonMath</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Misc\vtkCommonMisc.vcxproj">
+      <Project>{23A0D148-04E0-3E0E-AE6F-79B3C0C6DAD2}</Project>
+      <Name>vtkCommonMisc</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\System\vtkCommonSystem.vcxproj">
+      <Project>{CF8D74AE-BE4C-3BED-8ABC-90257D016084}</Project>
+      <Name>vtkCommonSystem</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\Transforms\vtkCommonTransforms.vcxproj">
+      <Project>{71D9E924-A5AB-3989-AC62-57F6391AE10F}</Project>
+      <Name>vtkCommonTransforms</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\DICOMParser\vtkDICOMParser.vcxproj">
+      <Project>{3D54176A-F607-36F5-BC64-968905AEE557}</Project>
+      <Name>vtkDICOMParser</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Domains\Chemistry\vtkDomainsChemistry.vcxproj">
+      <Project>{48E92096-DA15-340B-8D3E-D2CB7C2B9C76}</Project>
+      <Name>vtkDomainsChemistry</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Domains\ChemistryOpenGL2\vtkDomainsChemistryOpenGL2.vcxproj">
+      <Project>{83694394-3703-39C0-AA35-F38627312021}</Project>
+      <Name>vtkDomainsChemistryOpenGL2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\AMR\vtkFiltersAMR.vcxproj">
+      <Project>{CFA2D7FE-B3C9-3792-8DEB-560643FF7012}</Project>
+      <Name>vtkFiltersAMR</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Core\vtkFiltersCore.vcxproj">
+      <Project>{F95E5E59-4CBD-31E8-A474-029FC3082349}</Project>
+      <Name>vtkFiltersCore</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Extraction\vtkFiltersExtraction.vcxproj">
+      <Project>{787D025C-AE68-30D9-8279-EC16E13754FC}</Project>
+      <Name>vtkFiltersExtraction</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\FlowPaths\vtkFiltersFlowPaths.vcxproj">
+      <Project>{939270E0-3C20-3F60-8059-C256CE925ECD}</Project>
+      <Name>vtkFiltersFlowPaths</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\General\vtkFiltersGeneral.vcxproj">
+      <Project>{FB074DC9-4721-3A2B-BB1E-4CCE691B0642}</Project>
+      <Name>vtkFiltersGeneral</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Generic\vtkFiltersGeneric.vcxproj">
+      <Project>{C95F180A-C4CC-382B-9383-539CD3CA4D24}</Project>
+      <Name>vtkFiltersGeneric</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Geometry\vtkFiltersGeometry.vcxproj">
+      <Project>{5F3DB54C-13E5-3DE3-9530-0503786A094D}</Project>
+      <Name>vtkFiltersGeometry</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Hybrid\vtkFiltersHybrid.vcxproj">
+      <Project>{4814D540-F5EB-3288-99F5-0A4B06CDFCD6}</Project>
+      <Name>vtkFiltersHybrid</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\HyperTree\vtkFiltersHyperTree.vcxproj">
+      <Project>{3D86F6A3-9516-3382-BFB7-54802DE960E0}</Project>
+      <Name>vtkFiltersHyperTree</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Imaging\vtkFiltersImaging.vcxproj">
+      <Project>{2E74EFB2-732B-3059-82B7-0364595FFD7F}</Project>
+      <Name>vtkFiltersImaging</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Modeling\vtkFiltersModeling.vcxproj">
+      <Project>{251A8627-2AA4-3EE8-98F7-5519D5B6D95B}</Project>
+      <Name>vtkFiltersModeling</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Parallel\vtkFiltersParallel.vcxproj">
+      <Project>{B6FD6732-9F18-3692-9527-47DAA966CC31}</Project>
+      <Name>vtkFiltersParallel</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\ParallelImaging\vtkFiltersParallelImaging.vcxproj">
+      <Project>{84EB9B43-CCED-3DAA-8BB0-26608293A4D4}</Project>
+      <Name>vtkFiltersParallelImaging</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Points\vtkFiltersPoints.vcxproj">
+      <Project>{DB460C29-CA21-3EFE-B05E-163472248C51}</Project>
+      <Name>vtkFiltersPoints</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Programmable\vtkFiltersProgrammable.vcxproj">
+      <Project>{127D3051-2697-3C1A-A432-D06D7122C312}</Project>
+      <Name>vtkFiltersProgrammable</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\SMP\vtkFiltersSMP.vcxproj">
+      <Project>{4C46167C-99D7-3A2A-8C2E-C27137FCE125}</Project>
+      <Name>vtkFiltersSMP</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Selection\vtkFiltersSelection.vcxproj">
+      <Project>{46BED781-C36F-3421-8D91-088D53126F29}</Project>
+      <Name>vtkFiltersSelection</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Sources\vtkFiltersSources.vcxproj">
+      <Project>{BF72F72E-A8FE-3DFD-A2D8-4AD6BB1E5719}</Project>
+      <Name>vtkFiltersSources</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Statistics\vtkFiltersStatistics.vcxproj">
+      <Project>{9F02B5ED-701A-3525-85B6-2D0C99348D35}</Project>
+      <Name>vtkFiltersStatistics</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Texture\vtkFiltersTexture.vcxproj">
+      <Project>{06725696-04A3-31A9-A585-ED707BD903A3}</Project>
+      <Name>vtkFiltersTexture</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Topology\vtkFiltersTopology.vcxproj">
+      <Project>{C929787D-F2E6-37D6-953E-B61DADC9B270}</Project>
+      <Name>vtkFiltersTopology</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Filters\Verdict\vtkFiltersVerdict.vcxproj">
+      <Project>{5EDFF18F-46F6-3D34-A5A8-10C8C1346B4C}</Project>
+      <Name>vtkFiltersVerdict</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Geovis\Core\vtkGeovisCore.vcxproj">
+      <Project>{5AF86483-1D9F-375A-B31E-240209A69485}</Project>
+      <Name>vtkGeovisCore</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\AMR\vtkIOAMR.vcxproj">
+      <Project>{7FF7140F-C581-39C3-A084-CCDACAB054DF}</Project>
+      <Name>vtkIOAMR</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Asynchronous\vtkIOAsynchronous.vcxproj">
+      <Project>{6B80EF5F-F22D-3DF5-80F5-A70F1D40F98B}</Project>
+      <Name>vtkIOAsynchronous</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\CityGML\vtkIOCityGML.vcxproj">
+      <Project>{00355AB3-E6C7-3090-86F8-2C6B2B40C41C}</Project>
+      <Name>vtkIOCityGML</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Core\vtkIOCore.vcxproj">
+      <Project>{FFD247EF-7EB4-3266-9423-9E2F899B12F3}</Project>
+      <Name>vtkIOCore</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\EnSight\vtkIOEnSight.vcxproj">
+      <Project>{DF5DB550-2054-36BE-8F89-1D783343B2CE}</Project>
+      <Name>vtkIOEnSight</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Exodus\vtkIOExodus.vcxproj">
+      <Project>{1AA8A6FC-08E1-3C4D-AF32-6D44DC36E8F9}</Project>
+      <Name>vtkIOExodus</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Export\vtkIOExport.vcxproj">
+      <Project>{11449BD1-A614-323C-8D30-B13565CF944C}</Project>
+      <Name>vtkIOExport</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\ExportOpenGL2\vtkIOExportOpenGL2.vcxproj">
+      <Project>{53A0B9BC-397D-30D3-97F7-03328DA61A36}</Project>
+      <Name>vtkIOExportOpenGL2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\ExportPDF\vtkIOExportPDF.vcxproj">
+      <Project>{954C08B8-E78D-3A5E-B005-2947D90CB42C}</Project>
+      <Name>vtkIOExportPDF</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Geometry\vtkIOGeometry.vcxproj">
+      <Project>{87C1CCE4-483B-3410-8BCE-32988FCBBE79}</Project>
+      <Name>vtkIOGeometry</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Image\vtkIOImage.vcxproj">
+      <Project>{C138AAA7-1A75-3EE8-98A9-84CD52FC292B}</Project>
+      <Name>vtkIOImage</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Import\vtkIOImport.vcxproj">
+      <Project>{E810DEC0-D426-3415-87FF-A81037D21DC8}</Project>
+      <Name>vtkIOImport</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Infovis\vtkIOInfovis.vcxproj">
+      <Project>{D3EB4A5E-1754-30D4-8907-A43F7C775831}</Project>
+      <Name>vtkIOInfovis</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\LSDyna\vtkIOLSDyna.vcxproj">
+      <Project>{5F8A92EE-AB41-3E60-955E-5C47FF0FC653}</Project>
+      <Name>vtkIOLSDyna</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Legacy\vtkIOLegacy.vcxproj">
+      <Project>{C5E8E057-107D-353A-9009-891F84CDC474}</Project>
+      <Name>vtkIOLegacy</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\MINC\vtkIOMINC.vcxproj">
+      <Project>{5C800465-D3B9-3451-B2A4-7A547006A9FF}</Project>
+      <Name>vtkIOMINC</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Movie\vtkIOMovie.vcxproj">
+      <Project>{F00BB64D-D87F-30BE-B8D9-058E56C9482A}</Project>
+      <Name>vtkIOMovie</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\NetCDF\vtkIONetCDF.vcxproj">
+      <Project>{D9D3301C-6CFA-3EA4-BCB9-45DD265717DD}</Project>
+      <Name>vtkIONetCDF</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\PLY\vtkIOPLY.vcxproj">
+      <Project>{8C577322-3A1C-3272-988E-51D7E55D93FB}</Project>
+      <Name>vtkIOPLY</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Parallel\vtkIOParallel.vcxproj">
+      <Project>{DCF3A018-3F03-3887-8067-AB6F70F366CD}</Project>
+      <Name>vtkIOParallel</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\ParallelXML\vtkIOParallelXML.vcxproj">
+      <Project>{307B5392-47E8-35F8-A71E-143BC932740B}</Project>
+      <Name>vtkIOParallelXML</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\SQL\vtkIOSQL.vcxproj">
+      <Project>{D271588A-B7DF-34B4-A2FD-482D44491FE3}</Project>
+      <Name>vtkIOSQL</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\SegY\vtkIOSegY.vcxproj">
+      <Project>{127A76D8-B1CB-38EB-8421-04842511827F}</Project>
+      <Name>vtkIOSegY</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\TecplotTable\vtkIOTecplotTable.vcxproj">
+      <Project>{DCB33CEA-5B38-352B-BFA7-AE601BC724C9}</Project>
+      <Name>vtkIOTecplotTable</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\VeraOut\vtkIOVeraOut.vcxproj">
+      <Project>{0B488207-0D11-3100-9B4A-9EA62AD026E6}</Project>
+      <Name>vtkIOVeraOut</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\Video\vtkIOVideo.vcxproj">
+      <Project>{2E8583CD-C769-30B1-B57E-0ECA251AE308}</Project>
+      <Name>vtkIOVideo</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\XML\vtkIOXML.vcxproj">
+      <Project>{950F2C92-6C12-368A-AFDD-D630B28D2FFB}</Project>
+      <Name>vtkIOXML</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\IO\XMLParser\vtkIOXMLParser.vcxproj">
+      <Project>{CECE395D-F187-3FD1-9294-BDF5D604A391}</Project>
+      <Name>vtkIOXMLParser</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\Color\vtkImagingColor.vcxproj">
+      <Project>{82668AAB-1E11-32E2-BBF6-9F0ACFA7A811}</Project>
+      <Name>vtkImagingColor</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\Core\vtkImagingCore.vcxproj">
+      <Project>{45F28357-C227-30A6-AA01-4479610467D7}</Project>
+      <Name>vtkImagingCore</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\Fourier\vtkImagingFourier.vcxproj">
+      <Project>{6B0FF83D-A462-3A87-9054-8BC623F1B86B}</Project>
+      <Name>vtkImagingFourier</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\General\vtkImagingGeneral.vcxproj">
+      <Project>{D1FF4998-1866-39D6-9458-8BD5BB0638A5}</Project>
+      <Name>vtkImagingGeneral</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\Hybrid\vtkImagingHybrid.vcxproj">
+      <Project>{940A4EDB-3A70-3228-8172-B6AD6CBC4819}</Project>
+      <Name>vtkImagingHybrid</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\Math\vtkImagingMath.vcxproj">
+      <Project>{F8C507EA-8472-3178-BF1C-48A570A335E9}</Project>
+      <Name>vtkImagingMath</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\Morphological\vtkImagingMorphological.vcxproj">
+      <Project>{6D71205F-4E68-363F-984A-7A09D8D8DCF9}</Project>
+      <Name>vtkImagingMorphological</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\Sources\vtkImagingSources.vcxproj">
+      <Project>{4719FF5E-D9B8-3B08-BCD0-A27B35B5D9DA}</Project>
+      <Name>vtkImagingSources</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\Statistics\vtkImagingStatistics.vcxproj">
+      <Project>{1681A062-E90F-3CE2-B7A3-3862F6184304}</Project>
+      <Name>vtkImagingStatistics</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Imaging\Stencil\vtkImagingStencil.vcxproj">
+      <Project>{514DE5B1-D930-3963-8EF7-C782B5C03C58}</Project>
+      <Name>vtkImagingStencil</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Infovis\Core\vtkInfovisCore.vcxproj">
+      <Project>{1364B36D-5750-3620-9DEF-9EB8AA0BC645}</Project>
+      <Name>vtkInfovisCore</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Infovis\Layout\vtkInfovisLayout.vcxproj">
+      <Project>{1C29075E-8BC5-3EF6-BF8C-71E6869B87EB}</Project>
+      <Name>vtkInfovisLayout</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Interaction\Image\vtkInteractionImage.vcxproj">
+      <Project>{6027E985-891F-3FFD-96DE-678764DA89DB}</Project>
+      <Name>vtkInteractionImage</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Interaction\Style\vtkInteractionStyle.vcxproj">
+      <Project>{9F9FFF82-7BD6-302F-A5EA-58C973669A85}</Project>
+      <Name>vtkInteractionStyle</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Interaction\Widgets\vtkInteractionWidgets.vcxproj">
+      <Project>{23F2FDEE-19EF-3B9A-B562-504BCAFD1A59}</Project>
+      <Name>vtkInteractionWidgets</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Parallel\Core\vtkParallelCore.vcxproj">
+      <Project>{A88E59FC-7D16-3704-AED6-6992D7D8A01E}</Project>
+      <Name>vtkParallelCore</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\Annotation\vtkRenderingAnnotation.vcxproj">
+      <Project>{2754428D-2662-31F1-A4EC-DBBD95363B8B}</Project>
+      <Name>vtkRenderingAnnotation</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\Context2D\vtkRenderingContext2D.vcxproj">
+      <Project>{16410822-6C7B-3C6C-8B82-49B46FB54EFB}</Project>
+      <Name>vtkRenderingContext2D</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\ContextOpenGL2\vtkRenderingContextOpenGL2.vcxproj">
+      <Project>{D344BB86-43EA-37BB-ABA4-58B48C4BBE83}</Project>
+      <Name>vtkRenderingContextOpenGL2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\Core\vtkRenderingCore.vcxproj">
+      <Project>{E53ADD8A-E33F-318A-A94A-3BA54E45A11F}</Project>
+      <Name>vtkRenderingCore</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\FreeType\vtkRenderingFreeType.vcxproj">
+      <Project>{480A7BE1-0487-3615-876A-56ACF1B2905C}</Project>
+      <Name>vtkRenderingFreeType</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\GL2PSOpenGL2\vtkRenderingGL2PSOpenGL2.vcxproj">
+      <Project>{731CA113-8062-3D30-A708-F8EE1F7BF297}</Project>
+      <Name>vtkRenderingGL2PSOpenGL2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\Image\vtkRenderingImage.vcxproj">
+      <Project>{0170F465-07CF-3111-8F7B-E7920F28C33C}</Project>
+      <Name>vtkRenderingImage</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\LOD\vtkRenderingLOD.vcxproj">
+      <Project>{5AB07706-C84B-3375-83E8-5C7AA9E6FF45}</Project>
+      <Name>vtkRenderingLOD</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\Label\vtkRenderingLabel.vcxproj">
+      <Project>{EC05D51A-1B2D-3023-A9A0-24439510BDA2}</Project>
+      <Name>vtkRenderingLabel</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\OpenGL2\vtkRenderingOpenGL2.vcxproj">
+      <Project>{0D9F137F-2EE6-3E97-8CF1-0B6A919EDFE4}</Project>
+      <Name>vtkRenderingOpenGL2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\Parallel\vtkRenderingParallel.vcxproj">
+      <Project>{4F2C0939-26DD-3DCF-88DF-4C6191CC3D2C}</Project>
+      <Name>vtkRenderingParallel</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\Volume\vtkRenderingVolume.vcxproj">
+      <Project>{F1D08B31-274F-3042-B0AF-EA1F821AA24D}</Project>
+      <Name>vtkRenderingVolume</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Rendering\VolumeOpenGL2\vtkRenderingVolumeOpenGL2.vcxproj">
+      <Project>{CBE04960-384F-335E-8D1E-625F4A3E2F08}</Project>
+      <Name>vtkRenderingVolumeOpenGL2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Views\Context2D\vtkViewsContext2D.vcxproj">
+      <Project>{981C073F-EE36-36D2-AE96-F2C2B0C7278B}</Project>
+      <Name>vtkViewsContext2D</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Views\Core\vtkViewsCore.vcxproj">
+      <Project>{F3E8B187-68D4-34CC-9094-5AFC82BF7B2E}</Project>
+      <Name>vtkViewsCore</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Views\Infovis\vtkViewsInfovis.vcxproj">
+      <Project>{E9A0C82A-81C3-3BB0-B19B-0C592B3E79ED}</Project>
+      <Name>vtkViewsInfovis</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\doubleconversion\vtkdoubleconversion\vtkdoubleconversion.vcxproj">
+      <Project>{04F75E14-D2B8-3169-A855-D34DA1617240}</Project>
+      <Name>vtkdoubleconversion</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\exodusII\vtkexodusII\vtkexodusII.vcxproj">
+      <Project>{1D1143AA-4B3F-3B3B-A2A8-4F46AC9862A7}</Project>
+      <Name>vtkexodusII</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\expat\vtkexpat\vtkexpat.vcxproj">
+      <Project>{6E0642DF-353F-3B29-8DEF-1EB179B3E4EC}</Project>
+      <Name>vtkexpat</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\freetype\vtkfreetype\vtkfreetype.vcxproj">
+      <Project>{9B9C31D9-2959-3729-ACB2-F83D10E65924}</Project>
+      <Name>vtkfreetype</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\gl2ps\vtkgl2ps\vtkgl2ps.vcxproj">
+      <Project>{B3525FB1-9AF3-3965-B883-E7EFA3F3CBCD}</Project>
+      <Name>vtkgl2ps</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\glew\vtkglew\vtkglew.vcxproj">
+      <Project>{2F427FBD-6B4A-3226-B161-6CD11EA77C3C}</Project>
+      <Name>vtkglew</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\hdf5\vtkhdf5\hl\src\vtkhdf5_hl_src.vcxproj">
+      <Project>{50AE6F25-F199-399F-BE4C-58BD143E58F6}</Project>
+      <Name>vtkhdf5_hl_src</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\hdf5\vtkhdf5\src\vtkhdf5_src.vcxproj">
+      <Project>{4D5F3D15-7003-3BE8-9014-EE2074AD3FE1}</Project>
+      <Name>vtkhdf5_src</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\jpeg\vtkjpeg\vtkjpeg.vcxproj">
+      <Project>{036E32FD-0DF9-3386-BBC6-42387FF1DDEC}</Project>
+      <Name>vtkjpeg</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\jsoncpp\vtkjsoncpp\vtkjsoncpp.vcxproj">
+      <Project>{BBF7B181-85B0-35A8-9CF1-A0D17954B331}</Project>
+      <Name>vtkjsoncpp</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\libharu\vtklibharu\src\vtklibharu.vcxproj">
+      <Project>{0D950027-D42B-3624-929D-4D0BB432986E}</Project>
+      <Name>vtklibharu</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\libproj\vtklibproj\src\vtklibproj.vcxproj">
+      <Project>{5E33808E-74DC-3520-AD79-30C917DA09D6}</Project>
+      <Name>vtklibproj</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\libxml2\vtklibxml2\vtklibxml2.vcxproj">
+      <Project>{1B78CF2C-5F66-38CE-8E27-AFBEA39442C0}</Project>
+      <Name>vtklibxml2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\lz4\vtklz4\vtklz4.vcxproj">
+      <Project>{3186447C-C1BE-34E3-BA74-5A6CD77CBD3B}</Project>
+      <Name>vtklz4</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\lzma\vtklzma\vtklzma.vcxproj">
+      <Project>{C3AC2B33-A294-3E37-8A8B-AAC9FBC1377A}</Project>
+      <Name>vtklzma</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\MetaIO\vtkmetaio\vtkmetaio.vcxproj">
+      <Project>{8B39CCFC-4A9B-3C8F-9CBF-30B4C476BD9F}</Project>
+      <Name>vtkmetaio</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Examples\Build\vtkMy\Common\vtkmyCommon.vcxproj">
+      <Project>{F4A3C4A9-27C5-3749-A0F0-4C437BBC1D5C}</Project>
+      <Name>vtkmyCommon</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Examples\Build\vtkMy\Imaging\vtkmyImaging.vcxproj">
+      <Project>{03C8E88C-EE49-38C5-90EC-C1CA2E984316}</Project>
+      <Name>vtkmyImaging</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Examples\Build\vtkMy\Unsorted\vtkmyUnsorted.vcxproj">
+      <Project>{36AD7E16-087B-3090-9298-F62D6BB7479F}</Project>
+      <Name>vtkmyUnsorted</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\netcdf\vtknetcdf\vtknetcdf.vcxproj">
+      <Project>{5D7F4F05-4FB7-3A68-9485-39F61D833313}</Project>
+      <Name>vtknetcdf</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\ogg\vtkogg\vtkogg.vcxproj">
+      <Project>{B9F38A1F-D2CB-3B1A-B382-AD375DAD89D2}</Project>
+      <Name>vtkogg</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\png\vtkpng\vtkpng.vcxproj">
+      <Project>{8E2D6B8A-104F-3070-8F49-257DD2E448D4}</Project>
+      <Name>vtkpng</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\pugixml\vtkpugixml\vtkpugixml.vcxproj">
+      <Project>{33FDA302-AB68-37FA-9929-9EEBEC47AA15}</Project>
+      <Name>vtkpugixml</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\sqlite\vtksqlite\vtksqlite.vcxproj">
+      <Project>{4B1F46AF-943B-3AF7-B4DB-FD0B3E02BDB1}</Project>
+      <Name>vtksqlite</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Utilities\KWSys\vtksys\vtksys.vcxproj">
+      <Project>{A36C7A2E-C1E0-3092-AFDB-1AF68108A640}</Project>
+      <Name>vtksys</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\theora\vtktheora\vtktheora.vcxproj">
+      <Project>{4973FC8C-386D-36EF-A554-A5512A4A6D0A}</Project>
+      <Name>vtktheora</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\tiff\vtktiff\libtiff\vtktiff.vcxproj">
+      <Project>{03DA6514-3A2D-3385-9612-C8913740BBFC}</Project>
+      <Name>vtktiff</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\ThirdParty\zlib\vtkzlib\vtkzlib.vcxproj">
+      <Project>{A113368E-42A9-3065-8BFC-E32B22A49519}</Project>
+      <Name>vtkzlib</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

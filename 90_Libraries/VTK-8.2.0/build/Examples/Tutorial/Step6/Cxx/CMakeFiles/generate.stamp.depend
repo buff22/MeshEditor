@@ -1,0 +1,7 @@
+# CMake generation dependency list for this directory.
+C:/MeshEditor/90_Libraries/VTK-8.2.0/build/VTKConfig.cmake
+C:/MeshEditor/90_Libraries/VTK-8.2.0/build/VTKConfigVersion.cmake
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/CMake/UseVTK.cmake
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/CMake/vtkModuleAPI.cmake
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Examples/Tutorial/Step6/Cxx/CMakeLists.txt
+C:/Program Files/CMake/share/cmake-3.14/Modules/CMakeConfigurableFile.in

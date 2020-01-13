@@ -1,0 +1,10 @@
+# Target labels
+ vtkIOXMLParser
+# Source files and their labels
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XMLParser/vtkXMLDataParser.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XMLParser/vtkXMLParser.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XMLParser/vtkXMLUtilities.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XMLParser/vtkXMLDataParser.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XMLParser/vtkXMLParser.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/XMLParser/vtkXMLUtilities.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/build/IO/XMLParser/vtkIOXMLParserModule.h

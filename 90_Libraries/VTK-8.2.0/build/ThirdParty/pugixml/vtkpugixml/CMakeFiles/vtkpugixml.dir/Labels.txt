@@ -1,0 +1,7 @@
+# Target labels
+ vtkpugixml
+# Source files and their labels
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/pugixml/vtkpugixml/src/pugixml.cpp
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/pugixml/vtkpugixml/src/pugixml.hpp
+C:/MeshEditor/90_Libraries/VTK-8.2.0/build/ThirdParty/pugixml/vtkpugixml/pugiconfig.hpp
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/pugixml/vtkpugixml/src/vtk_pugixml_mangle.h

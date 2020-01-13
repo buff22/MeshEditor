@@ -1,0 +1,23 @@
+# Target labels
+ vtkpng
+# Source files and their labels
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/png/vtkpng/png.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/png/vtkpng/pngerror.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/png/vtkpng/pngget.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/png/vtkpng/pngmem.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/png/vtkpng/pngpread.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/png/vtkpng/pngread.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/png/vtkpng/pngrio.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/png/vtkpng/pngrtran.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/png/vtkpng/pngrutil.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/png/vtkpng/pngset.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/png/vtkpng/pngtrans.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/png/vtkpng/pngwio.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/png/vtkpng/pngwrite.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/png/vtkpng/pngwtran.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/png/vtkpng/pngwutil.c
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/png/vtkpng/png.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/png/vtkpng/pngconf.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/png/vtkpng/pnglibconf.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/png/vtkpng/vtk_png_mangle.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/build/ThirdParty/png/vtkpng/vtkpngConfig.h

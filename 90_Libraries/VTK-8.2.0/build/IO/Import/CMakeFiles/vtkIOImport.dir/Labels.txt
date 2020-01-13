@@ -1,0 +1,15 @@
+# Target labels
+ vtkIOImport
+# Source files and their labels
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Import/vtk3DSImporter.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Import/vtkImporter.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Import/vtkVRMLImporter.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Import/vtkOBJImporter.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Import/vtkOBJImporterInternals.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Import/vtk3DS.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Import/vtk3DSImporter.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Import/vtkImporter.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Import/vtkVRMLImporter.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Import/vtkOBJImporter.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/Import/vtkOBJImporterInternals.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/build/IO/Import/vtkIOImportModule.h

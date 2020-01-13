@@ -1,0 +1,8 @@
+# Target labels
+ vtkCommonColor
+# Source files and their labels
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Common/Color/vtkColorSeries.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Common/Color/vtkNamedColors.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Common/Color/vtkColorSeries.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/Common/Color/vtkNamedColors.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/build/Common/Color/vtkCommonColorModule.h

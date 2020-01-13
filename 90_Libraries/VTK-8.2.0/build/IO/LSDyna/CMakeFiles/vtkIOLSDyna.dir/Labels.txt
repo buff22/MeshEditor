@@ -1,0 +1,16 @@
+# Target labels
+ vtkIOLSDyna
+# Source files and their labels
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/LSDyna/vtkLSDynaPart.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/LSDyna/vtkLSDynaPartCollection.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/LSDyna/vtkLSDynaReader.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/LSDyna/vtkLSDynaSummaryParser.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/LSDyna/LSDynaMetaData.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/LSDyna/LSDynaFamily.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/LSDyna/vtkLSDynaPart.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/LSDyna/vtkLSDynaPartCollection.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/LSDyna/vtkLSDynaReader.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/LSDyna/vtkLSDynaSummaryParser.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/LSDyna/LSDynaMetaData.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/LSDyna/LSDynaFamily.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/build/IO/LSDyna/vtkIOLSDynaModule.h

@@ -1,0 +1,6 @@
+# Target labels
+ vtkIOCityGML
+# Source files and their labels
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/CityGML/vtkCityGMLReader.cxx
+C:/MeshEditor/90_Libraries/VTK-8.2.0/src/IO/CityGML/vtkCityGMLReader.h
+C:/MeshEditor/90_Libraries/VTK-8.2.0/build/IO/CityGML/vtkIOCityGMLModule.h

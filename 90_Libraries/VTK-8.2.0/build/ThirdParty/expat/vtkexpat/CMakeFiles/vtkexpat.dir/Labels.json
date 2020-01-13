@@ -1,0 +1,40 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/expat/vtkexpat/lib/loadlibrary.c"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/expat/vtkexpat/lib/xmlparse.c"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/expat/vtkexpat/lib/xmlrole.c"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/expat/vtkexpat/lib/xmltok.c"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/expat/vtkexpat/lib/xmltok_impl.c"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/expat/vtkexpat/lib/xmltok_ns.c"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/expat/vtkexpat/lib/expat.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/expat/vtkexpat/lib/expat_external.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/expat/vtkexpat/lib/vtk_expat_mangle.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkexpat"
+		],
+		"name" : "vtkexpat"
+	}
+}

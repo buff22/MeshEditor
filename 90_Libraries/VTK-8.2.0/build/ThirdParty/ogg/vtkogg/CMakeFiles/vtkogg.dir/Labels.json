@@ -1,0 +1,34 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/ogg/vtkogg/src/bitwise.c"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/ogg/vtkogg/src/framing.c"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/build/ThirdParty/ogg/vtkogg/include/ogg/config_types.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/ogg/vtkogg/include/ogg/ogg.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/ogg/vtkogg/include/ogg/os_types.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/src/ThirdParty/ogg/vtkogg/include/ogg/vtk_ogg_mangle.h"
+		},
+		{
+			"file" : "C:/MeshEditor/90_Libraries/VTK-8.2.0/build/ThirdParty/ogg/vtkogg/include/ogg/vtkogg_export.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkogg"
+		],
+		"name" : "vtkogg"
+	}
+}
