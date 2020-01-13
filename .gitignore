@@ -21702,3 +21702,6 @@
 90_Libraries/VTK-8.2.0/bin/Release/share/doc/vtk-8.2/verdict/1.2.0/Verdict.doc
 90_Libraries/VTK-8.2.0/bin/Release/share/doc/vtk-8.2/verdict/1.2.0/Verdict.htm
 90_Libraries/VTK-8.2.0/bin/Release/share/doc/vtk-8.2/verdict/1.2.0/verdict_test.cpp
+20_App/appMeshEditor/.vs/appMeshEditor/v14/.suo
+90_Libraries/VTK-8.2.0/build/.vs/VTK/v14/.suo
+20_App/appMeshEditor/appMeshEditor/appMeshEditor.aps
