@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\System\vtkClientSocket.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\System\vtkDirectory.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\System\vtkServerSocket.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\System\vtkSocket.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\System\vtkSocketCollection.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\System\vtkThreadMessager.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\System\vtkTimerLog.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\System\vtkClientSocket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\System\vtkDirectory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\System\vtkServerSocket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\System\vtkSocket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\System\vtkSocketCollection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\System\vtkThreadMessager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\System\vtkTimerLog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\build\Common\System\vtkCommonSystemModule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\MeshEditor\90_Libraries\VTK-8.2.0\src\Common\System\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{84BAECE7-D5F1-3CD0-B453-A71FB556F5E8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A17CF314-31B7-3231-95F6-CC011E9BFF79}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,5 +1,5 @@
 #define VERSION "1.5.3"
-#define BUILD "20200113"
+#define BUILD "20200114"
 #define PACKAGE_NAME "VTK"
 
 #ifndef INLINE
