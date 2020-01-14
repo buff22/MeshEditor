@@ -52,3 +52,16 @@
 #endif
 
 
+#pragma region VTK_Header
+// <#> 필수 사항임
+#include <vtkAutoInit.h>
+#define vtkRenderingCore_AUTOINIT \
+4(vtkRenderingOpenGL2,vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingContextOpenGL2)
+#define vtkRenderingVolume_AUTOINIT 1(vtkRenderingVolumeOpenGL2)
+
+#include <vtkSmartPointer.h>
+#include <vtkRenderWindow.h>
+#include <vtkRenderWindowInteractor.h>
+#include <vtkInteractorStyleTrackballCamera.h>
+#include <vtkRenderer.h>
+#pragma endregion

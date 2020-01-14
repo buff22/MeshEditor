@@ -99,6 +99,14 @@ BOOL CappMeshEditorDlg::OnInitDialog()
 	SetIcon(m_hIcon, FALSE);		// Set small icon
 
 	// TODO: Add extra initialization here
+	// VTK Code
+	{
+		if (this->GetDlgItem(IDC_STATIC_MAINFRAME))
+		{
+			this->InitVtkWindow(this->GetDlgItem(IDC_STATIC_MAINFRAME)->GetSafeHwnd());
+			this->ResizeVtkWindow();
+		}
+	}
 
 	return TRUE;  // return TRUE  unless you set the focus to a control
 }
@@ -152,3 +160,45 @@ HCURSOR CappMeshEditorDlg::OnQueryDragIcon()
 	return static_cast<HCURSOR>(m_hIcon);
 }
 
+#pragma region VTK Code
+void CappMeshEditorDlg::InitVtkWindow(void* hWnd)
+{
+	if (m_vtkMainWindow == NULL)
+	{
+		// <#> Create Interactor
+		vtkSmartPointer<vtkRenderWindowInteractor> interactor = 
+			vtkSmartPointer<vtkRenderWindowInteractor>::New();
+
+		// <#> Set Trackball type
+		interactor->SetInteractorStyle(
+			vtkSmartPointer<vtkInteractorStyleTrackballCamera>::New());
+
+		// <#> Create Renderer
+		vtkSmartPointer<vtkRenderer> renderer =
+			vtkSmartPointer<vtkRenderer>::New();
+
+		// <#> Set Backgrund of Renderer
+		renderer->SetBackground(0.1, 0.2, 0.3);
+
+		// <#> Add Renderer to RenderWindow
+		m_vtkMainWindow = vtkSmartPointer<vtkRenderWindow>::New();
+		m_vtkMainWindow->SetParentId(hWnd);	//(hun) IDC_STATIC_MAINFRAME의 핸들을 부모로 설정함.
+		m_vtkMainWindow->SetInteractor(interactor);
+		m_vtkMainWindow->AddRenderer(renderer);
+		m_vtkMainWindow->Render();
+	}
+}
+
+void CappMeshEditorDlg::ResizeVtkWindow()
+{
+	CRect rc;
+	GetDlgItem(IDC_STATIC_MAINFRAME)->GetClientRect(rc);
+	m_vtkMainWindow->SetSize(rc.Width(), rc.Height());
+}
+
+void CappMeshEditorDlg::OnSize(UINT nType, int cx, int cy)
+{
+	CDialog::OnSize(nType, cx, cy);
+	this->ResizeVtkWindow();
+}
+#pragma endregion

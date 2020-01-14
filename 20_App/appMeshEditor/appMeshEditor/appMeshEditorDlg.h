@@ -31,4 +31,17 @@ protected:
 	afx_msg void OnPaint();
 	afx_msg HCURSOR OnQueryDragIcon();
 	DECLARE_MESSAGE_MAP()
+
+#pragma region // VTK
+// Func
+public:
+	void InitVtkWindow(void* hWnd);
+	void ResizeVtkWindow();
+	afx_msg void OnSize(UINT nType, int cx, int cy);
+
+// Variable
+public:
+	vtkSmartPointer<vtkRenderWindow> m_vtkMainWindow;
+#pragma endregion
+
 };
