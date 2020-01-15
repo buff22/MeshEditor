@@ -161,7 +161,7 @@ HCURSOR CappMeshEditorDlg::OnQueryDragIcon()
 	return static_cast<HCURSOR>(m_hIcon);
 }
 
-#pragma region // Event
+#pragma region // MFC Event
 void CappMeshEditorDlg::OnBnClickedLoadStl()
 {
 	try
@@ -278,8 +278,6 @@ void CappMeshEditorDlg::OnBnClickedLoadStl()
 				// <#9> 화면에 그리기
 				m_vtkMainWindow->Render();
 			}
-
-			//RenderingSTLFile(strFilePath);
 		}
 	}
 	catch (...)
@@ -290,6 +288,9 @@ void CappMeshEditorDlg::OnBnClickedLoadStl()
 
 #pragma endregion
 
+#pragma region // VTK Event
+
+#pragma endregion
 
 #pragma region VTK Code
 void CappMeshEditorDlg::CreateVTKWindow(void* hWnd)
