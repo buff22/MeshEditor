@@ -59,15 +59,26 @@
 4(vtkRenderingOpenGL2,vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingContextOpenGL2)
 #define vtkRenderingVolume_AUTOINIT 1(vtkRenderingVolumeOpenGL2)
 
-#include <vtkSmartPointer.h>
-#include <vtkRenderWindow.h>
-#include <vtkRenderWindowInteractor.h>
+#include <vtkActor.h>
+#include <vtkActorCollection.h>
+#include <vtkCallbackCommand.h>
+#include <vtkCellPicker.h>
+#include <vtkDataSetMapper.h>
+#include <vtkExtractSelection.h>
+#include <vtkIdTypeArray.h>
 #include <vtkInteractorStyleTrackballCamera.h>
-#include <vtkRenderer.h>
-#include <vtkRendererCollection.h>
-#include <vtkSTLReader.h>
 #include <vtkPolyData.h>
 #include <vtkPolyDataMapper.h>
-#include <vtkActor.h>
 #include <vtkProperty.h>
+#include <vtkSelection.h>
+#include <vtkSelectionNode.h>
+#include <vtkSmartPointer.h>
+#include <vtkSTLReader.h>
+#include <vtkTriangleFilter.h>
+#include <vtkRenderer.h>
+#include <vtkRendererCollection.h>
+#include <vtkRenderWindow.h>
+#include <vtkRenderWindowInteractor.h>
+
+
 #pragma endregion

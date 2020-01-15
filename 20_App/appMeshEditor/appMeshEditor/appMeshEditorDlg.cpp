@@ -266,15 +266,6 @@ void CappMeshEditorDlg::OnBnClickedLoadStl()
 				//	vtkSmartPointer<vtkInteractorStyleTrackballCamera>::New());
 				//m_vtkWindow->SetInteractor(newIntoractor);
 
-				// <#8> CallBack 함수 설정
-				//vtkSmartPointer<vtkCallbackCommand> mouseoverCallback =
-				//	vtkSmartPointer<vtkCallbackCommand>::New();
-				//mouseoverCallback->SetCallback(cbMouseoverFace);
-				//mouseoverCallback->SetClientData(this);
-
-				//m_vtkWindow->GetInteractor()->
-				//	AddObserver(vtkCommand::MouseMoveEvent, mouseoverCallback);
-
 				// <#9> 화면에 그리기
 				m_vtkMainWindow->Render();
 			}
@@ -289,7 +280,99 @@ void CappMeshEditorDlg::OnBnClickedLoadStl()
 #pragma endregion
 
 #pragma region // VTK Event
+void Callback_MouseOver_Face(vtkObject* caller, long unsigned int eventId,
+	void* clientData, void* callData)
+{
+	// Interactor 가져오기
+	vtkSmartPointer<vtkRenderWindowInteractor> interactor =
+		vtkRenderWindowInteractor::SafeDownCast(caller);
+	if (interactor == NULL)
+		return;
 
+	// ClientData 가져오기
+	CappMeshEditorDlg* dlg = (CappMeshEditorDlg*)clientData;
+	if (dlg == NULL)
+		return;
+
+	// 마우스 클릭 위치
+	int pos[2];
+	interactor->GetLastEventPosition(pos);
+
+	// 마우스 클릭 위치에서 Picking 수행
+	vtkSmartPointer<vtkCellPicker> picker =
+		vtkSmartPointer<vtkCellPicker>::New();
+	picker->SetTolerance(0.005);		// picking 감도 설정
+	picker->Pick(pos[0], pos[1], 0,
+		interactor->GetRenderWindow()->GetRenderers()->GetFirstRenderer());
+
+	vtkIdType mouseoverFaceIdx = picker->GetCellId();	// -1이면 picking 되지 않음
+	if (mouseoverFaceIdx != -1)
+	{
+		// polyData 찾기
+		vtkSmartPointer<vtkRenderer> renderer =
+			interactor->GetRenderWindow()->GetRenderers()->GetFirstRenderer();
+
+		vtkSmartPointer<vtkActorCollection> actorCollection =
+			renderer->GetActors();
+		actorCollection->InitTraversal();
+
+		vtkSmartPointer<vtkActor> actor =
+			actorCollection->GetNextActor();
+
+		vtkSmartPointer<vtkMapper> mapper =
+			actor->GetMapper();
+
+		vtkSmartPointer<vtkPolyData> polyData = (vtkPolyData*)mapper->GetInput();
+
+		vtkSmartPointer<vtkTriangleFilter> triangleFilter =
+			vtkSmartPointer<vtkTriangleFilter>::New();
+		triangleFilter->SetInputData(polyData);
+		triangleFilter->Update();
+
+		// <#> MouseOverFace 색칠하기
+		vtkSmartPointer<vtkDataSetMapper> mapperPickingFace =
+			vtkSmartPointer<vtkDataSetMapper>::New();
+		{
+			vtkSmartPointer<vtkIdTypeArray> ids =
+				vtkSmartPointer<vtkIdTypeArray>::New();
+			ids->SetNumberOfComponents(1);
+			ids->InsertNextValue(mouseoverFaceIdx);
+
+			vtkSmartPointer<vtkSelectionNode> selectionNode =
+				vtkSmartPointer<vtkSelectionNode>::New();
+			selectionNode->SetFieldType(vtkSelectionNode::CELL);
+			selectionNode->SetContentType(vtkSelectionNode::INDICES);
+			selectionNode->SetSelectionList(ids);
+
+			vtkSmartPointer<vtkSelection> selection =
+				vtkSmartPointer<vtkSelection>::New();
+			selection->AddNode(selectionNode);
+
+			vtkSmartPointer<vtkExtractSelection> extractSelection =
+				vtkSmartPointer<vtkExtractSelection>::New();
+			extractSelection->SetInputConnection(0, triangleFilter->GetOutputPort());
+			extractSelection->SetInputData(1, selection);
+			extractSelection->Update();
+
+			mapperPickingFace->SetInputConnection(extractSelection->GetOutputPort());
+		}
+		vtkSmartPointer<vtkActor> actorMouseoverFace =
+			vtkSmartPointer<vtkActor>::New();
+		actorMouseoverFace->SetMapper(mapperPickingFace);
+		actorMouseoverFace->GetProperty()->SetColor(0.0, 1.0, 0.0);
+
+		// <#> 화면에 뿌리기
+		{
+			//Add the actors to the scene
+			renderer->RemoveAllViewProps();
+			renderer->AddActor(actor);
+			renderer->AddActor(actorMouseoverFace);
+			renderer->SetBackground(0.1, 0.2, 0.3);
+
+			interactor->GetRenderWindow()->Render();
+		}
+	}
+}
 #pragma endregion
 
 #pragma region VTK Code
@@ -307,6 +390,13 @@ void CappMeshEditorDlg::CreateVTKWindow(void* hWnd)
 		// <#> Set Trackball type
 		interactor->SetInteractorStyle(
 			vtkSmartPointer<vtkInteractorStyleTrackballCamera>::New());
+
+		// <#> Add observer to Interactor
+		vtkSmartPointer<vtkCallbackCommand> mouseoverCallback =
+			vtkSmartPointer<vtkCallbackCommand>::New();
+		mouseoverCallback->SetCallback(Callback_MouseOver_Face);
+		mouseoverCallback->SetClientData(this);
+		interactor->AddObserver(vtkCommand::MouseMoveEvent, mouseoverCallback);
 
 		// <#> Create Renderer
 		vtkSmartPointer<vtkRenderer> renderer =
