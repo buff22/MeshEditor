@@ -63,12 +63,17 @@
 #include <vtkActorCollection.h>
 #include <vtkCallbackCommand.h>
 #include <vtkCellPicker.h>
+#include <vtkDataArray.h>
 #include <vtkDataSetMapper.h>
 #include <vtkExtractSelection.h>
+#include <vtkFillHolesFilter.h>
 #include <vtkIdTypeArray.h>
 #include <vtkInteractorStyleTrackballCamera.h>
+#include <vtkNamedColors.h>
+#include <vtkPointData.h>
 #include <vtkPolyData.h>
 #include <vtkPolyDataMapper.h>
+#include <vtkPolyDataNormals.h>
 #include <vtkProperty.h>
 #include <vtkSelection.h>
 #include <vtkSelectionNode.h>

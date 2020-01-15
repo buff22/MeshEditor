@@ -65,6 +65,7 @@ BEGIN_MESSAGE_MAP(CappMeshEditorDlg, CDialogEx)
 	ON_WM_PAINT()
 	ON_WM_QUERYDRAGICON()
 	ON_BN_CLICKED(IDC_LOAD_STL, &CappMeshEditorDlg::OnBnClickedLoadStl)
+	ON_BN_CLICKED(IDC_HOLE_FILLING, &CappMeshEditorDlg::OnBnClickedHoleFilling)
 END_MESSAGE_MAP()
 
 
@@ -277,6 +278,66 @@ void CappMeshEditorDlg::OnBnClickedLoadStl()
 	}
 }
 
+void CappMeshEditorDlg::OnBnClickedHoleFilling()
+{
+	try
+	{
+		// <#> Filter 설정
+		vtkSmartPointer<vtkFillHolesFilter> fillHolesFilter =
+			vtkSmartPointer<vtkFillHolesFilter>::New();
+		fillHolesFilter->SetInputData(m_vtkPolyData);
+		fillHolesFilter->SetHoleSize(100000.0);
+		fillHolesFilter->Update();
+
+		// <#> Mapper 설정
+		vtkSmartPointer<vtkPolyDataMapper> filledMapper =
+			vtkSmartPointer<vtkPolyDataMapper>::New();
+		filledMapper->SetInputData(fillHolesFilter->GetOutput());
+		filledMapper->Update();
+
+		// <#> 색 설정
+		vtkSmartPointer<vtkNamedColors> colors =
+			vtkSmartPointer<vtkNamedColors>::New();
+
+		// <#> original에서는 backFace가 맞으나, FillHole에서는 FilledFace 색상임.
+		// FillHole에서 색상을 구분하기 위해 normal을 뒤짚어서 채운게 아닌지 확인해 봐야함.
+		vtkSmartPointer<vtkProperty> backfaceProp =
+			vtkSmartPointer<vtkProperty>::New();
+		backfaceProp->SetDiffuseColor(colors->GetColor3d("red").GetData());
+
+		// <#> Actor 설정
+		vtkSmartPointer<vtkActor> filledActor =
+			vtkSmartPointer<vtkActor>::New();
+		filledActor->SetMapper(filledMapper);
+		filledActor->SetBackfaceProperty(backfaceProp);
+		filledActor->GetProperty()->SetDiffuseColor(
+			colors->GetColor3d("white").GetData());
+		filledActor->GetProperty()->SetEdgeColor(0, 0, 0);
+		filledActor->GetProperty()->EdgeVisibilityOn();
+
+		// <#> Renderer 설정
+		vtkSmartPointer<vtkRenderer> prevRenderer =
+			m_vtkMainWindow->GetRenderers()->GetFirstRenderer();
+		if (prevRenderer != NULL)
+			m_vtkMainWindow->RemoveRenderer(prevRenderer);
+
+		vtkSmartPointer<vtkRenderer> Renderer =
+			vtkSmartPointer<vtkRenderer>::New();
+		Renderer->AddActor(filledActor);
+		Renderer->SetBackground(0.1, 0.2, 0.3);
+		m_vtkMainWindow->AddRenderer(Renderer);
+
+		// <#> 화면에 그리기
+		m_vtkMainWindow->Render();
+
+		// <#> m_pPolyData 변경해주기
+		m_vtkPolyData = fillHolesFilter->GetOutput();
+	}
+	catch (...)
+	{
+		::MessageBox(NULL, _T("OnBnClickedHoleFilling"), _T("Exception"), MB_OK);
+	}
+}
 #pragma endregion
 
 #pragma region // VTK Event

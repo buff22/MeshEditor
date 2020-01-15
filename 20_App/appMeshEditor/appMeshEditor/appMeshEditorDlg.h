@@ -35,11 +35,11 @@ protected:
 #pragma region // MFC Event
 public:
 	afx_msg void OnBnClickedLoadStl();
+	afx_msg void OnBnClickedHoleFilling();
 #pragma endregion
 
 #pragma region // VTK Event
-// Callback
-
+	// Callback_MouseOver_Face()
 #pragma endregion
 
 #pragma region // VTK Code
