@@ -64,6 +64,7 @@ BEGIN_MESSAGE_MAP(CappMeshEditorDlg, CDialogEx)
 	ON_WM_SYSCOMMAND()
 	ON_WM_PAINT()
 	ON_WM_QUERYDRAGICON()
+	ON_BN_CLICKED(IDC_LOAD_STL, &CappMeshEditorDlg::OnBnClickedLoadStl)
 END_MESSAGE_MAP()
 
 
@@ -103,7 +104,7 @@ BOOL CappMeshEditorDlg::OnInitDialog()
 	{
 		if (this->GetDlgItem(IDC_STATIC_MAINFRAME))
 		{
-			this->InitVtkWindow(this->GetDlgItem(IDC_STATIC_MAINFRAME)->GetSafeHwnd());
+			this->CreateVTKWindow(this->GetDlgItem(IDC_STATIC_MAINFRAME)->GetSafeHwnd());
 			this->ResizeVtkWindow();
 		}
 	}
@@ -160,13 +161,146 @@ HCURSOR CappMeshEditorDlg::OnQueryDragIcon()
 	return static_cast<HCURSOR>(m_hIcon);
 }
 
-#pragma region VTK Code
-void CappMeshEditorDlg::InitVtkWindow(void* hWnd)
+#pragma region // Event
+void CappMeshEditorDlg::OnBnClickedLoadStl()
 {
-	if (m_vtkMainWindow == NULL)
+	try
 	{
+		// <#> FileDialog Filter 설정
+		TCHAR szFilter[] = _T("STL (*.stl)|*.stl|All Files (*.*)|*.*||");
+
+		// <#> FileDialog 생성
+		CFileDialog dlg(TRUE, NULL, NULL, OFN_HIDEREADONLY, szFilter);
+
+		// <#> Data 폴더 경로 설정
+		{
+			// 실행된 appPath 가져오기
+			TCHAR appPath[MAX_PATH];
+			GetCurrentDirectory(MAX_PATH, appPath);
+
+			// appPath 분리하기
+			CString strDefaultPath;
+			CString strSubPath;
+			int nCount = 0;
+			while (AfxExtractSubString(strSubPath, appPath, nCount, _T('\\')) == TRUE)
+			{
+				CString strTemp;
+				BOOL bRtn = AfxExtractSubString(strTemp, appPath, nCount + 1, _T('\\'));
+				if (bRtn == FALSE)
+					break;
+
+				strDefaultPath.Format(_T("%s%s\\"), strDefaultPath, strSubPath);
+				++nCount;
+			}
+			strDefaultPath.Format(_T("%s%s"), strDefaultPath, _T("data"));
+
+			// CString to TCHAR[]
+			TCHAR szDataFolder[MAX_PATH];
+			memset(szDataFolder, 0x00, sizeof(TCHAR) * MAX_PATH);
+			_tcscpy_s(szDataFolder, MAX_PATH, strDefaultPath.GetBuffer(0));
+			strDefaultPath.ReleaseBuffer();
+
+			// Default Folder 설정
+			dlg.m_ofn.lpstrInitialDir = szDataFolder;
+		}
+
+		if (dlg.DoModal() == IDOK)
+		{
+			// stl만 처리가능
+			CString strFilePath = dlg.GetPathName();
+			CString strExtention = PathFindExtension(strFilePath);
+			if (strExtention.Compare(_T(".stl")) != 0)
+			{
+				::MessageBox(NULL, _T("Only Load STL Files"), _T("ERROR"), MB_OK);
+				return;
+			}
+
+			// <#> MainWinodw에 STL 뿌리기
+			{
+				if (m_vtkMainWindow == NULL)
+					throw;
+
+				// <#0> 초기화 
+				vtkSmartPointer<vtkRenderer> prevRenderer =
+					m_vtkMainWindow->GetRenderers()->GetFirstRenderer();
+				if (prevRenderer != NULL)
+					m_vtkMainWindow->RemoveRenderer(prevRenderer);
+
+				// <#1> STL Load
+				vtkSmartPointer<vtkSTLReader> STLReader =
+					vtkSmartPointer<vtkSTLReader>::New();
+				STLReader->SetFileName(CT2A(strFilePath));
+				STLReader->Update();
+
+				// <#2> STL을 PolyData로 변환 저장
+				m_vtkPolyData = STLReader->GetOutput();
+
+				// <#3> STL FaceCnt & VertexCnt 정보 반영
+				//SetGeneralInfo(m_vtkPolyData);
+
+				// <#4> Mapper 만들기
+				vtkSmartPointer<vtkPolyDataMapper> mapper =
+					vtkSmartPointer<vtkPolyDataMapper>::New();
+				mapper->SetInputData(m_vtkPolyData);
+				mapper->Update();
+
+				// <#5> Actor 만들기
+				vtkSmartPointer<vtkActor> actor =
+					vtkSmartPointer<vtkActor>::New();
+				actor->SetMapper(mapper);
+				actor->GetProperty()->SetEdgeColor(0.0, 0.0, 0.0);
+				actor->GetProperty()->EdgeVisibilityOn();
+
+				// <#6> Renderer 만들기
+				vtkSmartPointer<vtkRenderer> renderer =
+					vtkSmartPointer<vtkRenderer>::New();
+				renderer->AddActor(actor);
+				renderer->SetBackground(0.1, 0.2, 0.3);
+				renderer->ResetCamera();
+				m_vtkMainWindow->AddRenderer(renderer);
+
+				// <#7> Interactor
+				//vtkSmartPointer<vtkRenderWindowInteractor> newIntoractor =
+				//	vtkSmartPointer<vtkRenderWindowInteractor>::New();
+				//newIntoractor->SetInteractorStyle(
+				//	vtkSmartPointer<vtkInteractorStyleTrackballCamera>::New());
+				//m_vtkWindow->SetInteractor(newIntoractor);
+
+				// <#8> CallBack 함수 설정
+				//vtkSmartPointer<vtkCallbackCommand> mouseoverCallback =
+				//	vtkSmartPointer<vtkCallbackCommand>::New();
+				//mouseoverCallback->SetCallback(cbMouseoverFace);
+				//mouseoverCallback->SetClientData(this);
+
+				//m_vtkWindow->GetInteractor()->
+				//	AddObserver(vtkCommand::MouseMoveEvent, mouseoverCallback);
+
+				// <#9> 화면에 그리기
+				m_vtkMainWindow->Render();
+			}
+
+			//RenderingSTLFile(strFilePath);
+		}
+	}
+	catch (...)
+	{
+		::MessageBox(NULL, _T("OnBnClickedLoadStl"), _T("Exception"), MB_OK);
+	}
+}
+
+#pragma endregion
+
+
+#pragma region VTK Code
+void CappMeshEditorDlg::CreateVTKWindow(void* hWnd)
+{
+	try
+	{
+		if (m_vtkMainWindow != NULL)
+			throw;
+
 		// <#> Create Interactor
-		vtkSmartPointer<vtkRenderWindowInteractor> interactor = 
+		vtkSmartPointer<vtkRenderWindowInteractor> interactor =
 			vtkSmartPointer<vtkRenderWindowInteractor>::New();
 
 		// <#> Set Trackball type
@@ -186,6 +320,25 @@ void CappMeshEditorDlg::InitVtkWindow(void* hWnd)
 		m_vtkMainWindow->SetInteractor(interactor);
 		m_vtkMainWindow->AddRenderer(renderer);
 		m_vtkMainWindow->Render();
+	}
+	catch (...)
+	{
+		::MessageBox(NULL, _T("CreateVTKWindow"), _T("Exception"), MB_OK);
+	}
+}
+
+void CappMeshEditorDlg::DeleteVTKWindow()
+{
+	try
+	{
+		if (m_vtkMainWindow == NULL)
+			throw;
+
+		m_vtkMainWindow = NULL;	// (hun) SmartPointer 사용으로 NULL로 바꿔줘서 Garbege Collector가 Delete하도록 함.
+	}
+	catch (...)
+	{
+		::MessageBox(NULL, _T("DeleteVTKWindow"), _T("Exception"), MB_OK);
 	}
 }
 

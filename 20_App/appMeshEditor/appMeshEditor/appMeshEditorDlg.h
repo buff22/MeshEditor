@@ -32,16 +32,27 @@ protected:
 	afx_msg HCURSOR OnQueryDragIcon();
 	DECLARE_MESSAGE_MAP()
 
-#pragma region // VTK
+#pragma region // MFC Event
+public:
+	afx_msg void OnBnClickedLoadStl();
+#pragma endregion
+
+#pragma region // VTK Event
+// Callback
+
+#pragma endregion
+
+#pragma region // VTK Code
 // Func
 public:
-	void InitVtkWindow(void* hWnd);
+	void CreateVTKWindow(void* hWnd);
+	void DeleteVTKWindow();
 	void ResizeVtkWindow();
 	afx_msg void OnSize(UINT nType, int cx, int cy);
-
+	
 // Variable
 public:
 	vtkSmartPointer<vtkRenderWindow> m_vtkMainWindow;
+	vtkSmartPointer<vtkPolyData> m_vtkPolyData;
 #pragma endregion
-
 };
