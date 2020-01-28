@@ -69,6 +69,7 @@ BEGIN_MESSAGE_MAP(CappMeshEditorDlg, CDialogEx)
 	ON_BN_CLICKED(IDC_NEIGHBORFACE_RING, &CappMeshEditorDlg::OnBnClickedNeighborfaceRing)
 	ON_BN_CLICKED(IDC_NEIGHBORFACE_AREA, &CappMeshEditorDlg::OnBnClickedNeighborfaceArea)
 	ON_BN_CLICKED(IDC_FILL_HOLE, &CappMeshEditorDlg::OnBnClickedFillHole)
+	ON_BN_CLICKED(IDC_DELETE_FACE, &CappMeshEditorDlg::OnBnClickedDeleteFace)
 END_MESSAGE_MAP()
 
 
@@ -801,6 +802,52 @@ void CappMeshEditorDlg::OnBnClickedNeighborfaceArea()
 		AddObserver(vtkCommand::LeftButtonPressEvent, pickCallback);
 
 	// <#3> 화면에 그리기
+	m_vtkMainWindow->Render();
+}
+
+void CappMeshEditorDlg::OnBnClickedDeleteFace()
+{
+	// <#1> Mark a cell as deleted.
+	for (std::vector<vtkIdType>::iterator iter = m_vecSelectedFace.begin(); iter != m_vecSelectedFace.end(); ++iter)
+		m_vtkPolyData->DeleteCell(*iter);
+
+	// <#2> Remove the marked cell.
+	m_vtkPolyData->RemoveDeletedCells();
+
+	// <#3> STL FaceCnt & VertexCnt 정보 반영
+	//SetGeneralInfo(m_pPolyData);
+
+	// <#4> Mapper 만들기
+	vtkSmartPointer<vtkPolyDataMapper> mapper =
+		vtkSmartPointer<vtkPolyDataMapper>::New();
+	mapper->SetInputData(m_vtkPolyData);
+	mapper->Update();
+
+	// <#5> Actor 만들기
+	vtkSmartPointer<vtkActor> actor =
+		vtkSmartPointer<vtkActor>::New();
+	actor->SetMapper(mapper);
+	actor->GetProperty()->SetEdgeColor(0, 0, 0);
+	actor->GetProperty()->EdgeVisibilityOn();
+
+	// <#6> Camera 찾기
+	vtkSmartPointer<vtkCamera> camera =
+		m_vtkMainWindow->GetRenderers()->GetFirstRenderer()->GetActiveCamera();
+
+	// <#7> Renderer 만들기
+	vtkSmartPointer<vtkRenderer> prevRenderer =
+		m_vtkMainWindow->GetRenderers()->GetFirstRenderer();
+	if (prevRenderer != NULL)
+		m_vtkMainWindow->RemoveRenderer(prevRenderer);
+
+	vtkSmartPointer<vtkRenderer> renderer =
+		vtkSmartPointer<vtkRenderer>::New();
+	renderer->AddActor(actor);
+	renderer->SetBackground(.1, .2, .3);
+	renderer->SetActiveCamera(camera);
+	m_vtkMainWindow->AddRenderer(renderer);
+
+	// <#8> 화면에 그리기
 	m_vtkMainWindow->Render();
 }
 

@@ -44,6 +44,7 @@ public:
 	afx_msg void OnBnClickedLoadStl();
 	afx_msg void OnBnClickedNeighborfaceRing();
 	afx_msg void OnBnClickedNeighborfaceArea();
+	afx_msg void OnBnClickedDeleteFace();
 	afx_msg void OnBnClickedFillHole();
 #pragma endregion
 
